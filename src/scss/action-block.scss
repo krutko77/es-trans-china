@@ -1,0 +1,29 @@
+// action-block
+.action-block {
+	background: url("../img/bg-active-block-40.jpg") center / cover no-repeat;
+	// .action-block__wrapper
+	&__wrapper {
+	color: $mainBgColor;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 350px;
+
+	@media (max-width: 1500px) {
+		min-height: calc(250px + 100*((100vw - 480px) / (1260 - 480)));
+		}
+	}
+
+	// .action-block__subtitle
+
+	&__subtitle {
+		text-align: center;
+		max-width: 500px;
+		margin-bottom: 40px;
+
+		@media (max-width: 1500px) {
+			margin-bottom: calc(30px + 5*((100vw - 480px) / (1260 - 480)));
+		}
+	}
+}

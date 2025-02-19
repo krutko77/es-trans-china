@@ -1,0 +1,45 @@
+// bitrix24
+.b24-form {
+   text-align: left;
+}
+
+.b24-form-control-container {
+   display: flex !important;
+}
+
+.b24-form input,
+.b24-form textarea {
+	width: auto;
+	margin-right: 10px;
+}
+
+.b24-form input[type="checkbox"] {
+	width: 35px !important;
+}
+
+.b24-form-sign {
+   display: none !important;
+}
+
+.b24-form-recaptcha {
+	display: none !important;
+}
+
+.b24-form-field-agreement .b24-form-field-agreement-link {
+   font-size: 13px !important;
+}
+
+.b24-form-field-agreement .b24-form-control-required {
+   font-size: 16px !important;
+}
+
+.b24-form-btn {
+   background-color: $accentColor !important;
+   transition: background-color 0.3s ease !important;
+}
+
+@media (any-hover: hover) {
+   .b24-form-btn:hover {
+      background-color: $accentDarkColor !important;
+   }
+}

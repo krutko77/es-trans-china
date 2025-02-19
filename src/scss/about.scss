@@ -1,0 +1,76 @@
+// about
+.about {
+   padding-bottom: 0;
+
+   &__img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+   }
+
+   &__garage {
+      background-color: $footerBgColor;
+      padding-top: 50px;
+      padding-bottom: 110px;
+
+      @media (max-width: 1500px) {
+         padding-top: calc(30px + 20*((100vw - 320px) / (1500 - 320)));
+         padding-bottom: calc(50px + 60*((100vw - 320px) / (1500 - 320)));
+      }
+   }
+
+   &__list-awars,
+   &__list-win {
+      padding-left: 20px;
+   }
+
+   .flight-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      &__item {
+         max-width: 100%;
+      }
+   }
+
+   .garage-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+
+      @media (max-width:$mobileSmall) {
+         gap: 20px;
+      }
+
+      &__item {
+         max-width: 100%;
+      }
+   }
+}
+
+
+
+.about__list-awars li {
+   list-style-type: square;
+}
+
+.win-list li {
+   list-style-type: disc;
+}
+
+.flight-list li {
+   list-style-type: none;
+}
+
+.img-width-370 {
+   aspect-ratio: 370/224;
+   overflow: hidden;
+}
+
+.img-width-584 {
+   aspect-ratio: 584/400;
+   overflow: hidden;
+}

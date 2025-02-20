@@ -2,7 +2,7 @@
 .home {
    height: 100vh;
    padding: 120px 0 70px;
-   background-image: url('./../img/main-bg-2-40.jpg');
+   background-image: url('./../img/bg-main-40.jpg');
    background-size: cover;
    background-position: bottom right;
    width: 100%;
@@ -78,9 +78,9 @@
       transition: transform 1.2s ease 0.4s, opacity 1.2s ease 0.4s;
    }
 
-   &__offer-wrap {
+   /* &__offer-wrap {
       max-width: 750px;
-   }
+   } */
 
    &__icons {
       position: relative;
@@ -106,7 +106,8 @@
    }
 
    &__action {
-      text-align: center;
+		/* max-width: 650px;
+      text-align: center; */
       font-weight: 500;
    }
 

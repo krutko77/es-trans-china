@@ -2,7 +2,7 @@
 .home {
    height: 100vh;
    padding: 120px 0 70px;
-   background-image: url('./../img/bg-main-40.jpg');
+   background-image: url('./../img/best-3-20.jpg');
    background-size: cover;
    background-position: bottom right;
    width: 100%;
@@ -24,7 +24,32 @@
    }
 
    &__content {
+		display: flex;
       text-transform: uppercase;
+   }
+
+   &__left-block {
+      flex: 0 1 50%;
+
+      @media (max-width:$mobile) {
+         flex: 0 1 50%;
+      }
+
+      @media (max-width:$mobileSmall) {
+         display: none;
+      }
+   }
+
+   &__right-block {
+      flex: 0 1 50%;
+
+      @media (max-width:$mobile) {
+         flex: 0 1 50%;
+      }
+
+      @media (max-width:$mobileSmall) {
+         flex: 1 1 100%;
+      }
    }
 
    &__title {

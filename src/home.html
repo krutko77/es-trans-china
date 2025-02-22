@@ -11,301 +11,148 @@
 			<section class="home" data-watch="navigator" data-watch-threshold="0.55">
 				<div class="home__container">
 					<div class="home__content">
-						<div class="home__name-block margin-bottom-50">
-							<h1 class="home__title" data-watch data-watch-once>ЕС Транс</h1>
-							<p class="home__label" data-watch data-watch-once>Надёжность вашего бизнеса</p>
+						<div class="home__left-block">
 						</div>
-						<div class="home__offer-wrap margin-bottom-60">
-							<ul class="home__list list">
+						<div class="home__right-block">
+							<div class="home__name-block margin-bottom-50">
+								<h1 class="home__title" data-watch data-watch-once>ЕС Транс</h1>
+								<p class="home__label" data-watch data-watch-once>Надёжность вашего бизнеса</p>
+							</div>
+							<div class="home__offer-wrap margin-bottom-60">
+								<ul class="home__list list">
 
-								<li class="list__item margin-bottom-10">
-									<svg class="home__icons">
-										<use xlink:href="@img/icons/icons.svg#check"></use>
-									</svg>
-									<p class="list__text">Комплектные и сборные грузы из Китая</p>
-								</li>
+									<li class="list__item margin-bottom-10">
+										<svg class="home__icons">
+											<use xlink:href="@img/icons/icons.svg#check"></use>
+										</svg>
+										<p class="list__text">Комплектные и сборные грузы из Китая</p>
+									</li>
 
-								<li class="list__item margin-bottom-20">
-									<svg class="home__icons">
-										<use xlink:href="@img/icons/icons.svg#check"></use>
-									</svg>
-									<p class="list__text">Доставка авто и авиа транспортом</p>
-								</li>
+									<li class="list__item margin-bottom-20">
+										<svg class="home__icons">
+											<use xlink:href="@img/icons/icons.svg#check"></use>
+										</svg>
+										<p class="list__text">Доставка авто и авиа транспортом</p>
+									</li>
 
-								<li class="list__item margin-bottom-80">
-									<svg class="home__icons">
-										<use xlink:href="@img/icons/icons.svg#check"></use>
-									</svg>
-									<p class="list__text">Растаможка на всей территории РФ<p>
-								</li>
+									<li class="list__item margin-bottom-80">
+										<svg class="home__icons">
+											<use xlink:href="@img/icons/icons.svg#check"></use>
+										</svg>
+										<p class="list__text">Растаможка на всей территории РФ
+										<p>
+									</li>
 
-							</ul>
+								</ul>
+							</div>
+							<div class="home__action action">
+								<p class="action__text margin-bottom-30">Узнайте стоимость вашего заказа</p>
+								<button class="button offer-button preload" data-popup="#popup-form"
+									aria-label="Кнопка рассчитать стоимость">Рассчитать</button>
+							</div>
 						</div>
-						<div class="home__action action">
-							<p class="action__text margin-bottom-30">Узнайте стоимость вашего заказа</p>
-							<button class="button offer-button preload" data-popup="#popup-form"
-								aria-label="Кнопка рассчитать стоимость">Рассчитать</button>
-						</div>
+
 					</div>
 				</div>
 			</section>
-			<section class="prices" id="prices" data-watch="navigator" data-watch-threshold="0.25">
-				<div class="prices__container">
-					<div class="prices__wrapper">
-						<h2 class="prices__title title">Цены</h2>
-						<div class="prices__subtitle-box subtitle-box">
-							<svg class="prices__icons icons-check">
+			<section class="values">
+				<div class="values__container">
+					<div class="values__wrapper">
+						<h2 class="prices__title title">Наши ценности</h2>
+						<!-- <div class="values__subtitle-box subtitle-box">
+							<svg class="values__icons icons-check">
 								<use xlink:href="@img/icons/icons.svg#check"></use>
 							</svg>
-							<h3 class="prices__subtitle subtitle">Перевозка грузов</h3>
-						</div>
-						<div class="prices__grid grid-prices text margin-bottom-40">
+							<h3 class="values__subtitle subtitle">Наши ценности</h3>
+						</div> -->
+						<ul class="values__list values-list margin-bottom-30">
 
-							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--1 card">
+							<li data-watch data-watch-once data-watch-threshold="0.5"
+								class="values-list__item values-list__item--1 card">
 								<div class="card__top">
 									<div class="card__img-wrapper">
-										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
-											alt="иконка грузовика">
+										<img class="card__icons" width="64" height="64" data-src="@img/icons/card-icon-4.png"
+											alt="иконка">
 									</div>
-									<h4 class="card__title sub-subtitle">Германия-Москва</h4>
-									<p class="card__text">Доставка, оформление документов, отслеживание груза 24/7</p>
-									<p class="card__text">Срок доставки от <strong>5 дней</strong></p>
+									<h4 class="card__title">Честность</h4>
+									<ul class="card__list margin-bottom-40">
+										<li class="card__text-values">Мы честны с клиентами, с сотрудниками и друг с
+											другом.</li>
+										<li class="card__text-values">Мы соблюдаем бизнес-этику.</li>
+										<li class="card__text-values">Мы работаем по законам и правилам.</li>
+									</ul>
 								</div>
-								<div class="card__bottom">
-									<div class="card__wrapper-link">
-										<a class="card__link link" href="" data-goto-top="100" data-goto=".europe">Подробнее</a>
-									</div>
-									<p class="card__price"><span class="card__text">от</span> <span
-											class="card__price-color"><strong>4500</strong></span> EUR
-									</p>
-								</div>
-							</div>
+							</li>
 
-							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--2 card">
+							<li data-watch data-watch-once data-watch-threshold="0.5"
+								class="values-list__item values-list__item--2 card">
 								<div class="card__top">
 									<div class="card__img-wrapper">
-										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
-											alt="иконка грузовика">
+										<img class="card__icons" width="64" height="64" data-src="@img/icons/card-icon-4.png"
+											alt="иконка">
 									</div>
-									<h4 class="card__title sub-subtitle">Китай (Шанхай)-Москва</h4>
-									<p class="card__text">Доставка, оформление документов, отслеживание груза 24/7</p>
-									<p class="card__text">Срок доставки от <strong>16 дней</strong></p>
-								</div>
-								<div class="card__bottom">
-									<div class="card__wrapper-link">
-										<a class="card__link link" href="" data-goto-top="100" data-goto=".china">Подробнее</a>
-									</div>
-									<p class="card__price"><span class="card__text">от</span> <span
-											class="card__price-color"><strong>9 500</strong></span> USD
+									<h4 class="card__title">Ответственность</h4>
 									</p>
+									<ul class="card__list margin-bottom-40">
+										<li class="card__text-values">Мы отвечаем не только за груз, но и по всем взятым
+											обязательствам.</li>
+										<li class="card__text-values">Мы отвечаем за то, что делаем, а так же за то, что не
+											делаем.</li>
+										<li class="card__text-values">Это наш подход во всех аспектах нашей
+											деятельности.</li>
+									</ul>
 								</div>
-							</div>
+							</li>
 
-							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--3 card">
+							<li data-watch data-watch-once data-watch-threshold="0.5"
+								class="values-list__item values-list__item--3 card">
 								<div class="card__top">
 									<div class="card__img-wrapper">
-										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
-											alt="иконка грузовика">
+										<img class="card__icons" width="64" height="64" data-src="@img/icons/card-icon-4.png"
+											alt="иконка">
 									</div>
-									<h4 class="card__title sub-subtitle">Брест (ТЛЦ)-Москва</h4>
-									<p class="card__text">Доставка, отслеживание груза 24/7</p>
-									<p class="card__text">Срок доставки от <strong>2 дней</strong></p>
+									<h4 class="card__title">Забота</h4>
+									<ul class="card__list margin-bottom-40">
+										<li class="card__text-values">Мы заботимся об интересах клиента.</li>
+										<li class="card__text-values">Мы предугадываем развитие и предлагаем решения, а не
+											ждём.</li>
+										<li class="card__text-values">Мы заботимся о сотрудниках и сотрудники заботятся о
+											компании и друг о друге.</li>
+									</ul>
 								</div>
-								<div class="card__bottom">
-									<div class="card__wrapper-link">
-										<a class="card__link link" href="" data-goto-top="100" data-goto=".tlc">Подробнее</a>
-									</div>
-									<p class="card__price"><span class="card__text">от</span> <span
-											class="card__price-color"><strong>1300</strong></span> EUR
-									</p>
-								</div>
-							</div>
+							</li>
 
-							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--4 card">
-								<div class="card__top">
-									<div class="card__img-wrapper">
-										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
-											alt="иконка грузовика">
-									</div>
-									<h4 class="card__title sub-subtitle">Москва-Екатеринбург</h4>
-									<p class="card__text">Доставка, отслеживание груза 24/7</p>
-									<p class="card__text">Срок доставки от <strong>3 дней</strong></p>
-								</div>
-								<div class="card__bottom">
-									<div class="card__wrapper-link">
-										<a class="card__link link" href="" data-goto-top="100" data-goto=".russia">Подробнее</a>
-									</div>
-									<p class="card__price"><span class="card__text">от</span> <span
-											class="card__price-color"><strong>190 000</strong></span> RUB
-									</p>
-								</div>
-							</div>
-
-						</div>
-						<p class="prices__text margin-bottom-20">Здесь указаны индикативные фрахтовые ставки по нашим основным
-							направлениям автомобильных перевозок грузов. Стоимость
-							перевозки и время доставки груза в первую очередь зависят от маршрута перевозки, веса и количества
-							груза, класса опасности груза, необходимости дополнительного страхования в случае высокой стоимости
-							груза. Все условия
-							перевозок грузов очень разные, как и грузы, которые мы перевозим.</p>
-						<p class="prices__text margin-bottom-20">Информацию о стоимости перевозки груза самолетом (<a
-								class="prices__link link" href="" data-goto-top="100" data-goto=".avia">подробнее</a>) мы можем
-							предоставить по вашему запросу. Чтобы получить наиболее точный расчет, нам необходима детальная
-							информация о вашем грузе. Эти данные позволят нам оценить объем работы, требуемые ресурсы и прочие
-							факторы, которые влияют на стоимость перевозки.</p>
-						<!-- <p class="prices__text margin-bottom-20">Свяжитесь с нами, предоставив все необходимые данные, и мы с
-							удовольствием поможем вам с расчетом стоимости и предложим наилучший вариант перевозки вашего
-							груза.</p> -->
-						<p class="prices__text margin-bottom-60">Для быстрой предварительной оценки стоимости и времени
-							доставки, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.</p>
-						<div class="prices__subtitle-box subtitle-box">
-							<svg class="prices__iconsk icons-check">
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="specialization">
+				<div class="specialization__container">
+					<div class="specialization__wrapper">
+						<h2 class="specialization__title title">Наша специализация</h2>
+						<div class="specialization__subtitle-box subtitle-box">
+							<svg class="specializations__icons icons-check">
 								<use xlink:href="@img/icons/icons.svg#check"></use>
 							</svg>
-							<h3 class="prices__subtitle subtitle">таможенное оформление грузов</h3>
+							<h3 class="specialization__subtitle subtitle">Автомобильные перевозки грузов из Китая</h3>
 						</div>
-						<p class="prices__text margin-bottom-20">Мы рады оказать помощь в таможенном оформлении груза (<a
-								class="prices__link link" href="" data-goto-top="100" data-goto=".customs">подробнее</a>).
-							Предоставьте упрощенную информацию о грузе, и мы сформируем примерную стоимость наших услуг.</p>
-						<p class="prices__text margin-bottom-20">Чтобы
-							сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные
-							помогут нам
-							оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие
-							факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие
-							согласования.</p>
-
-						<!-- <p class="prices__text margin-bottom-20">После получения всех этих данных мы сможем предоставить вам
-							точный расчет стоимости таможенного оформления груза. Наша команда опытных специалистов готова
-							ответить на все ваши вопросы и помочь вам с организацией таможенных процедур.</p> -->
-						<p class="prices__text">Для быстрой предварительной оценки стоимости таможенного оформления,
-							пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.</p>
+						<div class="specialization__subtitle-box subtitle-box">
+							<svg class="specialization__icons icons-check">
+								<use xlink:href="@img/icons/icons.svg#check"></use>
+							</svg>
+							<h3 class="specialization__subtitle subtitle">Авиаперевозки грузов из Китая</h3>
+						</div>
+						<div class="specialization__subtitle-box subtitle-box">
+							<svg class="specialization__icons icons-check">
+								<use xlink:href="@img/icons/icons.svg#check"></use>
+							</svg>
+							<h3 class="specialization__subtitle subtitle">Таможенное оформление грузов</h3>
+						</div>
 					</div>
 				</div>
 			</section>
 			@@include('html/_action-block.htm',{})
-			<section class="services" id="services" data-watch="navigator" data-watch-threshold="0.15">
-				<div class="services__container">
-					<h2 class="services__title title">Услуги</h2>
-					<div class="clearfix margin-bottom-50">
-						<div class="services__img-box img-box-400 float-left">
-							<img class="services__img" data-src="@img/services/services-img-1-400.jpg" width="400" height="300"
-								alt="фото автомобиля 'ЕС Транс'">
-						</div>
-						<p class="services__text margin-bottom-20">ООО "ЕС Транс" выполняет перевозки грузов своими
-							автомобилями и привлеченным транспортом. Мы стремимся быть надежным партнером для всех, кто
-							нуждается в перевозке грузов, обеспечивая безопасную, эффективную и своевременную доставку.</p>
-						<p class="services__text margin-bottom-20">Мы устанавливаем доверительные отношения с нашими
-							клиентами, предлагаем прозрачную коммуникацию на всех этапах перевозки, предоставляем информацию
-							о статусе груза, предупреждаем о возможных задержках и оперативно реагируем на запросы и
-							потребности клиентов. Все наши автомобили оборудованы спутниковой системой отслеживания, поэтому мы
-							можем точно определить местоположение груза в режиме 24/7.</p>
-						<div class="services__img-box img-box-400 float-right">
-							<img class="services__img" data-src="@img/services/services-img-2-400.jpg" width="400" height="300"
-								alt="фото автомобиля 'ЕС Транс'">
-						</div>
-						<p class="services__text margin-bottom-20">Наша компания полностью осознаёт важность точной
-							доставки грузов в срок для наших клиентов. Поэтому мы предлагаем надёжные графики и оптимальные
-							маршруты, чтобы обеспечить своевременную доставку груза в назначенное место.</p>
-						<p class="services__text margin-bottom-20">Опытные логисты ООО "ЕС Транс" тщательно планируют каждую перевозку, учитывая особенности груза, препятствия на дороге и логистические условия. И все наши водители обладают богатым опытом и знаниями, необходимыми для безопасной и эффективной доставки грузов. Мы стремимся к высокому уровню сервиса и гарантируем, что ваш груз будет доставлен вовремя и в сохранности.</p>
-						<div class="services__img-box img-box-400 float-left">
-							<img class="services__img" data-src="@img/services/services-img-3-400.jpg" width="400" height="300"
-								alt="фото автомобиля 'ЕС Транс'">
-						</div>
-						<p class="services__text margin-bottom-20">Основной приоритет нашей работы - это высокие стандарты
-							надежности и безопасности грузоперевозок. Автопарк ООО "ЕС Транс" состоит из современных
-							грузовых
-							автомобилей, оснащенных передовыми технологиями и системами безопасности. Автомобили регулярно
-							проходят техническое обслуживание и проверки, чтобы гарантировать безопасность на дороге.
-							Водители нашей компании проходят необходимую подготовку и обучение в области безопасности на
-							дороге.</p>
-						<p class="services__text">Наша ответственность перевозчика застрахована на сумму 15 000 000 руб.</p>
-					</div>
-					<div class="services__subtitle-box subtitle-box">
-						<svg class="services__icons icons-check">
-							<use xlink:href="@img/icons/icons.svg#check"></use>
-						</svg>
-						<h3 class="services__subtitle subtitle">Перевозки грузов автомобилями</h3>
-					</div>
-					<ul class="services__list list margin-bottom-50">
-						<li class="list__item margin-bottom-20">
-							<h4 class="services__text europe"><strong>Комплектные и сборные грузы из Европы</strong></h4>
-							<p>Мы обеспечиваем
-								полное покрытие Европы и работаем с опытными логистическими партнерами, чтобы гарантировать
-								надежность и безопасность перевозки груза. Независимо от размера вашего груза или его
-								особенностей, мы готовы предложить оптимальное решение для его перевозки из Европы. Для
-								доставки
-								сборных грузов, мы используем склады консолидации в Польше и Литве.</p>
-						</li>
-						<li class="list__item margin-bottom-20">
-							<h4 class="services__text china"><strong>Комплектные и сборные грузы из Китая</strong></h4>
-							<p class="services__text margin-bottom-10">ООО "ЕС Транс" предлагает услуги по автомобильной
-								перевозке
-								комплектных и сборных грузов из
-								Китая с помощью наших партнеров по автоперевозкам. У нас налажены долгосрочные партнерские
-								отношения с проверенными и надежными автоперевозчиками, чтобы обеспечить качественную и
-								своевременную доставку грузов нашим клиентам.</p>
-							<p>Наши логисты тесно сотрудничают с партнерами по автоперевозкам, чтобы организовать забор
-								груза с отправного пункта в Китае, выполнить необходимые таможенные формальности и доставить
-								груз в пункт назначения.</p>
-						</li>
-						<li class="list__item margin-bottom-20">
-							<h4 class="services__text tlc"><strong>Комплектные, в том числе и опасные грузы в/из стран
-								ЕАЭС</strong></h4>
-							<p class="services__text margin-bottom-10">Мы перевозим грузы в/из стран Евразийского
-								экономического союза (ЕАЭС)
-								с использованием
-								собственного автопарка. Наши автомобили оборудованы и имеют специальные разрешения на
-								перевозку опасных грузов, а наши менеджеры и водители прошли специальное обучение.</p>
-						</li>
-						<li class="list__item margin-bottom-20">
-							<h4 class="services__text russia"><strong>Таможенный перевозчик</strong></h4>
-							<p class="services__text">Так же наши машины
-								участвуют в доставке грузов из Европы, перегружаясь на приграничных ТЛЦ и доставляя грузы в
-								Россию и страны ЕАЭС в режиме таможенного транзита.</p>
-						</li>
-						<li class="list__item">
-							<h4 class="services__text russia"><strong>Комплектные, в том числе и опасные грузы по
-								России</strong></h4>
-							<p class="services__text">Перевозки по России мы осуществляем, в основном, собственными
-								автомобилями.</p>
-						</li>
-					</ul>
-					<div class="services__subtitle-box subtitle-box">
-						<svg class="services__icons icons-check">
-							<use xlink:href="@img/icons/icons.svg#check"></use>
-						</svg>
-						<h3 class="services__subtitle subtitle">Авиаперевозки</h3>
-					</div>
-					<p class="services__text margin-bottom-10 avia">Если вам требуется надежный партнер для доставки
-						грузов самолетом из
-						Китая, Индии, стран юго-восточной Азии и ОАЭ, наша транспортная компания готова предложить выгодные
-						решения, обеспечивая быструю и
-						безопасную доставку ваших товаров.
-					</p>
-					<p class="services__text margin-bottom-10">Cкорость и надежность являются ключевыми факторами в
-						доставке грузов
-						авиационным транспортом. Поэтому мы стремимся предложить нашим клиентам высокий уровень
-						обслуживания, соблюдая сроки и гарантируя сохранность груза.</p>
-					<p class="services__text margin-bottom-50">Мы сотрудничаем с различными авиакомпаниями и агентами, что
-						позволяет выбирать оптимальные маршруты и гибкие варианты доставки. Мы организовываем забор груза с
-						отправного пункта, обеспечиваем его правильную упаковку и таможенное оформление, а затем доставляем
-						груз самолетом в пункт назначения.</p>
-					<div class=" services__subtitle-box subtitle-box">
-						<svg class="services__icons icons-check">
-							<use xlink:href="@img/icons/icons.svg#check"></use>
-						</svg>
-						<h3 class="services__subtitle subtitle">Таможенное оформление</h3>
-					</div>
-					<p class=" services__text customs">Мы готовы оказать услуги по таможенному оформлению грузов по всей
-						территории России. Наша сильная сторона — это тщательный сбор информации о грузе и формирование
-						необходимого пакета документов на этапе подготовки. В свою очередь, это позволяет производить
-						таможенную
-						очистку груза в
-						кратчайшие сроки к вашей выгоде.</p>
-					<p class="services__text margin-bottom-10">Доверьте нам
-						таможенное оформление грузов и сосредоточьтесь на своем бизнесе!</p>
-				</div>
-			</section>
+		
 			<section class="reviews" id="reviews" data-watch="navigator" data-watch-threshold="0.35">
 				<div class="reviews__container">
 					<h2 class="reviews__title title">Отзывы</h2>
@@ -468,6 +315,141 @@
 					</div>
 				</div>
 			</section>
+
+			<section class="prices" id="prices" data-watch="navigator" data-watch-threshold="0.25">
+				<div class="prices__container">
+					<div class="prices__wrapper">
+						<h2 class="prices__title title">Цены</h2>
+						<div class="prices__subtitle-box subtitle-box">
+							<svg class="prices__icons icons-check">
+								<use xlink:href="@img/icons/icons.svg#check"></use>
+							</svg>
+							<h3 class="prices__subtitle subtitle">Перевозка грузов</h3>
+						</div>
+						<div class="prices__grid grid-prices text margin-bottom-40">
+
+							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--1 card">
+								<div class="card__top">
+									<div class="card__img-wrapper">
+										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
+											alt="иконка грузовика">
+									</div>
+									<h4 class="card__title sub-subtitle">Германия-Москва</h4>
+									<p class="card__text">Доставка, оформление документов, отслеживание груза 24/7</p>
+									<p class="card__text">Срок доставки от <strong>5 дней</strong></p>
+								</div>
+								<div class="card__bottom">
+									<div class="card__wrapper-link">
+										<a class="card__link link" href="" data-goto-top="100" data-goto=".europe">Подробнее</a>
+									</div>
+									<p class="card__price"><span class="card__text">от</span> <span
+											class="card__price-color"><strong>4500</strong></span> EUR
+									</p>
+								</div>
+							</div>
+
+							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--2 card">
+								<div class="card__top">
+									<div class="card__img-wrapper">
+										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
+											alt="иконка грузовика">
+									</div>
+									<h4 class="card__title sub-subtitle">Китай (Шанхай)-Москва</h4>
+									<p class="card__text">Доставка, оформление документов, отслеживание груза 24/7</p>
+									<p class="card__text">Срок доставки от <strong>16 дней</strong></p>
+								</div>
+								<div class="card__bottom">
+									<div class="card__wrapper-link">
+										<a class="card__link link" href="" data-goto-top="100" data-goto=".china">Подробнее</a>
+									</div>
+									<p class="card__price"><span class="card__text">от</span> <span
+											class="card__price-color"><strong>9 500</strong></span> USD
+									</p>
+								</div>
+							</div>
+
+							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--3 card">
+								<div class="card__top">
+									<div class="card__img-wrapper">
+										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
+											alt="иконка грузовика">
+									</div>
+									<h4 class="card__title sub-subtitle">Брест (ТЛЦ)-Москва</h4>
+									<p class="card__text">Доставка, отслеживание груза 24/7</p>
+									<p class="card__text">Срок доставки от <strong>2 дней</strong></p>
+								</div>
+								<div class="card__bottom">
+									<div class="card__wrapper-link">
+										<a class="card__link link" href="" data-goto-top="100" data-goto=".tlc">Подробнее</a>
+									</div>
+									<p class="card__price"><span class="card__text">от</span> <span
+											class="card__price-color"><strong>1300</strong></span> EUR
+									</p>
+								</div>
+							</div>
+
+							<div data-watch data-watch-once class="grid-prices__item grid-prices__item--4 card">
+								<div class="card__top">
+									<div class="card__img-wrapper">
+										<img class="card__icons" width="67" height="65" data-src="@img/icons/card-icon.png"
+											alt="иконка грузовика">
+									</div>
+									<h4 class="card__title sub-subtitle">Москва-Екатеринбург</h4>
+									<p class="card__text">Доставка, отслеживание груза 24/7</p>
+									<p class="card__text">Срок доставки от <strong>3 дней</strong></p>
+								</div>
+								<div class="card__bottom">
+									<div class="card__wrapper-link">
+										<a class="card__link link" href="" data-goto-top="100" data-goto=".russia">Подробнее</a>
+									</div>
+									<p class="card__price"><span class="card__text">от</span> <span
+											class="card__price-color"><strong>190 000</strong></span> RUB
+									</p>
+								</div>
+							</div>
+
+						</div>
+						<p class="prices__text margin-bottom-20">Здесь указаны индикативные фрахтовые ставки по нашим основным
+							направлениям автомобильных перевозок грузов. Стоимость
+							перевозки и время доставки груза в первую очередь зависят от маршрута перевозки, веса и количества
+							груза, класса опасности груза, необходимости дополнительного страхования в случае высокой стоимости
+							груза. Все условия
+							перевозок грузов очень разные, как и грузы, которые мы перевозим.</p>
+						<p class="prices__text margin-bottom-20">Информацию о стоимости перевозки груза самолетом (<a
+								class="prices__link link" href="" data-goto-top="100" data-goto=".avia">подробнее</a>) мы можем
+							предоставить по вашему запросу. Чтобы получить наиболее точный расчет, нам необходима детальная
+							информация о вашем грузе. Эти данные позволят нам оценить объем работы, требуемые ресурсы и прочие
+							факторы, которые влияют на стоимость перевозки.</p>
+						<!-- <p class="prices__text margin-bottom-20">Свяжитесь с нами, предоставив все необходимые данные, и мы с
+							удовольствием поможем вам с расчетом стоимости и предложим наилучший вариант перевозки вашего
+							груза.</p> -->
+						<p class="prices__text margin-bottom-60">Для быстрой предварительной оценки стоимости и времени
+							доставки, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.</p>
+						<div class="prices__subtitle-box subtitle-box">
+							<svg class="prices__iconsk icons-check">
+								<use xlink:href="@img/icons/icons.svg#check"></use>
+							</svg>
+							<h3 class="prices__subtitle subtitle">таможенное оформление грузов</h3>
+						</div>
+						<p class="prices__text margin-bottom-20">Мы рады оказать помощь в таможенном оформлении груза (<a
+								class="prices__link link" href="" data-goto-top="100" data-goto=".customs">подробнее</a>).
+							Предоставьте упрощенную информацию о грузе, и мы сформируем примерную стоимость наших услуг.</p>
+						<p class="prices__text margin-bottom-20">Чтобы
+							сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные
+							помогут нам
+							оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие
+							факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие
+							согласования.</p>
+
+						<!-- <p class="prices__text margin-bottom-20">После получения всех этих данных мы сможем предоставить вам
+							точный расчет стоимости таможенного оформления груза. Наша команда опытных специалистов готова
+							ответить на все ваши вопросы и помочь вам с организацией таможенных процедур.</p> -->
+						<p class="prices__text">Для быстрой предварительной оценки стоимости таможенного оформления,
+							пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.</p>
+					</div>
+				</div>
+			</section>
+			
 			@@include('html/_action-block.htm',{})
 			<section class="contact" id="contact" data-watch="navigator" data-watch-threshold="0.3">
 				<div class="contact__container">

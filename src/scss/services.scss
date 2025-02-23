@@ -2,7 +2,7 @@
 .services {
    background: url("../img/services/bg-services.jpg") center / cover no-repeat fixed;
 
-   &__img-box{
+   &__img-box {
       aspect-ratio: 400/300;
       overflow: hidden;
    }
@@ -10,7 +10,7 @@
    &__img {
       width: 100%;
       height: auto;
-	  object-fit: cover;	
+      object-fit: cover;
    }
 
    &__list {

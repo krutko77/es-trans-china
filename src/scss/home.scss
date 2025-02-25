@@ -2,9 +2,9 @@
 .home {
    height: 100vh;
    padding: 120px 0 70px;
-   background-image: url('./../img/best-3-20.jpg');
+   background-image: url('./../img/bg-home-1920-60.jpg');
    background-size: cover;
-   background-position: bottom right;
+   background-position: bottom center;
    width: 100%;
    aspect-ratio: 16/9;
    color: $mainBgColor;
@@ -14,18 +14,36 @@
    justify-content: center;
    align-items: flex-end;
 
+	@media (max-width:$tablet) {
+		background-position: bottom right 70%;
+	}
+
+	@media (max-width: $tablet) and (min-aspect-ratio: 1024/600) {
+		min-height: 650px;
+		background-position: bottom right 80%;
+	}
+
    @media (max-width:$mobileSmall) {
-      padding: 50px 0 70px;
-      background-image: url('./../img/bg-home-480-50.jpg');
+      padding: 80px 0 40px;
+      background-image: url('./../img/bg-home-480-60-1.jpg');
+		background-position: top center;
    }
 
    &__container {
       width: 100%;
+
+      @media (max-width:$mobileSmall) {
+         height: 100%;
+      }
    }
 
    &__content {
-		display: flex;
+      display: flex;
       text-transform: uppercase;
+
+      @media (max-width:$mobileSmall) {
+         height: 100%;
+      }
    }
 
    &__left-block {
@@ -49,6 +67,9 @@
 
       @media (max-width:$mobileSmall) {
          flex: 1 1 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
       }
    }
 
@@ -58,7 +79,7 @@
       margin-bottom: 0;
       opacity: 0;
       transform: translateY(50px);
-      text-shadow: 0 0 5px $mainColor;
+      text-shadow: 0 0 3px $mainColor;
 
       @media (max-width:1500px) {
          font-size: calc(toRem(45) + 25*((100vw - 320px) / (1500 - 320)));
@@ -78,7 +99,7 @@
       margin-bottom: toEm(40, 40);
       opacity: 0;
       transform: translateY(50px);
-      text-shadow: 0 0 5px $mainColor;
+      text-shadow: 0 0 3px $mainColor;
 
       @media (max-width:1500px) {
          font-size: calc(toRem(20) + 10*((100vw - 320px) / (1500 - 320)));
@@ -92,7 +113,7 @@
          margin-bottom: 50px;
       }
 
-		@media (max-width:$mobile) {
+      @media (max-width:$mobile) {
          margin-bottom: 30px;
       }
    }
@@ -102,10 +123,6 @@
       transform: translateY(0);
       transition: transform 1.2s ease 0.4s, opacity 1.2s ease 0.4s;
    }
-
-   /* &__offer-wrap {
-      max-width: 750px;
-   } */
 
    &__icons {
       position: relative;
@@ -131,35 +148,43 @@
    }
 
    &__action {
-		/* max-width: 650px;
-      text-align: center; */
       font-weight: 500;
    }
 
-	.list {
-		&__item {
-			display: flex;
-			margin-bottom: toEm(35, 25);
+   .action__text {
+      margin-bottom: calc(toRem(15) + 15*((100vw - 320px) / (1500 - 320)));
+   }
 
-			@media (max-width: $mobile) {
-				margin-bottom: 20px;
-			}
-	
-			p {
-				text-transform: uppercase;
-				font-size: 25px;
-				font-weight: 500;
-				line-height: 1.2;
-				text-shadow: 0 0 15px $mainColor;
-	
-				@media (max-width:1500px) {
-					font-size: calc(toRem(17) + 2*((100vw - 320px) / (1500 - 320)));
-				}
-				
-			}
-		}
-	}
-	
+   .list {
+      margin-bottom: calc(toRem(20) + 40*((100vw - 320px) / (1500 - 320)));
+
+      &__item {
+         display: flex;
+         margin-bottom: toEm(35, 25);
+
+         @media (max-width: $mobile) {
+            margin-bottom: 20px;
+         }
+
+         @media (max-width: $mobileSmall) {
+            margin-bottom: 10px;
+         }
+
+         p {
+            text-transform: uppercase;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 1.2;
+            text-shadow: 0 0 3px $mainColor;
+
+            @media (max-width:1500px) {
+               font-size: calc(toRem(15) + 4*((100vw - 320px) / (1500 - 320)));
+            }
+
+         }
+      }
+   }
+
 }
 
 

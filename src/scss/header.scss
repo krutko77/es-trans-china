@@ -86,7 +86,7 @@
    // Плашка
    &__body::before {
       content: "";
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
@@ -98,6 +98,12 @@
       @media (max-width: $tablet) {
          display: block;
          min-height: calc(60px + 10*((100vw - 768px) / (1260 - 768)));
+      }
+
+      .menu-open & {
+         @media (max-width: $tablet) and (min-aspect-ratio: 1024/600) {
+            position: fixed;
+         }
       }
    }
 
@@ -122,12 +128,12 @@
       }
    }
 
-	// класс menu-item будет в WP
+   // класс menu-item будет в WP
    &__item,
    &-item {
       position: relative;
       padding: 4px 0;
-		
+
       @media (max-width: $tablet) {
          padding: 0;
          margin: 0 0 30px;
@@ -149,7 +155,7 @@
 
    &__link {
       position: relative;
-		font-size: toRem(14);
+      font-size: toRem(14);
       padding: toEm(4, 14) 0 toEm(4, 14);
       text-transform: uppercase;
       cursor: pointer;
@@ -187,7 +193,7 @@
       position: absolute;
       top: 100%;
       left: 7px;
-      min-width: 185px;
+      min-width: 195px;
       background-color: $footerBgColor;
       padding: toEm(5, 12) 0 toEm(5, 12) toEm(5, 12);
       opacity: 0;
@@ -205,18 +211,19 @@
    }
 
    // в WP будут оба класса menu__link и sub-link
-	&__link.sub-link {
-		font-size: toRem(12);
-		@media (max-width: $pc) {
+   &__link.sub-link {
+      font-size: toRem(12);
+
+      @media (max-width: $pc) {
          font-size: calc(toRem(10) + 2*((100vw - 768px) / (1260 - 768)));
       }
 
       @media (max-width: $tablet) {
          font-size: toRem(16);
       }
-	}
+   }
 
-   &__link._navigator-active::before,   
+   &__link._navigator-active::before,
    &__link._navigator-active::after {
       width: calc(50%);
    }
@@ -234,7 +241,7 @@
 
 @media (any-hover: hover) {
 
-   .menu__link:hover::before,   
+   .menu__link:hover::before,
    .menu__link:hover::after {
       width: calc(50%);
    }
@@ -272,7 +279,7 @@
    }
 
    .sub-menu>li:first-child {
-      margin-top:toEm(15, 16);
+      margin-top: toEm(15, 16);
    }
 }
 

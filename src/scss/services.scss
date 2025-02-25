@@ -1,5 +1,11 @@
 // services
 .services {
+   padding-top: 160px;
+
+   @media (max-width:1500px) {
+      padding-top: calc(toRem(100) + 60*((100vw - 320px) / (1500 - 320)));
+   }
+
    background: url("../img/services/bg-services.jpg") center / cover no-repeat fixed;
 
    &__img-box {

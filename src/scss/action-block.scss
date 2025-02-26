@@ -14,7 +14,7 @@
    &__subtitle {
       text-align: center;
       margin-bottom: 40px;
-		text-shadow: 0 0 15px $mainColor;
+		text-shadow: 0 0 5px $mainColor;
 
       @media (max-width: 1500px) {
          margin-bottom: calc(30px + 5*((100vw - 480px) / (1260 - 480)));

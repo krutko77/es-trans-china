@@ -1,16 +1,26 @@
 // offer
 .offer {
-	padding-bottom: 0;
-	padding-top: 160px;
+   padding-bottom: 0;
+   padding-top: 160px;
 
    @media (max-width:1500px) {
       padding-top: calc(toRem(100) + 60*((100vw - 320px) / (1500 - 320)));
    }
-	
+
    &__wrapper {
       display: flex;
       flex-direction: column;
       align-items: center;
+   }
+
+   &__condition {
+      font-size: toRem(24);
+      font-weight: 900;
+      line-height: math.div(30, 24);
+
+      @media (max-width:1500px) {
+         font-size: calc(toRem(18) + 6*((100vw - 320px) / (1500 - 320)));
+      }
    }
 
    &__list {
@@ -48,9 +58,9 @@
       align-self: flex-start
    }
 
-	&__text.center {
-		text-align: center;
-	}
+   &__text.center {
+      text-align: center;
+   }
 }
 
 .grid-offer {
@@ -153,9 +163,9 @@
       margin-bottom: toEm(10, 20);
    }
 
-	&__wrapper-link {
-		text-align: center;
-	}
+   &__wrapper-link {
+      text-align: center;
+   }
 }
 
 .grid-offer-2 {
@@ -173,7 +183,7 @@
 }
 
 .offer__grid-2 .card {
-	max-width: toRem(600);
+   max-width: toRem(600);
 
    &__img-wrapper {
       aspect-ratio: 64/64;
@@ -184,7 +194,7 @@
       height: 64px;
    }
 
-	&__list-2 {
-		padding-left: toRem(15);
-	}
+   &__list-2 {
+      padding-left: toRem(15);
+   }
 }

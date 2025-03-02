@@ -48,6 +48,12 @@
       overflow: hidden;
    }
 
+	&__img-box-3 {
+      max-width: 300px;
+      aspect-ratio: 300/533;
+      overflow: hidden;
+   }
+
    &__img {
       width: 100%;
       height: auto;

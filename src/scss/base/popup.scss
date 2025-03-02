@@ -53,41 +53,47 @@ body::after {
 }
 
 .popup__content {
-   text-align: right;
+   display: flex;
+   flex-direction: column;
    visibility: hidden;
    transform: scale(0);
    transition: transform 0.3s ease 0s;
-   background-color: #eee;
+   background-color: $mainBgColor;
    padding: 20px;
    width: 100%;
-   max-width: 600px;
+   max-width: 500px;
    border-radius: 20px;
 
    .lock & {
       visibility: visible;
-   }
 
-   @media (max-width:$mobileSmall) {
-      padding: 10px;
+      @media (max-width:$tablet) {
+         max-width: 400px;
+      }
    }
 }
 
+.popup__close {
+   align-self: flex-end;
+   color: $accentColor;
+   transition: color 0.3s ease;   
+}
+
+@media (any-hover: hover) {
+	.popup__close:hover {
+		color: $secondLinkColor;
+	}
+}
+
 .popup__img-wrapper {
-	overflow: hidden;
-	aspect-ratio: 636/900;
+   overflow: hidden;
+   width: 100%;
+   max-width: 460px;
+   aspect-ratio: 460/330;
 }
 
 .popup__img {
    width: 100%;
    height: auto;
    object-fit: cover;
-}
-
-.popup__close {
-   color: $accentColor;
-   transition: color 0.3s ease;
-
-   &:hover {
-      color: $secondLinkColor;
-   }
 }

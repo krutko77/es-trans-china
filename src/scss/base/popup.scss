@@ -75,6 +75,10 @@ body::after {
    }
 }
 
+.popup__content.customs {
+	max-width: 620px;
+}
+
 .popup__close {
    align-self: flex-end;
    color: $accentColor;
@@ -106,6 +110,33 @@ body::after {
 .popup__img-wrapper.home-swiper {
 	overflow: hidden;
 	aspect-ratio: 636/900;
+}
+
+.popup__top {
+	display: flex;
+
+	@media (max-width:$mobileSmall) {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+}
+
+.popup__img-wrapper-form {
+	flex: 1 0 40%;
+	padding-left: 10px;
+	overflow: hidden;
+	max-width: 200px;
+	aspect-ratio: 200/215;
+}
+
+.popup__description {
+	flex: 1 0 60%;
+	font-size: toRem(20);
+	line-height: 1.5;
+
+	@media (max-width:$pc) {
+		font-size: calc(toRem(14) + 6*((100vw - 320px) / (1500 - 320)));
+	}
 }
 
 .popup__img {

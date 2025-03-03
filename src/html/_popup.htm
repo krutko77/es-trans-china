@@ -157,8 +157,123 @@
 						<div class="form__checkbox checkbox">
 							<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input" data-required>
 							<label for="formAgreement" class="checkbox__label"><span class="text-form">Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с <a class="form__link"
-								href="https://drivers.es-trans.ru/politika-obrabotki.html">Политикой</a> и <a class="form__link"
-								href="https://drivers.es-trans.ru/soglashenie.html">Соглашением</a> обработки персональных данных</span></label>
+								href="https://es-trans.ru/privacy-policy/">Политикой</a> и <a class="form__link"
+								href="https://es-trans.ru/soglashenie/">Соглашением</a> обработки персональных данных</span></label>
+						</div>
+						<input type="hidden" name="code" value="" id="code">
+						<div class="form__video-box">
+							<video autoplay loop muted playsinline>
+								<source src="@img/loading/loading-96.webm" type="video/webm">
+								<source src="@img/loading/loading-96.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					<button class="form__button form-button text button offer-button clear-button margin-bottom-20" type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="popup-form-customs" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content content-form customs">
+			<button data-close type="button" class="popup__close margin-bottom-10">Закрыть</button>
+			<h3 class="poput__title title">Приветствую вас!</h3>
+			<div class="popup__top margin-bottom-20">
+				<div class="popup__description">Меня зовут Сергей Денисов, начальник отдела таможенного оформления и
+					доставки ООО "ЕС Транс". Заполните
+					пожалуйста форму и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.
+				</div>
+				<div class="popup__img-wrapper-form">
+					<img class="popup__img" data-src="@img/form-customs-img.jpg" width="200" height="215" alt="фото сотрудника">
+				</div>
+			</div>
+			<div class="popup__form form">
+				<form class="form__body" id="form-customs" name="myFormCustoms" action="files/sendmail/sendmail.php" method="POST"
+					data-ajax>
+					<div class="form__contact-block margin-bottom-30">
+						<div class="form__placeholder-container">
+							<input class="form__input for-clear text" id="company-name-customs" type="text" name="company-name"
+								data-validate data-error="Напишите название компании" data-required placeholder=" ">
+							<label class="form__label customs text-form" for="company-name-customs">Название компании *</label>
+						</div>
+						<div class="form__placeholder-container">
+							<input class="form__input for-clear text" id="first-name-customs" type="text" name="first-name"
+								data-validate data-error="Напишите имя" data-required placeholder=" ">
+							<label class="form__label customs text-form" for="first-name-customs">Имя *</label>
+						</div>
+						<div class="form__placeholder-container">
+							<input class="form__input for-clear text" id="tel-customs" type="text" name="tel" data-validate
+								data-error="Напишите телефон или мессенджер" data-required placeholder=" ">
+							<label class="form__label customs text-form" for="tel-customs">Телефон или мессенджер *</label>
+						</div>
+						<div class="form__placeholder-container">
+							<input class="form__input for-clear text" id="email-customs" type="email" name="email" data-validate
+								data-error="Напишите ваш e-mail" data-required placeholder=" ">
+							<label class="form__label customs text-form" for="email-customs">E-mail *</label>
+						</div>
+						<div class="form__placeholder-container">
+							<textarea class="form__input for-clear text" name="text-message-customs" id="text-message" data-validate
+								data-error="Напишите ваш вопрос" data-required placeholder=" "></textarea>
+							<label class="form__label customs" for="text-message-customs">Напишите ваш вопрос по доставке или таможенному
+								оформлению *</label>
+						</div>
+						<div class="form__checkbox checkbox">
+							<input id="formAgreementCustoms" type="checkbox" name="agreement" class="checkbox__input" data-required>
+							<label for="formAgreementCustoms" class="checkbox__label"><span class="text-form customs">Заполняя форму, я
+									соглашаюсь на обработку персональных данных в соответствии с <a class="form__link"
+										href="https://es-trans.ru/privacy-policy/">Политикой</a> и <a
+										class="form__link" href="https://es-trans.ru/soglashenie/">Соглашением</a>
+									обработки персональных данных</span></label>
+						</div>
+						<input type="hidden" name="code" value="" id="code">
+						<div class="form__video-box">
+							<video autoplay loop muted playsinline>
+								<source src="@img/loading/loading-96.webm" type="video/webm">
+								<source src="@img/loading/loading-96.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+					<button class="form__button form-button text button offer-button clear-button margin-bottom-20"
+						type="submit">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="popup-form-driver" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__top margin-bottom-20">
+				<div class="popup__img-wrapper margin-bottom-20">
+					<img class="popup__img" data-src="@img/form-driver.jpg" width="460" height="330" alt="фото сотрудника ЕС Транс">
+				</div>
+				<p class="popup__text text">
+					Здравствуй, меня зовут Андрей Сибилёв, оставь телефон, я перезвоню и расскажу об условиях и преимуществах работы в ООО "ЕС Транс"
+				</p>
+			</div>
+			<div class="popup__form">
+				<form class="form__body" id="form-driver" name="myFormDriver" action="files/sendmail/sendmail.php" method="POST"
+					data-ajax data-popup-message="#form-message">
+					<div class="form__contact-block margin-bottom-30">
+						<div class="form__placeholder-container">
+							<input class="form__input for-clear text" id="name-driver" type="text" name="name" data-validate
+								data-error="Напишите имя" data-required placeholder=" ">
+							<label class="form__label text-form" for="name-driver">Имя *</label>
+						</div>
+						<div class="form__placeholder-container margin-bottom-20">
+							<input class="form__input text-form for-clear text" id="tel-driver" type="text" name="tel" data-validate
+							data-error="Напишите телефон или мессенджер" data-required placeholder=" ">
+							<label class="form__label text-form" for="tel-driver">Телефон или мессенджер *</label>
+						</div>
+						<div class="form__checkbox checkbox">
+							<input id="formAgreementDriver" type="checkbox" name="agreement" class="checkbox__input" data-required>
+							<label for="formAgreementDriver" class="checkbox__label"><span class="text-form">Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с <a class="form__link"
+								href="https://es-trans.ru/privacy-policy/">Политикой</a> и <a class="form__link"
+								href="https://es-trans.ru/soglashenie/">Соглашением</a> обработки персональных данных</span></label>
 						</div>
 						<input type="hidden" name="code" value="" id="code">
 						<div class="form__video-box">

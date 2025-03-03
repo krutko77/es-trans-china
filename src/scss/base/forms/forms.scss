@@ -56,6 +56,10 @@
       }
    }
 
+	&__label.customs {
+		font-size: calc(.75rem + 2*(100vw - 320px) / 1180);
+	}
+
    textarea.form__input {
       min-height: 70px;
       resize: vertical;
@@ -132,6 +136,10 @@
    .text-form {
       line-height: 1.2;
    }
+
+	.text-form.customs {
+		font-size: calc(.75rem + 2*(100vw - 320px) / 1180);
+	}
 }
 
 //</FORM>
@@ -139,3 +147,4 @@
 // <CHECK>
 // Снипет (HTML): chk
 @import "checkbox";
+

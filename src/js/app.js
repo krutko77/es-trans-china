@@ -110,7 +110,7 @@ flsForms.formFieldsInit({
 */
 /* Надсилання форми */
 /* Документація: https://template.fls.guru/template-docs/rabota-s-formami.html */
-// flsForms.formSubmit();
+flsForms.formSubmit();
 
 /* Модуль форми "кількість" */
 // flsForms.formQuantity();
@@ -193,7 +193,7 @@ import './libs/watcher.js'
 // Модуль паралаксу
 // Документація: https://template.fls.guru/template-docs/paralaks-pri-skroli.html
 // Сніппет(HTML):
-import './libs/parallax.js'
+// import './libs/parallax.js'
 
 // Функції роботи скролом
 import * as flsScroll from "./files/scroll/scroll.js";

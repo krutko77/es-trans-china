@@ -50,6 +50,8 @@ body::after {
    display: flex;
    justify-content: center;
    align-items: center;
+
+	min-height: 100%;
 }
 
 .popup__content {
@@ -79,6 +81,15 @@ body::after {
    transition: color 0.3s ease;   
 }
 
+.popup__close.home-swiper {
+   color: $accentColor;
+   transition: color 0.3s ease;
+
+   &:hover {
+      color: $secondLinkColor;
+   }
+}
+
 @media (any-hover: hover) {
 	.popup__close:hover {
 		color: $secondLinkColor;
@@ -90,6 +101,11 @@ body::after {
    width: 100%;
    max-width: 460px;
    aspect-ratio: 460/330;
+}
+
+.popup__img-wrapper.home-swiper {
+	overflow: hidden;
+	aspect-ratio: 636/900;
 }
 
 .popup__img {

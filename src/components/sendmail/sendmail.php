@@ -1,65 +1,92 @@
 <?php
-	use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\Exception;
 
-	require 'phpmailer/src/Exception.php';
-	require 'phpmailer/src/PHPMailer.php';
-	require 'phpmailer/src/SMTP.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-	$mail = new PHPMailer(true);
-	$mail->CharSet = 'UTF-8';
-	$mail->setLanguage('ru', 'phpmailer/language/');
-	$mail->IsHTML(true);
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
 
-	/*
-	$mail->isSMTP();                                            //Send using SMTP
-	$mail->Host       = 'smtp.example.com';                     //Set the SMTP server to send through
-	$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-	$mail->Username   = 'user@example.com';                     //SMTP username
-	$mail->Password   = 'secret';                               //SMTP password
-	$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-	$mail->Port       = 465;                 
-	*/
+$mail = new PHPMailer(true);
+$mail->CharSet = 'UTF-8';
+$mail->setLanguage('ru', 'phpmailer/language/');
+$mail->IsHTML(true);
 
-	//Від кого лист
-	$mail->setFrom('from@gmail.com', 'Фрілансер по життю'); // Вказати потрібний E-mail
-	//Кому відправити
-	$mail->addAddress('to@gmail.com'); // Вказати потрібний E-mail
-	//Тема листа
-	$mail->Subject = 'Вітання! Це "Фрілансер по життю"';
 
-	//Тіло листа
-	$body = '<h1>Зустрічайте супер листа!</h1>';
+$mail->isSMTP();                                            //Send using SMTP
+$mail->Host       = 'smtp.timeweb.ru';                     //Set the SMTP server to send through
+$mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+$mail->Username   = 'drivers-lending77@es-trans.ru';                     //SMTP username
+$mail->Password   = 'es-trans77';                               //SMTP password
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+$mail->Port       = 465;
 
-	//if(trim(!empty($_POST['email']))){
-		//$body.=$_POST['email'];
-	//}	
-	
-	/*
-	//Прикріпити файл
-	if (!empty($_FILES['image']['tmp_name'])) {
-		//шлях завантаження файлу
-		$filePath = __DIR__ . "/files/sendmail/attachments/" . $_FILES['image']['name']; 
-		//грузимо файл
-		if (copy($_FILES['image']['tmp_name'], $filePath)){
-			$fileAttach = $filePath;
-			$body.='<p><strong>Фото у додатку</strong>';
-			$mail->addAttachment($fileAttach);
-		}
-	}
-	*/
 
-	$mail->Body = $body;
+//От кого письмо
+$mail->setFrom('es-trans.ru', 'Сайт ЕС Транс'); // Указать нужный E-mail
+//Кому отправить
+$mail->addAddress('kpv@es-trans.pro'); // Указать нужный E-mail 
+//Тема письма
+$mail->Subject = 'Привет! Это запрос с сайта ЕС Тзанс.';
 
-	//Відправляємо
-	if (!$mail->send()) {
-		$message = 'Помилка';
-	} else {
-		$message = 'Дані надіслані!';
-	}
+//Тело письма
+$body = '<h1>Запрос</h1>';
+//Форма по услугам растаможки
+if (trim(!empty($_POST['company-name-customs']))) {
+	$body .= '<p><strong>Название компании:</strong> ' . $_POST['company-name-customs'] . '</p>';
+}
+if (trim(!empty($_POST['first-name-customs']))) {
+	$body .= '<p><strong>Имя:</strong> ' . $_POST['first-name-customs'] . '</p>';
+}
+if (trim(!empty($_POST['tel-customs']))) {
+	$body .= '<p><strong>Телефон:</strong> ' . $_POST['tel-customs'] . '</p>';
+}
+if (trim(!empty($_POST['email-customs']))) {
+	$body .= '<p><strong>Email:</strong> ' . $_POST['email-customs'] . '</p>';
+}
+if (trim(!empty($_POST['text-message-customs']))) {
+	$body .= '<p><strong>Сообщение:</strong> ' . $_POST['text-message-customs'] . '</p>';
+}
 
-	$response = ['message' => $message];
+//Форма по вакансиям менеджера или логиста
+if (trim(!empty($_POST['first-name-offer']))) {
+	$body .= '<p><strong>Имя:</strong> ' . $_POST['first-name-offer'] . '</p>';
+}
+if (trim(!empty($_POST['last-name-offer']))) {
+	$body .= '<p><strong>Фамилия:</strong> ' . $_POST['last-name-offer'] . '</p>';
+}
+if (trim(!empty($_POST['tel-customs']))) {
+	$body .= '<p><strong>Телефон или мессенджер:</strong> ' . $_POST['tel-customs'] . '</p>';
+}
+if (trim(!empty($_POST['email-customs']))) {
+	$body .= '<p><strong>Email:</strong> ' . $_POST['email-customs'] . '</p>';
+}
+if (trim(!empty($_POST['text-message-customs']))) {
+	$body .= '<p><strong>Сообщение:</strong> ' . $_POST['text-message-customs'] . '</p>';
+}
+//Форма по вакансии водителя
+if (trim(!empty($_POST['name-driver']))) {
+	$body .= '<p><strong>Имя и фамилия:</strong> ' . $_POST['name-driver'] . '</p>';
+}
+if (trim(!empty($_POST['tel-driver']))) {
+	$body .= '<p><strong>Телефон или мессенджер:</strong> ' . $_POST['tel-driver'] . '</p>';
+}
 
-	header('Content-type: application/json');
-	echo json_encode($response);
-?>
+// Проверка на бота
+if ($_POST['code'] != 'NOSPAM') {
+	exit;
+}
+
+$mail->Body = $body;
+
+//Отправляем
+if (!$mail->send()) {
+	$message = 'Ошибка';
+} else {
+	$message = 'Данные отправлены!';
+}
+
+$response = ['message' => $message];
+
+header('Content-type: application/json');
+echo json_encode($response);

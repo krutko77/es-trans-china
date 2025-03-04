@@ -50,8 +50,7 @@ body::after {
    display: flex;
    justify-content: center;
    align-items: center;
-
-	min-height: 100%;
+   min-height: 100%;
 }
 
 .popup__content {
@@ -76,13 +75,19 @@ body::after {
 }
 
 .popup__content.customs {
-	max-width: 620px;
+   max-width: 620px;
 }
 
 .popup__close {
    align-self: flex-end;
    color: $accentColor;
-   transition: color 0.3s ease;   
+   transition: color 0.3s ease;
+
+   @media (any-hover: hover) {
+      .popup__close:hover {
+         color: $secondLinkColor;
+      }
+   }
 }
 
 .popup__close.home-swiper {
@@ -95,9 +100,9 @@ body::after {
 }
 
 @media (any-hover: hover) {
-	.popup__close:hover {
-		color: $secondLinkColor;
-	}
+   .popup__close:hover {
+      color: $secondLinkColor;
+   }
 }
 
 .popup__img-wrapper {
@@ -108,35 +113,39 @@ body::after {
 }
 
 .popup__img-wrapper.home-swiper {
-	overflow: hidden;
-	aspect-ratio: 636/900;
+   overflow: hidden;
+   aspect-ratio: 636/900;
 }
 
 .popup__top {
-	display: flex;
+   display: flex;
 
-	@media (max-width:$mobileSmall) {
-		flex-direction: column-reverse;
-		align-items: center;
-	}
+   @media (max-width:$mobileSmall) {
+      flex-direction: column-reverse;
+      align-items: center;
+   }
+}
+
+.popup__top.driver {
+   display: block;
 }
 
 .popup__img-wrapper-form {
-	flex: 1 0 40%;
-	padding-left: 10px;
-	overflow: hidden;
-	max-width: 200px;
-	aspect-ratio: 200/215;
+   flex: 1 0 40%;
+   padding-left: 10px;
+   overflow: hidden;
+   max-width: 200px;
+   aspect-ratio: 200/215;
 }
 
 .popup__description {
-	flex: 1 0 60%;
-	font-size: toRem(20);
-	line-height: 1.5;
+   flex: 1 0 60%;
+   font-size: toRem(20);
+   line-height: 1.5;
 
-	@media (max-width:$pc) {
-		font-size: calc(toRem(14) + 6*((100vw - 320px) / (1500 - 320)));
-	}
+   @media (max-width:$pc) {
+      font-size: calc(toRem(14) + 6*((100vw - 320px) / (1500 - 320)));
+   }
 }
 
 .popup__img {

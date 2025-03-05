@@ -1,465 +1,202 @@
 <!DOCTYPE html>
-<html lang="ru">
-@@include('html/_head.htm',{
-"title":"Перевозки из Китая | ЕС Транс"
-})
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Вёрстка «ЕС Транс»</title>
+</head>
 
 <body>
-	<div class="wrapper">
-		@@include('html/_header.htm',{})
-		<main class="page home-page text" data-watch="navigator">
-			<section class="home">
-				<div class="home__container">
-					<div class="home__content">
-						<div class="home__left-block">
-						</div>
-						<div class="home__right-block">
-							<div class="home__name-block margin-bottom-50">
-								<h1 class="home__title" data-watch data-watch-once>ЕС Транс</h1>
-								<p class="home__label" data-watch data-watch-once>Надёжность вашего бизнеса</p>
-							</div>
-							<div class="home__offer-wrap">
-								<ul class="home__list list margin-bottom-60">
-
-									<li class="list__item">
-										<svg class="home__icons">
-											<use xlink:href="@img/icons/icons.svg#check"></use>
-										</svg>
-										<p class="list__text">Комплектные и сборные грузы из Китая</p>
-									</li>
-
-									<li class="list__item">
-										<svg class="home__icons">
-											<use xlink:href="@img/icons/icons.svg#check"></use>
-										</svg>
-										<p class="list__text">Доставка авто и авиа транспортом</p>
-									</li>
-
-									<li class="list__item">
-										<svg class="home__icons">
-											<use xlink:href="@img/icons/icons.svg#check"></use>
-										</svg>
-										<p class="list__text">Растаможка на всей территории РФ
-										<p>
-									</li>
-
-								</ul>
-								<div class="home__action action">
-									<p class="action__text">Узнайте стоимость вашего заказа</p>
-									<button class="button offer-button preload" data-popup="#popup-form"
-										aria-label="Кнопка рассчитать стоимость">Рассчитать</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="values">
-				<div class="values__container">
-					<div class="values__wrapper">
-						<h2 class="prices__title title">Наши ценности</h2>
-						<!-- <div class="values__subtitle-box subtitle-box">
-							<svg class="values__icons icons-check">
-								<use xlink:href="@img/icons/icons.svg#check"></use>
-							</svg>
-							<h3 class="values__subtitle subtitle">Наши ценности</h3>
-						</div> -->
-						<ul class="values__list values-list margin-bottom-30">
-
-							<li data-watch data-watch-once data-watch-threshold="0.5"
-								class="values-list__item values-list__item--1 card">
-								<div class="card__top">
-									<div class="card__img-wrapper">
-										<img class="card__icons" width="64" height="64" data-src="@img/icons/card-icon-4.png"
-											alt="иконка">
-									</div>
-									<h4 class="card__title">Честность</h4>
-									<ul class="card__list margin-bottom-40">
-										<li class="card__text-values">Мы честны с клиентами, с сотрудниками и друг с
-											другом.</li>
-										<li class="card__text-values">Мы соблюдаем бизнес-этику.</li>
-										<li class="card__text-values">Мы работаем по законам и правилам.</li>
-									</ul>
-								</div>
-							</li>
-
-							<li data-watch data-watch-once data-watch-threshold="0.5"
-								class="values-list__item values-list__item--2 card">
-								<div class="card__top">
-									<div class="card__img-wrapper">
-										<img class="card__icons" width="64" height="64" data-src="@img/icons/card-icon-4.png"
-											alt="иконка">
-									</div>
-									<h4 class="card__title">Ответственность</h4>
-									</p>
-									<ul class="card__list margin-bottom-40">
-										<li class="card__text-values">Мы отвечаем не только за груз, но и по всем взятым
-											обязательствам.</li>
-										<li class="card__text-values">Мы отвечаем за то, что делаем, а так же за то, что не
-											делаем.</li>
-										<li class="card__text-values">Это наш подход во всех аспектах нашей
-											деятельности.</li>
-									</ul>
-								</div>
-							</li>
-
-							<li data-watch data-watch-once data-watch-threshold="0.5"
-								class="values-list__item values-list__item--3 card">
-								<div class="card__top">
-									<div class="card__img-wrapper">
-										<img class="card__icons" width="64" height="64" data-src="@img/icons/card-icon-4.png"
-											alt="иконка">
-									</div>
-									<h4 class="card__title">Забота</h4>
-									<ul class="card__list margin-bottom-40">
-										<li class="card__text-values">Мы заботимся об интересах клиента.</li>
-										<li class="card__text-values">Мы предугадываем развитие и предлагаем решения, а не
-											ждём.</li>
-										<li class="card__text-values">Мы заботимся о сотрудниках и сотрудники заботятся о
-											компании и друг о друге.</li>
-									</ul>
-								</div>
-							</li>
-
-						</ul>
-					</div>
-				</div>
-			</section>
-			<section class="specialization">
-				<div class="specialization__container">
-					<div class="specialization__wrapper">
-						<h2 class="specialization__title title">Наша специализация</h2>
-						<div class="specialization__subtitle-box subtitle-box">
-							<svg class="specializations__icons icons-check">
-								<use xlink:href="@img/icons/icons.svg#check"></use>
-							</svg>
-							<h3 class="specialization__subtitle subtitle">Автомобильные перевозки грузов из Китая</h3>
-						</div>
-						<div class="services__img-box img-box-400 float-left">
-							<img class="services__img" data-src="@img/home/1.jpg" width="400" height="300"
-								alt="фото автомобиля 'ЕС Транс'">
-						</div>
-						<p class="specialization__text margin-bottom-20">ООО "ЕС Транс" перевозит комплектные и сборные грузы
-							из Китая, как своими машинами, так и с привлечением транспорта наших партнеров по автоперевозкам
-							(порядка 500 автомобилей), их надёжность проверена совместной работой в течение более восьми лет. В
-							Шанхае у нас есть склад, где мы комплектуем сборные грузы. Подробнее можно прочитать <a
-								class="prices__link link" href="">здесь</a>.</p>
-						<p class="specialization__text margin-bottom-20">Наши логисты владеют китайским языком, и это
-							позволяет оперативно решать различные вопросы, возникающие на загрузке в Китае. После
-							загрузки товара у нас налажен процесс контроля правильности оформления экспортных
-							товаро-сопроводительных документов.</p>
-						<p class="specialization__text margin-bottom-20">Стоимость
-							перевозки и время доставки груза в первую очередь зависят от маршрута перевозки, веса и количества
-							груза, а также необходимости дополнительного страхования в случае высокой стоимости
-							груза. Все условия
-							перевозок грузов очень разные, как и грузы, которые мы перевозим.</p>
-						<p class="specialization__text margin-bottom-60">Для быстрой предварительной оценки стоимости и
-							времени
-							доставки автомобилем, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.
-						</p>
-						<div class="specialization__subtitle-box subtitle-box">
-							<svg class="specialization__icons icons-check">
-								<use xlink:href="@img/icons/icons.svg#check"></use>
-							</svg>
-							<h3 class="specialization__subtitle subtitle">Авиаперевозки грузов из Китая</h3>
-						</div>
-						<p class="specialization__text margin-bottom-20">Наша компания предлагает доставку грузов из Китая с
-							использованием транспорта ведущих авиакомпаний. Мы предлагаем выгодные тарифы, а также гибкость в
-							выборе маршрутов и сроков отправки. Подробнее можно прочитать <a class="prices__link link"
-								href="">здесь</a>.</p>
-						<p class="specialization__text margin-bottom-20">Информацию о стоимости перевозки груза самолетом мы
-							можем
-							предоставить по вашему запросу. Чтобы получить наиболее точный расчет, нам необходима детальная
-							информация о вашем грузе. Эти данные позволят нам оценить объем работы, требуемые ресурсы и прочие
-							факторы, которые влияют на стоимость перевозки.</p>
-						<p class="specialization__text margin-bottom-60">Для быстрой предварительной оценки стоимости и
-							времени
-							доставки самолётом, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.</p>
-						<div class="specialization__subtitle-box subtitle-box">
-							<svg class="specialization__icons icons-check">
-								<use xlink:href="@img/icons/icons.svg#check"></use>
-							</svg>
-							<h3 class="specialization__subtitle subtitle">Таможенное оформление грузов</h3>
-						</div>
-						<div class="services__img-box img-box-400 float-right">
-							<img class="services__img" data-src="@img/home/2.jpg" width="400" height="300"
-								alt="фото работников 'ЕС Транс' на таможенном складе">
-						</div>
-						<p class="specialization__text margin-bottom-20">Мы рады оказать помощь в таможенном оформлении груза
-							в разных регионах России. Подробнее можно прочитать <a class="prices__link link" href="">здесь</a>.
-						</p>
-						<p class="specialization__text margin-bottom-20">Предоставьте упрощенную информацию о грузе, и мы
-							сформируем примерную стоимость наших услуг. Чтобы
-							сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные
-							помогут нам
-							оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие
-							факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие
-							согласования.</p>
-						<p class="specialization__text">Для быстрой предварительной оценки стоимости таможенного оформления,
-							пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.</p>
-					</div>
-				</div>
-			</section>
-			@@include('html/_action-block.htm',{})
-			<section class="reviews">
-				<div class="reviews__container">
-					<h2 class="reviews__title title">Отзывы</h2>
-					<div class="reviews__subtitle-box subtitle-box">
-						<svg class="reviews__icons icons-check">
-							<use xlink:href="@img/icons/icons.svg#check"></use>
-						</svg>
-						<h3 class="reviews__subtitle subtitle">Мы гордимся нашими клиентами!</h3>
-					</div>
-					<ul class="reviews__list list margin-bottom-80">
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--1"><img class="list__img" width="111"
-									height="60" data-src="@img/reviews/logo-60/1.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--2"><img class="list__img" width="342"
-									height="60" data-src="@img/reviews/logo-60/2.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--3"><img class="list__img" width="286"
-									height="60" data-src="@img/reviews/logo-60/3.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--4"><img class="list__img" width="148"
-									height="60" data-src="@img/reviews/logo-60/4.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--5"><img class="list__img" width="60" height="60"
-									data-src="@img/reviews/logo-60/5.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--6"><img class="list__img" width="149"
-									height="60" data-src="@img/reviews/logo-60/6.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--7"><img class="list__img" width="158"
-									height="60" data-src="@img/reviews/logo-60/7.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--8"><img class="list__img" width="87" height="60"
-									data-src="@img/reviews/logo-60/8.png" alt="логотип"></div>
-						</li>
-						<li class="list__item">
-							<div class="list__item-wrapper list__item-wrapper--9"><img class="list__img" width="288"
-									height="60" data-src="@img/reviews/logo-60/9.png" alt="логотип"></div>
-						</li>
-					</ul>
-					<div class="reviews__subtitle-box subtitle-box swiper-box">
-						<svg class="reviews__icons icons-check">
-							<use xlink:href="@img/icons/icons.svg#check"></use>
-						</svg>
-						<h3 class="reviews__subtitle subtitle">Клиенты о нас</h3>
-						<div class="reviews__video-box">
-							<img data-src="@img/swipe-left/hand-swipe.gif" width="70" height="35" alt="иконка руки">
-						</div>
-					</div>
-					<!-- Оболочка слайдера -->
-					<div class="reviews__slider swiper margin-bottom-30">
-						<!-- Двигающееся часть слайдера -->
-						<div class="swiper__wrapper swiper-wrapper">
-							<!-- Слайд -->
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/Metallprofil-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-1">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/Green-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-2">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/NEXT-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-3">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/Spasskie-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-4">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/KHPS-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-5">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/Kvarta-Stal-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__lin home-swiperk link" href="#"
-										data-popup="#popup-6">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__imag home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/Danfoss-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-7">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/Ridan-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-8">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__image home-swiper">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/UNIFOODTECH-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-9">Увеличить</a>
-								</div>
-							</div>
-
-							<div class="swiper__slide swiper-slide">
-								<div class="swiper__imag home-swipere">
-									<img class="swiper__img home-swiper" data-src="@img/reviews/small/VEDA-MK-small.jpg"
-										alt="благодарственное письмо" width="350" height="481">
-								</div>
-								<div class="swiper__label home-swiper"><a class="swiper__link home-swiper link" href="#"
-										data-popup="#popup-10">Увеличить</a>
-								</div>
-							</div>
-
-						</div>
-						<!-- Если нужна пагинация -->
-						<!-- <div class="swiper-pagination"></div> -->
-						<!-- Если нужна навигация (влево/вправо) -->
-						<button type="button" class="swiper-button-prev"></button>
-						<button type="button" class="swiper-button-next"></button>
-					</div>
-				</div>
-			</section>
-			<section class="questions">
-				<div class="questions__container">
-					<h2 class="questions__title title">Часто задаваемые вопросы</h2>
-					<div data-spollers data-one-spoller class="questions__spollers spollers">
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">Сроки доставки грузов из Китая?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">При перевозке самолётом срок доставки составляет от 3-х до 7-ми дней.
-									При перевозке автомобилем – срок доставки от 16-ти до 25-ти дней, в зависимости от маршрута,
-									ситуации
-									на границе и погодных условий.</p>
-							</div>
-						</details>
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">Какие риски покрывает страхование
-								ответственности экспедитора и перевозчика?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">Наша ответственность застрахована на сумму 25.000.000 руб. Если
-									стоимость груза превышает 25.000.000 руб., лимит страхового покрытия может быть увеличен для
-									конкретной перевозки. Страхование
-									ответственности экспедитора и перевозчика покрывает риски, связанные с утратой или
-									поврежденим груза.</p>
-							</div>
-						</details>
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">На какие грузы есть ограничения при перевозке
-								авиатранспортом из Китая?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">При перевозке
-									авиатранспортом из Китая существуют ограничения по весу и размерам груза. Поэтому в каждом
-									отдельном случае необходимо прорабатывать возможность доставки самолётом, исходя из рамеров и
-									веса груза. Как правило, самолётом перевозятся грузы до 3-х тонн. Для более крупных партий
-									возможна доставка грузовым бортом.</p>
-							</div>
-						</details>
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">Сколько времени занимает таможенное
-								оформление?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">Средний срок прохождения таможенного контроля — 1-3 дня.</p>
-							</div>
-						</details>
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">Что включает в себя процедура таможенного
-								оформления?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">Таможенное оформление включает в себя предъявление разрешительной и
-									сопровождающей груз документации, таможенной декларации и уплату таможенных платежей.</p>
-							</div>
-						</details>
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">Какие документы требуется собрать?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">Перечень документации определяется
-									индивидуально. В расчет принимается вид груза и связанные с этим нюансы, место (т.е.
-									терминал), где будет проводиться таможенное оформление. Узнать перечень документов,
-									требуемых для пересечения грузами границы РФ, вы можете <a class="services__link link"
-										href="https://sudact.ru/law/tk-ts/ii/razdel-5/glava-27-tamozhennoe-deklarirovanie-tovarov/statia-183/?ysclid=lxmxgciwp997671564"
-										target="_blank">здесь</a> (перечень,
-									регламентированный ст. 183 ТК ТС).</p>
-							</div>
-						</details>
-						<details class="spollers__item text">
-							<summary data-spoller-close class="spollers__title">Нужно ли оформлять нотификацию или получать
-								заключение на ввоз бытовой техники с Wi-Fi, Bluetooth; р/у моделей и т.д.?</summary>
-							<div class="spollers__body">
-								<p class="spollers__text">Примечанием к разделу 2.19 единого перечня товаров, к которым
-									применяются меры нетарифного регулирования в торговле с третьими странами, утвержденного
-									Решением Коллегии Евразийской экономической комиссии от 21.04.2015 № 30 «О мерах нетарифного
-									регулирования» установлено, что для целей настоящего раздела необходимо руководствоваться как
-									кодом ТН ВЭД ЕАЭС, так и наименованием товара и, следовательно, если классификационный код
-									перемещаемого товара отсутствует в указанном разделе Единого перечня, либо наименование
-									(характеристики перемещаемого товара) отличны от наименования контролируемого товара, товар
-									не относится к категории шифровальных (криптографических) средств, при перемещении которых
-									требуется представление разрешительных документов таможенным органам.</p>
-							</div>
-						</details>
-					</div>
-				</div>
-			</section>
-
-
-			@@include('html/_action-block.htm',{})
-
-		</main>
-		@@include('html/_footer.htm',{})
+	<div class="rootpage">
+		<h1>Вёрстка сайта «ЕС Транс»</h1>
+		<div class="rootpage__info">
+			Описание проекта
+		</div>
+		<h2>Страницы сайта:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html">Главная</a></li>
+			<li><a target="_blank" href="services-transportation.html">Перевозки</a></li>
+			<li><a target="_blank" href="services-customs.html">Таможенное оформление</a></li>
+			<li><a target="_blank" href="about.html">О нас</a></li>
+			<li><a target="_blank" href="offer-sales-manager.html">Вакансия менеджер по продажам</a></li>
+			<li><a target="_blank" href="offer-logistician.html">Вакансия логист</a></li>
+			<li><a target="_blank" href="offer-driver.html">Вакансия водитель</a></li>
+			<li><a target="_blank" href="contact.html">Контакты</a></li>
+			<li><a target="_blank" href="thank-you-page.html">Cтраница благодарности</a></li>
+			<li><a target="_blank" href="404.html">404</a></li>
+		</ol>
+		</ol>
+		<h2>Нормативные документы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="politika-obrabotki.html">Политика обработки данных</a></li>
+			<li><a target="_blank" href="soglashenie.html">Соглашение об обработке данных</a></li>
+			<li><a target="_blank" href="contract.html">Договор на оказание услуг</a></li>
+			<li><a target="_blank" href="contract-driver.html">Договор c водителем</a></li>
+		</ol>
+		<div class="rootpage__tnx">
+			<h2>Спасибо за заказ!</h2>
+			<p>Буду рад хорошему отзыву.</p>
+			<p>Обращайтесь ещё!</p>
+		</div>
+		<div class="rootpage__contacts">
+			<h2>Мои контакты:</h2>
+			<p>Почта: <a href="mailto:webkrutko@mail.ru">webkrutko@mail.ru</a></p>
+			<p>Телефон: <a href="tel:+375299580130">+375 (29) 677-45 81</a><br>
+				<a href="tel:+79935644581">+7 (993) 564-45-81</a>
+			</p>
+		</div>
 	</div>
-	@@include('html/_popup.htm',{})
-	@@include('html/_js.htm',{})
 </body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #2C2C2C;
+		background-color: #fff;
+	}
+
+	body {
+		font-family: Montserrat;
+		line-height: 1;
+		font-size: 1.3rem;
+	}
+
+	a {
+		color: #2C2C2C;
+		text-decoration: underline;
+		font-weight: 500;
+	}
+
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #7D7D7D;
+		font-size: 3rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #FFCC0D;
+		font-size: 2rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	.rootpage__tnx,
+	.rootpage__contacts {
+		color: #fff;
+		font-size: 1rem;
+	}
+
+	.rootpage__info {
+		font-weight: 600;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #0088CC;
+
+	}
+
+	.rootpage__contacts a {
+		color: #FFD641;
+	}
+
+	.rootpage__tnx {
+		background: #32b5a4;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
 
 </html>

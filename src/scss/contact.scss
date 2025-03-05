@@ -39,6 +39,17 @@
 			max-width: 100%;
 
 		}
+
+		&__img-box {
+			aspect-ratio: 200/184;
+			overflow: hidden;
+		}
+	
+		&__img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
 	}
 
 	iframe {
@@ -85,3 +96,6 @@
 	}
 }
 
+img.icon-contact {
+ vertical-align:baseline;
+}

@@ -24,6 +24,7 @@
 	}
 
 	img {
+		border: 1px solid $secondLinkColor;
 		width: 100%;
 		height: auto;
 		object-fit: cover;
@@ -31,5 +32,5 @@
 }
 
 .contract {
-	background-color: $mainLightColor;
+	background-color: $secondLightColor;
 }

@@ -199,7 +199,7 @@ h4 {
 }
 
 // Кнопки
-button:not(.swiper-button-prev, .swiper-button-next, .menu__icon),
+button:not(.swiper-button-prev, .swiper-button-next, .menu__icon, .select__title, .select__option),
 .button {
    display: inline-block;
    text-transform: uppercase;

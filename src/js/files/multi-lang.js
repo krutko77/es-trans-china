@@ -1,62 +1,78 @@
-const langButtons = document.querySelectorAll("[data-btn]");
-const allLangs = ["ru", "en", "de"];
+const langButtons = document.querySelectorAll("[data-value]");
+const allLangs = [1, 2, 3];
 const currentPathName = window.location.pathname;
-let currentLang = localStorage.getItem("language") || checkBrowserLang() || "ru";
+let currentLang = localStorage.getItem("language") || checkBrowserLang() || 1;
 let currentTexts = {};
 
+// Соответствие значений дата-атрибутов кнопок списка select data-value выбранным языкам
+// 1-RU
+// 2-EN
+// 3-ZH
+
 const homeTexts = {
-	"home_page-title": {
-		ru: "Домашняя страница",
-		en: "Homepage",
-		de: "Startseite",
+	"header-menu-1": {
+		1: "Главная",
+		2: "Home",
+		3: "十月",
 	},
-	"home_page-1": {
-		ru: "Первый параграф",
-		en: "First paragraph",
-		de: "Erster Paragraph",
+	"header-menu-2": {
+		1: "Услуги",
+		2: "Services",
+		3: "服務",
 	},
-	"home_page-2": {
-		ru: "Второй параграф",
-		en: "Second paragraph",
-		de: "Zweiter Absatz",
+	"header-menu-2-1": {
+		1: "Перевозки",
+		2: "Transportation",
+		3: "運輸",
 	},
-	"home_page-3": {
-		ru: "Третий параграф",
-		en: "Third paragraph",
-		de: "Dritter Absatz",
+	"header-menu-2-2": {
+		1: "Таможенное оформление",
+		2: "Customs clearance",
+		3: "報關",
 	},
-	"home_page-4": {
-		ru: "Другая страница",
-		en: "Another page",
-		de: "Eine andere Seite",
+	"header-menu-3": {
+		1: "О нас",
+		2: "About",
+		3: "關於我們",
+	},
+	"header-menu-4": {
+		1: "Вакансии",
+		2: "Vacancies",
+		3: "空缺職位",
+	},
+	"header-menu-4-1": {
+		1: "Менеджер по продажам",
+		2: "Sales Manager",
+		3: "銷售經理",
+	},
+	"header-menu-4-2": {
+		1: "Логист",
+		2: "Logistician",
+		3: "物流師",
+	},
+	"header-menu-4-3": {
+		1: "Водитель",
+		2: "Driver",
+		3: "司機",
+	},
+	"header-menu-5": {
+		1: "Контакты",
+		2: "Contacts",
+		3: "聯絡方式",
+	},
+	"eader-opening-hours": {
+		1: "с 09.00 до 18.00",
+		2: "from 09.00 to 18.00",
+		3: "09:00 至 18:00",
 	},
 };
-const anotherTexts = {
-	"another_page-title": {
-		ru: "Другая страница",
-		en: "Another page",
-		de: "Eine andere Seite",
-	},
-	"another_page-1": {
-		ru: "Первый параграф",
-		en: "First paragraph on another page",
-		de: "Erster Paragraph auf einer anderen Seite",
-	},
-	"another_page-2": {
-		ru: "Второй параграф",
-		en: "Second paragraph on another page",
-		de: "Zweiter Absatz auf einer anderen Seite",
-	},
-	"another_page-3": {
-		ru: "Третий параграф",
-		en: "Third paragraph on another page",
-		de: "Dritter Absatz auf einer anderen Seite",
-	},
-	"another_page-4": {
-		ru: "Домашняя страница",
-		en: "Homepage",
-		de: "Startseite",
-	},
+
+const transportationTexts = {
+	"services-1": {
+		1: "ООО 'ЕС Транс' выполняет перевозки комплектных и сборных грузов из Китая авто и авиа транспортом. Мы стремимся быть надежным партнером для всех, кто нуждается в перевозке грузов, обеспечивая безопасную, эффективную и своевременную доставку.",
+		2: "OOO 'ES Trans' carries out transportation of complete and consolidated cargo from China by road and air transport. We strive to be a reliable partner for all who need cargo transportation, providing safe, efficient and timely delivery.",
+		3: "ES Trans LLC 透過公路和空運從中國運輸整批貨物。我們努力成為每個需要貨物運輸的人士的可靠合作夥伴，確保安全、有效率、及時地運送。",
+	},	
 };
 
 // Проверка пути страницы сайта
@@ -65,8 +81,8 @@ function checkPagePathName() {
 		case "/index.html":
 			currentTexts = homeTexts;
 			break;
-		case "/another_page.html":
-			currentTexts = anotherTexts;
+		case "/transportation.html":
+			currentTexts = transportationTexts;
 			break;
 
 		default:
@@ -90,11 +106,11 @@ changeLang();
 // Вешаем обработчики на каждую кнопку
 langButtons.forEach((btn) => {
 	btn.addEventListener("click", (event) => {
-		if (!event.target.classList.contains("header__btn_active")) {
+		if (!event.target.classList.contains("header__btn--active")) {
 			currentLang = event.target.dataset.btn;
 			localStorage.setItem("language", event.target.dataset.btn);
-			resetActiveClass(langButtons, "header__btn_active");
-			btn.classList.add("header__btn_active");
+			resetActiveClass(langButtons, "header__btn--active");
+			btn.classList.add("header__btn--active");
 			changeLang();
 		}
 	});
@@ -110,26 +126,26 @@ function resetActiveClass(arr, activeClass) {
 // Проверка активной кнопки
 function checkActiveLangButton() {
 	switch (currentLang) {
-		case "ru":
+		case 1:
 			document
-				.querySelector('[data-btn="ru"]')
-				.classList.add("header__btn_active");
+				.querySelector('[data-value="1"]')
+				.classList.add("header__btn--active");
 			break;
-		case "en":
+		case 2:
 			document
-				.querySelector('[data-btn="en"]')
-				.classList.add("header__btn_active");
+				.querySelector('[data-value="2"]')
+				.classList.add("header__btn--active");
 			break;
-		case "de":
+		case 3:
 			document
-				.querySelector('[data-btn="de"]')
-				.classList.add("header__btn_active");
+				.querySelector('[data-value="3"]')
+				.classList.add("header__btn--active");
 			break;
 
 		default:
 			document
 				.querySelector('[data-btn="ru"]')
-				.classList.add("header__btn_active");
+				.classList.add("header__btn--active");
 			break;
 	}
 }

@@ -6,25 +6,25 @@
 		<div class="header__menu menu">
 			<nav class="menu__body">
 				<ul class="menu__list">
-					<li class="menu__item"><a data-goto=".home-page" href="/" class="menu__link">Главная</a></li>
+					<li class="menu__item"><a data-goto=".home-page" href="/" class="menu__link" data-lang="header-menu-1">Главная</a></li>
 					<li class="menu__item menu-item-has-children"><a data-goto-header data-goto=".services" href="#"
-							class="menu__link">Услуги</a>
+							class="menu__link" data-lang="header-menu-2">Услуги</a>
 						<ul class="menu__sub-list sub-menu">
-							<li class="menu__item"><a href="#" class="menu__link sub-link vacancies">Перевозки</a></li>
-							<li class="menu__item"><a href="#" class="menu__link sub-link vacancies">Таможенное оформление</a>
+							<li class="menu__item"><a href="#" class="menu__link sub-link vacancies" data-lang="header-menu-2-1">Перевозки</a></li>
+							<li class="menu__item"><a href="#" class="menu__link sub-link vacancies" data-lang="header-menu-2-2">Таможенное оформление</a>
 							</li>
 						</ul>
 					</li>
-					<li class="menu__item"><a data-goto=".about" href="/about.html" class="menu__link">О нас</a></li>
+					<li class="menu__item"><a data-goto=".about" href="/about.html" class="menu__link" data-lang="header-menu-3">О нас</a></li>
 					<li class="menu__item menu-item-has-children"><a data-goto-header data-goto=".offer" href="#"
-							class="menu__link">Вакансии</a>
+							class="menu__link" data-lang="header-menu-4">Вакансии</a>
 						<ul class="menu__sub-list sub-menu">
-							<li class="menu__item"><a href="#" class="menu__link sub-link">Менеджер по продажам</a></li>
-							<li class="menu__item"><a href="#" class="menu__link sub-link">Логист</a></li>
-							<li class="menu__item"><a href="#" class="menu__link sub-link">Водитель</a></li>
+							<li class="menu__item"><a href="#" class="menu__link sub-link" data-lang="header-menu-4-1">Менеджер по продажам</a></li>
+							<li class="menu__item"><a href="#" class="menu__link sub-link" data-lang="header-menu-4-2">Логист</a></li>
+							<li class="menu__item"><a href="#" class="menu__link sub-link" data-lang="header-menu-4-3">Водитель</a></li>
 						</ul>
 					</li>
-					<li class="menu__item"><a data-goto=".contact" href="/contact.html" class="menu__link">Контакты</a></li>
+					<li class="menu__item"><a data-goto=".contact" href="/contact.html" class="menu__link" data-lang="header-menu-5">Контакты</a></li>
 				</ul>
 			</nav>
 			<div class="menu__icon-wrapper">
@@ -39,15 +39,15 @@
 					<li class="social__item">
 						<div class="opening-hours-telephone">
 							<a class="telephone link" href="tel:74957753078">+7 (495) 775-30-78</a>
-							<p class="opening-hours">с 09.00 до 18.00</p>
+							<p class="opening-hours" data-lang="header-opening-hours">с 09.00 до 18.00</p>
 						</div>
 					</li>
 				</ul>
 				<div class="menu__select">
 					<select name="form[]" data-class-modif="form">
 						<option value="1" selected>RU</option>
-						<option value="2">ZH</option>
-						<option value="3">EN</option>
+						<option value="2">EN</option>
+						<option value="3">ZH</option>
 					</select>
 				</div>
 				<button type="button" class="menu__icon icon-menu" aria-label="Мобильное меню"><span></span></button>

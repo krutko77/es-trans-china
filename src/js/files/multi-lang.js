@@ -1,13 +1,12 @@
-/* const langButtons = document.querySelectorAll("[data-value]");
-const allLangs = [1, 2, 3]; */
-/* const currentPathName = window.location.pathname; */
-/* let currentLang = localStorage.getItem("language") || checkBrowserLang() || 1; */
-/* let currentLang = 1; */
-/* let currentTexts = {}; */
 
 const langButtons = document.querySelectorAll("[data-value]");
 const langSelect = document.querySelector("#languageSelect");
-let currentLang = 1;
+console.log(langSelect);
+
+// Получаем сохраненный язык или устанавливаем 1 (Русский) по умолчанию
+let storedLang = localStorage.getItem("language");
+console.log(storedLang);
+let currentLang = storedLang ? storedLang : 1;
 
 // Соответствие значений дата-атрибутов кнопок списка select data-value выбранным языкам
 // 1-RU
@@ -77,100 +76,8 @@ const transportationTexts = {
 		1: "ООО 'ЕС Транс' выполняет перевозки комплектных и сборных грузов из Китая авто и авиа транспортом. Мы стремимся быть надежным партнером для всех, кто нуждается в перевозке грузов, обеспечивая безопасную, эффективную и своевременную доставку.",
 		2: "OOO 'ES Trans' carries out transportation of complete and consolidated cargo from China by road and air transport. We strive to be a reliable partner for all who need cargo transportation, providing safe, efficient and timely delivery.",
 		3: "ES Trans LLC 透過公路和空運從中國運輸整批貨物。我們努力成為每個需要貨物運輸的人士的可靠合作夥伴，確保安全、有效率、及時地運送。",
-	},	
+	},
 };
-
-/* // Проверка пути страницы сайта
-function checkPagePathName() {
-	switch (currentPathName) {
-		case "/index.html":
-			currentTexts = homeTexts;
-			break;
-		case "/transportation.html":
-			currentTexts = transportationTexts;
-			break;
-
-		default:
-			currentTexts = homeTexts;
-			break;
-	}
-}
-checkPagePathName(); */
-
-// Изменение языка у текстов
-/* function changeLang() {
-	for (const key in homeTexts) {
-		let element = document.querySelector(`[data-lang=${key}]`);
-		if (element) {
-			element.textContent = homeTexts[key][currentLang];
-		}
-	}
-}
-changeLang(); */
-
-// Вешаем обработчики на каждую кнопку
-/* langButtons.forEach((btn) => {
-	btn.addEventListener("click", (event) => {
-		if (!event.target.classList.contains("header__btn--active")) {
-			currentLang = event.target.dataset.value;
-			localStorage.setItem("language", event.target.dataset.btn);
-			/* resetActiveClass(langButtons, "header__btn--active");
-			btn.classList.add("header__btn--active");
-			changeLang();
-		}
-	});
-});
- */
-
-/* // Сброс активного класса у переданного массива элементов
-function resetActiveClass(arr, activeClass) {
-	arr.forEach((element) => {
-		element.classList.remove(activeClass);
-	});
-} */
-
-/* // Проверка активной кнопки
-function checkActiveLangButton() {
-	switch (currentLang) {
-		case 1:
-			document
-				.querySelector('[data-value="1"]')
-				.classList.add("header__btn--active");
-			break;
-		case 2:
-			document
-				.querySelector('[data-value="2"]')
-				.classList.add("header__btn--active");
-			break;
-		case 3:
-			document
-				.querySelector('[data-value="3"]')
-				.classList.add("header__btn--active");
-			break;
-
-		default:
-			document
-				.querySelector('[data-btn="ru"]')
-				.classList.add("header__btn--active");
-			break;
-	}
-}
-checkActiveLangButton();
-
-// Проверка языка браузера
-function checkBrowserLang() {
-	const navLang = navigator.language.slice(0, 2).toLowerCase();
-	const result = allLangs.some((element) => {
-		return element === navLang;
-	});
-	if (result) {
-		return navLang;
-	}
-}
-
-console.log("navigator.language", checkBrowserLang()); */
-
-
 
 // Функция обновления текста
 function changeLang() {
@@ -183,6 +90,12 @@ function changeLang() {
 }
 
 // Устанавливаем язык при загрузке
+if (storedLang) {
+	langSelect.value = storedLang; // Устанавливаем значение из localStorage
+} else {
+	langSelect.value = currentLang; // Устанавливаем значение по умолчанию
+}
+console.log(langSelect.value);
 changeLang();
 
 // Обработчик для кнопок
@@ -190,13 +103,13 @@ langButtons.forEach((btn) => {
 	btn.addEventListener("click", (event) => {
 		currentLang = event.target.dataset.value;
 		localStorage.setItem("language", currentLang);
+		langSelect.value = currentLang; // Обновляем значение select
 		changeLang();
 	});
 });
 
 // Обработчик для select
 if (langSelect) {
-	langSelect.value = currentLang;
 	langSelect.addEventListener("change", (event) => {
 		currentLang = event.target.value;
 		localStorage.setItem("language", currentLang);

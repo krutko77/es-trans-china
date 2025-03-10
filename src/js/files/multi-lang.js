@@ -1,8 +1,13 @@
+/* const langButtons = document.querySelectorAll("[data-value]");
+const allLangs = [1, 2, 3]; */
+/* const currentPathName = window.location.pathname; */
+/* let currentLang = localStorage.getItem("language") || checkBrowserLang() || 1; */
+/* let currentLang = 1; */
+/* let currentTexts = {}; */
+
 const langButtons = document.querySelectorAll("[data-value]");
-const allLangs = [1, 2, 3];
-const currentPathName = window.location.pathname;
-let currentLang = localStorage.getItem("language") || checkBrowserLang() || 1;
-let currentTexts = {};
+const langSelect = document.querySelector("#languageSelect");
+let currentLang = 1;
 
 // Соответствие значений дата-атрибутов кнопок списка select data-value выбранным языкам
 // 1-RU
@@ -60,7 +65,7 @@ const homeTexts = {
 		2: "Contacts",
 		3: "聯絡方式",
 	},
-	"eader-opening-hours": {
+	"header-opening-hours": {
 		1: "с 09.00 до 18.00",
 		2: "from 09.00 to 18.00",
 		3: "09:00 至 18:00",
@@ -75,7 +80,7 @@ const transportationTexts = {
 	},	
 };
 
-// Проверка пути страницы сайта
+/* // Проверка пути страницы сайта
 function checkPagePathName() {
 	switch (currentPathName) {
 		case "/index.html":
@@ -90,40 +95,41 @@ function checkPagePathName() {
 			break;
 	}
 }
-checkPagePathName();
+checkPagePathName(); */
 
 // Изменение языка у текстов
-function changeLang() {
-	for (const key in currentTexts) {
+/* function changeLang() {
+	for (const key in homeTexts) {
 		let element = document.querySelector(`[data-lang=${key}]`);
 		if (element) {
-			element.textContent = currentTexts[key][currentLang];
+			element.textContent = homeTexts[key][currentLang];
 		}
 	}
 }
-changeLang();
+changeLang(); */
 
 // Вешаем обработчики на каждую кнопку
-langButtons.forEach((btn) => {
+/* langButtons.forEach((btn) => {
 	btn.addEventListener("click", (event) => {
 		if (!event.target.classList.contains("header__btn--active")) {
-			currentLang = event.target.dataset.btn;
+			currentLang = event.target.dataset.value;
 			localStorage.setItem("language", event.target.dataset.btn);
-			resetActiveClass(langButtons, "header__btn--active");
+			/* resetActiveClass(langButtons, "header__btn--active");
 			btn.classList.add("header__btn--active");
 			changeLang();
 		}
 	});
 });
+ */
 
-// Сброс активного класса у переданного массива элементов
+/* // Сброс активного класса у переданного массива элементов
 function resetActiveClass(arr, activeClass) {
 	arr.forEach((element) => {
 		element.classList.remove(activeClass);
 	});
-}
+} */
 
-// Проверка активной кнопки
+/* // Проверка активной кнопки
 function checkActiveLangButton() {
 	switch (currentLang) {
 		case 1:
@@ -162,4 +168,38 @@ function checkBrowserLang() {
 	}
 }
 
-console.log("navigator.language", checkBrowserLang());
+console.log("navigator.language", checkBrowserLang()); */
+
+
+
+// Функция обновления текста
+function changeLang() {
+	for (const key in homeTexts) {
+		let element = document.querySelector(`[data-lang=${key}]`);
+		if (element) {
+			element.textContent = homeTexts[key][currentLang];
+		}
+	}
+}
+
+// Устанавливаем язык при загрузке
+changeLang();
+
+// Обработчик для кнопок
+langButtons.forEach((btn) => {
+	btn.addEventListener("click", (event) => {
+		currentLang = event.target.dataset.value;
+		localStorage.setItem("language", currentLang);
+		changeLang();
+	});
+});
+
+// Обработчик для select
+if (langSelect) {
+	langSelect.value = currentLang;
+	langSelect.addEventListener("change", (event) => {
+		currentLang = event.target.value;
+		localStorage.setItem("language", currentLang);
+		changeLang();
+	});
+}

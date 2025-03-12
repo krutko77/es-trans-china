@@ -187,7 +187,14 @@
 
 }
 
-
 .preload {
    transition: none !important;
+}
+
+.offer-button {
+	min-width: 175px;
+}
+
+.action__text {
+	text-shadow: 0 0 3px $mainColor;
 }

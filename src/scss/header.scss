@@ -80,7 +80,7 @@
       .menu-open & {
          left: 0;
          transition: left 0.3s linear;
-      }	
+      }
    }
 
    // Плашка
@@ -230,6 +230,8 @@
 
    &__arrow {
       display: block;
+      position: relative;
+      z-index: 50;
       width: 0px;
       height: 0px;
       border-left: 5px solid transparent;
@@ -238,19 +240,24 @@
       transition: transform 0.3s ease 0s;
    }
 
-	&__select-box {
-		display: flex;
-		align-items: center;
-		margin: 0 20px 0;
+   &__select-box {
+      display: flex;
+      align-items: center;
+      margin: 0 20px 0;
 
-		@media (max-width: $mobileSmall) {
+      @media (max-width: $mobileSmall) {
          margin-left: 10px;
       }
-	}
+   }
 
-	.select {
-		margin-right: 5px;
-	}
+   select {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+		border: none;
+      position: relative;
+      outline: none;
+      padding: 3px 7px;
+      }
 }
 
 @media (any-hover: hover) {

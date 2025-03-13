@@ -2,7 +2,7 @@ export const homeTexts = {
 	"head-title": {
 		ru: "Перевозки из Китая | ЕС Транс",
 		en: "Transportation from China | ES Trans",
-		cn: "從中國運輸",
+		cn: "從中國運輸 | ES Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",
@@ -62,7 +62,7 @@ export const homeTexts = {
 	"home-1": {
 		ru: "ЕС Транс",
 		en: "ES Trans",
-		cn: "電子商務",
+		cn: "ES Trans",
 	},
 	"home-2": {
 		ru: "Надёжность вашего бизнеса",

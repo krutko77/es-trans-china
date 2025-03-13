@@ -2,7 +2,7 @@ export const transportationTexts = {
 	"head-title": {
 		ru: "Перевозки из Китая | ЕС Транс",
 		en: "Transportation from China | ES Trans",
-		cn: "從中國運",
+		cn: "從中國運 | ES Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",

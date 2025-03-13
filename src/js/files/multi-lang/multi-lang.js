@@ -24,17 +24,35 @@ function checkPagePathName() {
 		case "/about.html":
 			currentTexts = aboutTexts;
 			break;
-		case "/offer-sales-manager.html":
+		case "/vacancy-sales-manager.html":
 			currentTexts = offerManagerTexts;
 			break;
-		case "/offer-logistician.html":
+		case "/vacancy-logistician.html":
 			currentTexts = offerLogisticianTexts;
 			break;
-		case "/offer-driver.html":
+		case "/vacancy-driver.html":
 			currentTexts = offerDriverTexts;
 			break;
 		case "/contacts.html":
 			currentTexts = contactsTexts;
+			break;
+			case "/thank-you-page.html":
+			currentTexts = thankTexts;
+			break;
+			case "/404.html":
+			currentTexts = errorTexts;
+			break;
+			case "/contract-driver.html":
+			currentTexts = contractDriverTexts;
+			break;
+			case "/contract.html":
+			currentTexts = contractTexts;
+			break;
+			case "/privacy-policy.html":
+			currentTexts = PrivacyPolicyTexts;
+			break;
+			case "/agreement.html":
+			currentTexts = agreementTexts;
 			break;
 		default:
 			currentTexts = homeTexts;
@@ -53,13 +71,13 @@ function changeLang() {
 	}
 }
 
-// Установка значения select и атрибута selected
+// Установка значения select
 if (langSelect) {
 	langSelect.value = currentLang; // Устанавливаем текущее значение
 }
 
 // Вызываем changeLang для установки текста
-changeLang();
+changeLavacancy
 
 // Обработчик для select
 if (langSelect) {
@@ -81,5 +99,6 @@ function checkBrowserLang() {
 	}
 }
 
-console.log("lang", navigator.language.slice(0, 2));
+/* console.log("lang", navigator.language.slice(0, 2));
 console.log("navigator.language", checkBrowserLang());
+ */

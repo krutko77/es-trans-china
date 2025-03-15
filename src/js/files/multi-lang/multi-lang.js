@@ -1,5 +1,5 @@
 const langSelect = document.getElementById("languageSelect");
-const allLangs = ["ru", "en", "de"];
+const allLangs = ["ru", "en", "cn"];
 const currentPathName = window.location.pathname;
 let currentLang = localStorage.getItem("language") || checkBrowserLang() || "ru";
 let currentTexts = {};
@@ -77,7 +77,7 @@ if (langSelect) {
 }
 
 // Вызываем changeLang для установки текста
-changeLavacancy
+changeLang();
 
 // Обработчик для select
 if (langSelect) {

@@ -8,6 +8,8 @@ let currentTexts = {};
 import { homeTexts } from "./homePage.js";
 // Контент страницы Переврозки
 import { transportationTexts } from "./transportationPage.js";
+// Контент страницы Переврозки
+import { aboutTexts } from "./about.js";
 
 // Проверка пути страницы сайта
 function checkPagePathName() {

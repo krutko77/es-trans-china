@@ -16,7 +16,10 @@ import { aboutTexts } from "./about.js";
 import { errorTexts } from "./404.js";
 // Контент страницы Соглашение
 import { agreementTexts } from "./agreement.js";
-
+// Контент страницы Политика
+import { privacyPolicyTexts } from "./privacy-policy.js";
+// Контент страницы Договоры
+import { contractsTexts } from "./contracts.js";
 
 
 // Проверка пути страницы сайта
@@ -55,11 +58,11 @@ function checkPagePathName() {
 			case "/contract-driver.html":
 			currentTexts = contractDriverTexts;
 			break;
-			case "/contract.html":
-			currentTexts = contractTexts;
+			case "/contracts.html":
+			currentTexts = contractsTexts;
 			break;
 			case "/privacy-policy.html":
-			currentTexts = PrivacyPolicyTexts;
+			currentTexts = privacyPolicyTexts;
 			break;
 			case "/agreement.html":
 			currentTexts = agreementTexts;

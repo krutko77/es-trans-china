@@ -20,6 +20,8 @@ import { agreementTexts } from "./agreement.js";
 import { privacyPolicyTexts } from "./privacy-policy.js";
 // Контент страницы Договоры
 import { contractsTexts } from "./contracts.js";
+// Контент страницы Договор с водителем
+import { contractDriverTexts } from "./contract-driver.js";
 
 
 // Проверка пути страницы сайта

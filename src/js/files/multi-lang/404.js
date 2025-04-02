@@ -1,9 +1,9 @@
-export const aboutTexts = {
+export const errorTexts = {
 	// header
 	"head-title": {
-		ru: "Перевозки из Китая | ЕС Транс",
-		en: "Home | ES-Trans",
-		cn: "首页 | ES-Trans",
+		ru: "404 | ЕС Транс",
+		en: "404 | ES-Trans",
+		cn: "404 | ES-Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",
@@ -60,8 +60,18 @@ export const aboutTexts = {
 		en: "9 am to 6 pm",
 		cn: "从09:00 到 18:00",
 	},
-	
 
+	"error-1": {
+		ru: "Извините, такой страницы у нас нет. Мы поможем найти нужную информацию.",
+		en: "Sorry, this page is not available. We will help to find the necessary information.",
+		cn: "抱歉，您所访问的页面不存在。我们帮您寻找需要的信息。",
+	},
+	"error-2": {
+		ru: "Перейти на главную",
+		en: "Go to the home page",
+		cn: "返回首页",
+	},
+	
 // footer
 "footer-menu-1": {
 		ru: "Политика конфиденциальности",

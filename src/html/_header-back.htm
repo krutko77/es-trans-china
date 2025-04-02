@@ -15,11 +15,19 @@
 				<li class="social__item">
 					<div class="opening-hours-telephone">
 						<a class="telephone link" href="tel:74957753078">+7 (495) 775-30-78</a>
-						<p class="opening-hours">с 09.00 до 18.00</p>
+						<p class="opening-hours" data-lang="header-opening-hours">с 09.00 до 18.00</p>
 					</div>
 				</li>
 			</ul>
-			<button class="header__back-button back-button" id="backward">Назад</button>
+			<div class="menu__select-box">
+				<select id="languageSelect">
+					<option value="ru">RU</option>
+					<option value="en">EN</option>
+					<option value="cn">CN</option>
+				</select>
+				<span class="menu__arrow"></span>
+			</div>
+			<button class="header__back-button back-button" id="backward" data-lang="header-back-button">Назад</button>
 		</div>
 	</div>
 </header>

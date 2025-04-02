@@ -1,69 +1,66 @@
 export const transportationTexts = {
+	// header
 	"head-title": {
 		ru: "Перевозки из Китая | ЕС Транс",
-		en: "Transportation from China | ES Trans",
-		cn: "從中國運 | ES Trans",
+		en: "Home | ES-Trans",
+		cn: "首页 | ES-Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",
 		en: "Home",
-		cn: "十月",
+		cn: "首页",
 	},
 	"header-menu-2": {
 		ru: "Услуги",
 		en: "Services",
-		cn: "服務",
+		cn: "服务",
 	},
 	"header-menu-2-1": {
 		ru: "Перевозки",
-		en: "Transportation",
-		cn: "運輸",
+		en: "Shipping Operations",
+		cn: "国际运输",
 	},
 	"header-menu-2-2": {
 		ru: "Таможенное оформление",
-		en: "Customs clearance",
-		cn: "報關",
+		en: "Customs Clearance",
+		cn: "办理通关手续",
 	},
 	"header-menu-3": {
 		ru: "О нас",
-		en: "About",
-		cn: "關於我們",
+		en: "About Us",
+		cn: "关于我们",
 	},
 	"header-menu-4": {
 		ru: "Вакансии",
 		en: "Vacancies",
-		cn: "空缺職位",
+		cn: "加入我们",
 	},
 	"header-menu-4-1": {
 		ru: "Менеджер по продажам",
 		en: "Sales Manager",
-		cn: "銷售經理",
+		cn: "销售专员",
 	},
 	"header-menu-4-2": {
 		ru: "Логист",
-		en: "Logistician",
-		cn: "物流師",
+		en: "Logistics Specialist",
+		cn: "操作员",
 	},
 	"header-menu-4-3": {
 		ru: "Водитель",
 		en: "Driver",
-		cn: "司機",
+		cn: "驾驶员",
 	},
 	"header-menu-5": {
 		ru: "Контакты",
 		en: "Contacts",
-		cn: "聯絡方式",
+		cn: "联系方式",
 	},
 	"header-opening-hours": {
 		ru: "с 09.00 до 18.00",
-		en: "from 09.00 to 18.00",
-		cn: "09:00 至 18:00",
-	},
-	"transportation-title": {
-		ru: "Перевозки",
-		en: "Transportation",
-		cn: "運輸",
-	},
+		en: "9 am to 6 pm",
+		cn: "从09:00 到 18:00",
+	},	
+	
 	"transportation-1": {
 		ru: "ООО 'ЕС Транс' выполняет перевозки комплектных и сборных грузов из Китая авто и авиа транспортом. Мы стремимся быть надежным партнером для всех, кто нуждается в перевозке грузов, обеспечивая безопасную, эффективную и своевременную доставку.",
 		en: "OOO 'ES Trans' carries out transportation of complete and consolidated cargo from China by road and air transport. We strive to be a reliable partner for all who need cargo transportation, providing safe, efficient and timely delivery.",
@@ -104,4 +101,26 @@ export const transportationTexts = {
 		en: "",
 		cn: "",
 	},
+
+	// footer
+"footer-menu-1": {
+	ru: "Политика конфиденциальности",
+	en: "Privacy Policy",
+	cn: "隐私政策",
+},
+"footer-menu-2": {
+	ru: "Соглашение об обработке данных",
+	en: "Data Processing Agreement",
+	cn: "个人信息处理同意书",
+},
+"footer-menu-3": {
+	ru: "Договор на оказание услуг",
+	en: "Service Agreement",
+	cn: "服务合同",
+},
+"footer-bottom": {
+	ru: "ООО «ЕС Транс», 2025",
+	en: "OOO ES-Trans, 2025",
+	cn: "2025 年，«ES Trans» 有限公司",
+}
 };

@@ -1,9 +1,9 @@
-export const aboutTexts = {
+export const agreementTexts = {
 	// header
 	"head-title": {
-		ru: "Перевозки из Китая | ЕС Транс",
-		en: "Home | ES-Trans",
-		cn: "首页 | ES-Trans",
+		ru: "Соглашение об обработке данных | ЕС Транс",
+		en: "Data Processing Agreement | ES-Trans",
+		cn: "个人信息进行处理协议书 | ES Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",
@@ -60,8 +60,23 @@ export const aboutTexts = {
 		en: "9 am to 6 pm",
 		cn: "从09:00 到 18:00",
 	},
-	
 
+	"header-back-button": {
+		ru: "Назад",
+		en: "Back",
+		cn: "返回",
+	},
+	"agreement-1": {
+		ru: "Соглашение",
+		en: "Personal",
+		cn: "个人信息",
+	},
+	"agreement-2": {
+		ru: "об обработке персональных данных",
+		en: "Data Processing Agreement",
+		cn: "进行处理协议书",
+	},
+	
 // footer
 "footer-menu-1": {
 		ru: "Политика конфиденциальности",

@@ -11,6 +11,14 @@ import { transportationTexts } from "./transportationPage.js";
 // Контент страницы Переврозки
 import { aboutTexts } from "./about.js";
 
+
+// Контент страницы 404
+import { errorTexts } from "./404.js";
+// Контент страницы Соглашение
+import { agreementTexts } from "./agreement.js";
+
+
+
 // Проверка пути страницы сайта
 function checkPagePathName() {
 	switch (currentPathName) {

@@ -258,6 +258,10 @@ select {
    position: relative;
    outline: none;
    padding: 3px 7px;
+	@media (max-width: $mobileSmall) {
+		font-size: 18px;
+	}
+	
 }
 
 @media (any-hover: hover) {

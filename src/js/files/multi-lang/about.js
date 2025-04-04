@@ -87,14 +87,14 @@ export const aboutTexts = {
 		cn: "在俄罗斯市场运营中，我们的核心客户包括行业领军企业：John Deere（约翰迪尔）、VOLVO Trucks（沃尔沃卡车）、Danfoss（丹佛斯）、Grundfos（格兰富）、Thyssen Krupp（蒂森克虏伯）、Philips Medical（飞利浦医疗）。通过深度战略合作，团队积累了宝贵的行业经验：不仅深刻理解了准时交付与主动式工作模式的重要性，更精准掌握了客户需求的特性化维度。",
 	},
 	"about-6": {
-		ru: "Сегодня ООО «ЕС Транс» - член АСМАП, таможенный перевозчик, в основном перевозящий грузы по России и странам СНГ, в международном сообщении перевозим грузы от приграничных Торгово-логистических терминалов до СВХ и конечных грузополучателей как в России, так и странах ЕАЭС.",
-		en: "Today OOO ES-Trans is a member of ASMAP, a customs carrier, who mainly transports goods in Russia and CIS countries, and internationally we deliver goods from the near-border Trade and Logistics Terminals to the temporary storages and end consignees both in Russia and in the EAEU countries.",
-		cn: "目前，ES Trans运输有限公司是俄罗斯国际公路运输协会（ASMAP）认证成员，同时也是海关授权承运商。公司主营业务覆盖俄罗斯及独联体国家的国际货运服务。在国际物流领域，我们依托边境贸易物流枢纽，将货物从跨境节点运输至俄罗斯、欧亚经济联盟（EAEU）成员国的清关仓库及终端客户所在地。",
+		ru: "Сегодня ООО «ЕС Транс» – член АСМАП, таможенный перевозчик, в основном перевозящий грузы в международном сообщении из Китая в Россию и Беларусь, а также грузы от приграничных Торгово-логистических терминалов до СВХ и конечных грузополучателей как в России, так и странах ЕАЭС.",
+		en: "Today, ES-Trans is a member of ASMAP and a licensed customs carrier, primarily transporting international cargo from China to Russia and Belarus, as well as goods from border trade and logistics terminals to temporary storage warehouses (TSW) and final consignees both in Russia and other EAEU countries.",
+		cn: "目前，ES Trans运输有限公司是俄罗斯国际公路运输协会（ASMAP）认证成员，同时也是海关授权承运商。公司主营业务是从中国到俄罗斯与白俄罗斯货运服务。我们依托边境商贸物流中心，将货物从边境运输至俄罗斯或欧亚经济联盟（EAEU）最终的收货人，监管库。",
 	},
 	"about-7": {
-		ru: "«Ай Си Ти ЛОГИСТИКС», в свою очередь, - признанный на Российском рынке международный экспедитор, оказывающий услуги по доставке импортных грузов различными видами транспорта, включая мультимодальные перевозки, перевозки сборных грузов, в том числе с промежуточной консолидацией, перевозки грузов с соблюдением температурного режима и перевозки опасных грузов.",
-		en: "ICT LOGISTICS, in its turn, is an international forwarding agent recognized in the Russian market, which provides delivery services of imported goods by various types of transport, including multimodal transportation, consolidated loads, including intermediate consolidation, the transport of cargo with temperature control, and the transport of dangerous goods.",
-		cn: "ICT Logistics公司作为俄罗斯市场公认的国际货运代理服务商，提供涵盖多种运输模式的进口货物物流解决方案，服务范围包括：多式联运、拼箱货运（含途中集拼）、恒温货物运输及危险品专业运输等。",
+		ru: "«ЕС Транс» – признанный на Российском рынке международный экспедитор, оказывающий услуги по доставке импортных грузов различными видами транспорта, включая авиа транспорт,  перевозки сборных грузов, в том числе с промежуточной консолидацией, перевозки грузов с соблюдением температурного режима и перевозки опасных грузов.",
+		en: "ES-Trans is a recognized international freight forwarder on the Russian market, providing import cargo delivery services using various modes of transport, including air freight, consolidated (groupage) shipments — with intermediate consolidation if necessary — as well as temperature-controlled and hazardous goods transportation.",
+		cn: "ES Trans公司作为俄罗斯市场公认的国际货运代理服务商，提供多种运输模式的进口货物物流解决方案，服务范围包括：多式联运 （含空运）、拼箱货运（含途中集拼）、恒温货物运输及危险品专业运输等。",
 	},
 	"about-8": {
 		ru: "Наши достижения и награды",
@@ -137,7 +137,7 @@ export const aboutTexts = {
 		cn: "年度卓越承运商",
 	},
 	"about-16": {
-		ru: "ООО «ЕС Транс» –  активный член АСМАП и в 2020 году мы приняли участие и стали победителями во всероссийском конкурсе «Лучший Перевозчик года – 2020».",
+		ru: "ООО «ЕС Транс» – активный член АСМАП и в 2020 году мы приняли участие и стали победителями во всероссийском конкурсе «Лучший Перевозчик года – 2020».",
 		en: "OOO ES-Trans is an active member of ASMAP, and in 2020 we participated and won in the all-Russian competition «Best Carrier of the year – 2020».",
 		cn: "ES Trans物流有限公司为俄罗斯国际公路运输协会（ASMAP）主动会员。2020年，我司在行业评选中荣获«年度卓越承运商»称号。",
 	},
@@ -239,14 +239,26 @@ export const aboutTexts = {
 	"about-36": {
 		ru: "Наш парк",
 		en: "Our fleet",
-		cn: "我们公司汽车总额",
+		cn: "我们公司汽车总数",
 	},
 	"about-37": {
 		ru: "Парк автомобилей ООО «ЕС Транс» состоит из 13 тентованных автопоездов. Тягачи Евро 5 и Евро 6 – Mercedes Actros и Foton.",
 		en: "OOO ES-Trans fleet consists of 13 trucks with covered tilt trailers. Euro 5 and Euro 6 trucks – Mercedes Actros and Foton.",
 		cn: "“ES Trans”自有13辆普通篷布车：欧五标准及欧六标准 （奔驰Actros与福田汽车）。",
 	},
-	
+
+	// action-block
+	"action-block-1": {
+		ru: "Узнайте стоимость вашего заказа",
+		en: "Discover the price of your order",
+		cn: "算询盘的价格",
+	},
+	"action-block-2": {
+		ru: "Рассчитать",
+		en: "Calculate",
+		cn: "算运费",
+	},
+
 	// footer
 	"footer-menu-1": {
 		ru: "Политика конфиденциальности",
@@ -267,5 +279,141 @@ export const aboutTexts = {
 		ru: "ООО «ЕС Транс», 2025",
 		en: "OOO ES-Trans, 2025",
 		cn: "2025 年，«ES Trans» 有限公司",
-	}
+	},
+
+	// Формы обратной связи
+	"form-1": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"form-2": {
+		ru: "Приветствую вас!",
+		en: "Welcome!",
+		cn: "您好！",
+	},
+	"form-3": {
+		ru: "Меня зовут Сергей Денисов, начальник отдела таможенного оформления и доставки ООО «ЕС Транс». Заполните пожалуйста форму, и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.",
+		en: "I am Sergey Denisov, the head of the Customs Clearance and Delivery Department in OOO ES-Trans. Please fill in the form, I will respond to all your questions and tell you about the advantages of working with our company.",
+		cn: "我是国际运输及通关部门总经理 Sergei Denisov。为高效处理您的需求，请协助填写下方表格。提交后，我将第一时间为您解答问题，并详细说明我们业务的核心优势。",
+	},
+	"form-4": {
+		ru: "Название компании*",
+		en: "Company name*",
+		cn: "公司名称*",
+	},
+	"form-5": {
+		ru: "Имя*",
+		en: "First Name ",
+		cn: "名字*",
+	},
+	"form-6": {
+		ru: "Телефон или мессенджер*",
+		en: "Phone or messenger*",
+		cn: "电话号码或微信*",
+	},
+	"form-7": {
+		ru: "E-mail*",
+		en: "E-mail*",
+		cn: "E-mail*",
+	},
+	"form-8": {
+		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
+		en: "Please ask your questions regarding delivery or customs clearance*",
+		cn: "请写一下您的国际运输或通关手续问题。",
+	},
+	"form-9": {
+		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
+		en: "By filling in the form I agree to personal data processing under",
+		cn: "填写本表格时，",
+	},
+	"form-10": {
+		ru: "Политикой",
+		en: "the Personal Data",
+		cn: "即表示本人同意根据",
+	},
+	"form-11": {
+		ru: "и",
+		en: "Processing",
+		cn: "",
+	},
+	"form-12": {
+		ru: "Соглашением",
+		en: "Policy",
+		cn: "",
+	},
+	"form-13": {
+		ru: "обработки персональных данных",
+		en: "and Agreement",
+		cn: "",
+	},
+	"form-14": {
+		ru: "Отправить",
+		en: "Send",
+		cn: "提交",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},"form-1": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
 }
+

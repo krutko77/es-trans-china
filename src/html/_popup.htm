@@ -133,10 +133,11 @@
 <div id="popup-form-customs" aria-hidden="true" class="popup">
 	<div class="popup__wrapper">
 		<div class="popup__content content-form customs">
-			<button data-close type="button" class="popup__close margin-bottom-10">Закрыть</button>
-			<h3 class="poput__title title">Приветствую вас!</h3>
+			<button data-close type="button" class="popup__close margin-bottom-10" data-lang="form-1">Закрыть</button>
+			<h3 class="poput__title title" data-lang="form-2">Приветствую вас!</h3>
 			<div class="popup__top margin-bottom-20">
-				<div class="popup__description">Меня зовут Сергей Денисов, начальник отдела таможенного оформления и
+				<div class="popup__description" data-lang="form-3">Меня зовут Сергей Денисов, начальник отдела таможенного
+					оформления и
 					доставки ООО "ЕС Транс". Заполните
 					пожалуйста форму, и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.
 				</div>
@@ -153,39 +154,45 @@
 							<input class="form__input for-clear text" id="company-name-customs" type="text"
 								name="company-name-customs" data-validate data-error="Напишите название компании" data-required
 								placeholder=" ">
-							<label class="form__label customs text-form" for="company-name-customs">Название компании *</label>
+							<label class="form__label customs text-form" for="company-name-customs" data-lang="form-4">Название
+								компании *</label>
 						</div>
 						<div class="form__placeholder-container">
 							<input class="form__input for-clear text" id="first-name-customs" type="text"
 								name="first-name-customs" data-validate data-error="Напишите имя" data-required placeholder=" ">
-							<label class="form__label customs text-form" for="first-name-customs">Имя *</label>
+							<label class="form__label customs text-form" for="first-name-customs" data-lang="form-5">Имя
+								*</label>
 						</div>
 						<div class="form__placeholder-container">
 							<input class="form__input for-clear text" id="tel-customs" type="text" name="tel-customs"
 								data-validate data-error="Напишите телефон или мессенджер" data-required placeholder=" ">
-							<label class="form__label customs text-form" for="tel-customs">Телефон или мессенджер *</label>
+							<label class="form__label customs text-form" for="tel-customs" data-lang="form-6">Телефон или
+								мессенджер *</label>
 						</div>
 						<div class="form__placeholder-container">
 							<input class="form__input for-clear text" id="email-customs" type="email" name="email-customs"
 								data-validate data-error="Напишите ваш e-mail" data-required placeholder=" ">
-							<label class="form__label customs text-form" for="email-customs">E-mail *</label>
+							<label class="form__label customs text-form" for="email-customs" data-lang="form-7">E-mail
+								*</label>
 						</div>
 						<div class="form__placeholder-container">
 							<textarea class="form__input for-clear text" name="text-message-customs" id="text-message"
 								data-validate data-error="Напишите ваш вопрос" data-required placeholder=" "></textarea>
-							<label class="form__label customs" for="text-message-customs">Напишите ваш вопрос по доставке или
+							<label class="form__label customs" for="text-message-customs" data-lang="form-8">Напишите ваш
+								вопрос по доставке или
 								таможенному
 								оформлению *</label>
 						</div>
 						<div class="form__checkbox checkbox">
 							<input id="formAgreementCustoms" type="checkbox" name="agreement-customs" class="checkbox__input"
 								data-required>
-							<label for="formAgreementCustoms" class="checkbox__label"><span class="text-form customs">Заполняя
-									форму, я
-									соглашаюсь на обработку персональных данных в соответствии с <a class="form__link"
-										href="https://es-trans.ru/privacy-policy/">Политикой</a> и <a class="form__link"
-										href="https://es-trans.ru/soglashenie/">Соглашением</a>
-									обработки персональных данных</span></label>
+							<label for="formAgreementCustoms" class="checkbox__label"><span class="text-form customs"><span
+										data-lang="form-9">Заполняя
+										форму, я
+										соглашаюсь на обработку персональных данных в соответствии с </span><a class="form__link"
+										href="/privacy-policy.html" data-lang="form-10">Политикой</a><span data-lang="form-11"> и
+									</span><a class="form__link" href="/agreement.html" data-lang="form-12">Соглашением</a>
+									<span data-lang="form-13">обработки персональных данных</span></span></label>
 						</div>
 						<input type="hidden" name="code" value="" id="code-customs">
 						<div class="form__video-box">
@@ -196,7 +203,7 @@
 						</div>
 					</div>
 					<button class="form__button form-button-customs text button offer-button clear-button margin-bottom-20"
-						type="submit">Отправить</button>
+						type="submit" data-lang="form-14">Отправить</button>
 				</form>
 			</div>
 		</div>
@@ -238,18 +245,21 @@
 							<textarea class="form__input for-clear text" name="text-message-offer" id="text-message-offer"
 								data-validate data-error="Напишите, почему вы хотите работать у нас" data-required
 								placeholder=" "></textarea>
-							<label class="form__label" for="text-message-offer">Почему вы хотите работать у нас<br>(с указанием вакансии)*</label>
+							<label class="form__label" for="text-message-offer">Почему вы хотите работать у нас<br>(с указанием
+								вакансии)*</label>
 						</div>
 						<div class="form__checkbox checkbox">
 							<input id="formAgreementOffer" type="checkbox" name="agreement" class="checkbox__input"
 								data-required>
-							<label for="formAgreementOffer" class="checkbox__label"><span class="text-form">Заполняя форму, я
-									соглашаюсь на обработку персональных данных в соответствии с <a class="form__link"
-										href="https://es-trans.ru/privacy-policy/">Политикой</a> и <a class="form__link"
-										href="https://es-trans.ru/soglashenie/">Соглашением</a> обработки персональных
-									данных</span></label>
+							<label for="formAgreementCustoms" class="checkbox__label"><span class="text-form customs"><span
+										data-lang="form-9">Заполняя
+										форму, я
+										соглашаюсь на обработку персональных данных в соответствии с </span><a class="form__link"
+										href="/privacy-policy.html" data-lang="form-10">Политикой</a> и <a class="form__link"
+										href="/agreement.html" data-lang="form-11">Соглашением</a>
+									обработки персональных данных</span></label>
 						</div>
-						<input type="hidden" name="code" value="" id="code-offer">
+						<input type="hidden" name="code" value="" id="code-customs">
 						<div class="form__video-box">
 							<video autoplay loop muted playsinline>
 								<source src="@img/loading/loading-96.webm" type="video/webm">
@@ -257,8 +267,8 @@
 							</video>
 						</div>
 					</div>
-					<button class="form__button form-button-offer text button offer-button clear-button margin-bottom-20"
-						type="submit">Отправить</button>
+					<button class="form__button form-button-customs text button offer-button clear-button margin-bottom-20"
+						type="submit" data-lang="form-12">Отправить</button>
 				</form>
 			</div>
 		</div>
@@ -296,13 +306,15 @@
 						<div class="form__checkbox checkbox">
 							<input id="formAgreementDriver" type="checkbox" name="agreement" class="checkbox__input"
 								data-required>
-							<label for="formAgreementDriver" class="checkbox__label"><span class="text-form">Заполняя форму, я
-									соглашаюсь на обработку персональных данных в соответствии с <a class="form__link"
-										href="https://es-trans.ru/privacy-policy/">Политикой</a> и <a class="form__link"
-										href="https://es-trans.ru/soglashenie/">Соглашением</a> обработки персональных
-									данных</span></label>
+							<label for="formAgreementCustoms" class="checkbox__label"><span class="text-form customs"><span
+										data-lang="form-9">Заполняя
+										форму, я
+										соглашаюсь на обработку персональных данных в соответствии с </span><a class="form__link"
+										href="/privacy-policy.html" data-lang="form-10">Политикой</a> и <a class="form__link"
+										href="/agreement.html" data-lang="form-11">Соглашением</a>
+									обработки персональных данных</span></label>
 						</div>
-						<input type="hidden" name="code" value="" id="code-driver">
+						<input type="hidden" name="code" value="" id="code-customs">
 						<div class="form__video-box">
 							<video autoplay loop muted playsinline>
 								<source src="@img/loading/loading-96.webm" type="video/webm">
@@ -310,8 +322,8 @@
 							</video>
 						</div>
 					</div>
-					<button class="form__button form-button-driver text button offer-button clear-button margin-bottom-20"
-						type="submit">Отправить</button>
+					<button class="form__button form-button-customs text button offer-button clear-button margin-bottom-20"
+						type="submit" data-lang="form-12">Отправить</button>
 				</form>
 			</div>
 		</div>

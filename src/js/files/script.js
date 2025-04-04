@@ -19,6 +19,17 @@ if (document.querySelector('.back-button')) {  // Проверяем налич�
 	};
 }
 
+// Добавление класса _navigator-active к активному пункту меню
+const currentPage = location.href;
+const allAs = document.querySelectorAll('.menu__link');
+const allAsLength = allAs.length
+
+for (let i = 0; i < allAsLength; i++) {
+	if (allAs[i].href === currentPage) {
+		allAs[i].className = "menu__link _navigator-active";
+	}
+}
+
 // Для меню со вложенностями при переносе на WP
 // Находим все элементы li с классом menu-item-has-children
 const menuItems = document.querySelectorAll('li.menu-item-has-children');

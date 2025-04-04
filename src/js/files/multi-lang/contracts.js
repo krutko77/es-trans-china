@@ -100,7 +100,7 @@ export const contractsTexts = {
 	},
 "footer-bottom": {
 		ru: "ООО «ЕС Транс», 2025",
-		en: "OOO ES-Trans, 2025",
+		en: "ES-Trans, 2025",
 		cn: "2025 年，«ES Trans» 有限公司",
 	}
 }

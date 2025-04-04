@@ -73,12 +73,12 @@ export const aboutTexts = {
 	},
 	"about-3": {
 		ru: "История нашей компании начинается в 2001 году, когда Датская компания ICT A/S, будучи дочкой Maersk A/S и GT Spedition A/S, создала подразделение по автомобильным перевозкам из Дании в Россию, куда вошли восемь инициативных сотрудников в Дании, Литве и Москве. Объемы перевозок росли динамично и в 2004 было принято решение открыть филиал ICT A/S в Москве. Так появилось ООО «Ай Си Ти ЛОГИСТИКС» в составе 3-х человек.",
-		en: "The history of our company dates back to 2001, when the Dutch company ICT A/S, being a subsidiary of Maersk A/S and GT Spedition A/S, established a subdivision for road transport from Denmark to Russia, which involved eight proactive employees in Denmark, Lithuania, and Moscow. The shipping volumes were growing dynamically, and in 2004 it was decided to open a branch of ICT A/S in Moscow. That is when OOO ICT LOGISTICS consisting of 3 people appeared.",
+		en: "The history of our company dates back to 2001, when the Dutch company ICT A/S, being a subsidiary of Maersk A/S and GT Spedition A/S, established a subdivision for road transport from Denmark to Russia, which involved eight proactive employees in Denmark, Lithuania, and Moscow. The shipping volumes were growing dynamically, and in 2004 it was decided to open a branch of ICT A/S in Moscow. That is when ICT LOGISTICS consisting of 3 people appeared.",
 		cn: "我们公司的发展始于2001年：当时ICT A/S作为马士基集团（Maersk A/S）与GT国际货运（GT Spedition A/S）的合资企业正式成立，专门负责丹麦与俄罗斯之间的运输业务。凭借8位富有开拓精神的员工的卓越工作，公司运输量实现显著增长。2004年，ICT A/S在莫斯科设立分支机构。此后，三位创始人共同创立了ICT Logistics有限公司。",
 	},
 	"about-4": {
 		ru: "В 2006 была зарегистрирована компания ООО «ЕС Транс» - автоперевозчик. В 2008 году в Москве уже было 6 сотрудников, а «ЕС Транс» оперировал 15-ю магистральными автомобилями. В 2010 году открыт офис в Калуге, динамично выросли все показатели: количество клиентов, количество международных перевозок, активность на локальном российском рынке.",
-		en: "OOO ES-Trans, a road carrier, was registered in 2006. In 2008 there were already 6 employees in Moscow, and ES-Trans handled 15 long distance trucks. In 2010 an office was opened in Kaluga, and all of our metrics increased dynamically: the number of customers, the number of international shipments, and activity in the local Russian market.",
+		en: "ES-Trans, a road carrier, was registered in 2006. In 2008 there were already 6 employees in Moscow, and ES-Trans handled 15 long distance trucks. In 2010 an office was opened in Kaluga, and all of our metrics increased dynamically: the number of customers, the number of international shipments, and activity in the local Russian market.",
 		cn: "ES Trans运输有限公司于2006年成立。2008年，莫斯科分公司团队已扩充至6人，车辆总数增至15辆。2010年，公司在卡鲁加市设立新的分支机构。此时，ES Trans运输有限公司综合业务指标显著提升，包括客户数量、国际货运量、俄罗斯境内运输规模等重要领域。",
 	},
 	"about-5": {
@@ -108,7 +108,7 @@ export const aboutTexts = {
 	},
 	"about-10": {
 		ru: "ООО «ЕС Транс» с 2010 года осуществляет перевозки грузов из Европы и России по всем странам Центральной Азии.",
-		en: "OOO ES-Trans has been shipping goods from Europe and Russia to all Central Asian countries since 2010.",
+		en: "ES-Trans has been shipping goods from Europe and Russia to all Central Asian countries since 2010.",
 		cn: "自2010年起，ES Trans物流有限公司持续提供从欧洲至俄罗斯及中西亚国家的跨境陆运服务。",
 	},
 	"about-11": {
@@ -138,7 +138,7 @@ export const aboutTexts = {
 	},
 	"about-16": {
 		ru: "ООО «ЕС Транс» – активный член АСМАП и в 2020 году мы приняли участие и стали победителями во всероссийском конкурсе «Лучший Перевозчик года – 2020».",
-		en: "OOO ES-Trans is an active member of ASMAP, and in 2020 we participated and won in the all-Russian competition «Best Carrier of the year – 2020».",
+		en: "ES-Trans is an active member of ASMAP, and in 2020 we participated and won in the all-Russian competition «Best Carrier of the year – 2020».",
 		cn: "ES Trans物流有限公司为俄罗斯国际公路运输协会（ASMAP）主动会员。2020年，我司在行业评选中荣获«年度卓越承运商»称号。",
 	},
 	"about-17": {
@@ -243,7 +243,7 @@ export const aboutTexts = {
 	},
 	"about-37": {
 		ru: "Парк автомобилей ООО «ЕС Транс» состоит из 13 тентованных автопоездов. Тягачи Евро 5 и Евро 6 – Mercedes Actros и Foton.",
-		en: "OOO ES-Trans fleet consists of 13 trucks with covered tilt trailers. Euro 5 and Euro 6 trucks – Mercedes Actros and Foton.",
+		en: "ES-Trans fleet consists of 13 trucks with covered tilt trailers. Euro 5 and Euro 6 trucks – Mercedes Actros and Foton.",
 		cn: "“ES Trans”自有13辆普通篷布车：欧五标准及欧六标准 （奔驰Actros与福田汽车）。",
 	},
 
@@ -277,143 +277,15 @@ export const aboutTexts = {
 	},
 	"footer-bottom": {
 		ru: "ООО «ЕС Транс», 2025",
-		en: "OOO ES-Trans, 2025",
+		en: "ES-Trans, 2025",
 		cn: "2025 年，«ES Trans» 有限公司",
 	},
-
-	// Формы обратной связи
-	"form-1": {
+	
+	// Попап с формой Битрикс
+	"popup-11": {
 		ru: "Закрыть",
 		en: "Close",
 		cn: "关闭",
-	},
-	"form-2": {
-		ru: "Приветствую вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	},
-	"form-3": {
-		ru: "Меня зовут Сергей Денисов, начальник отдела таможенного оформления и доставки ООО «ЕС Транс». Заполните пожалуйста форму, и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.",
-		en: "I am Sergey Denisov, the head of the Customs Clearance and Delivery Department in OOO ES-Trans. Please fill in the form, I will respond to all your questions and tell you about the advantages of working with our company.",
-		cn: "我是国际运输及通关部门总经理 Sergei Denisov。为高效处理您的需求，请协助填写下方表格。提交后，我将第一时间为您解答问题，并详细说明我们业务的核心优势。",
-	},
-	"form-4": {
-		ru: "Название компании*",
-		en: "Company name*",
-		cn: "公司名称*",
-	},
-	"form-5": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-6": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-7": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-8": {
-		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
-		en: "Please ask your questions regarding delivery or customs clearance*",
-		cn: "请写一下您的国际运输或通关手续问题。",
-	},
-	"form-9": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-10": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-11": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-12": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-13": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-14": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
-	},"form-1": {
-		ru: "",
-		en: "",
-		cn: "",
 	},
 }
 

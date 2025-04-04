@@ -7,9 +7,12 @@ let currentTexts = {};
 // Контент главной страницы
 import { homeTexts } from "./homePage.js";
 // Контент страницы Переврозки
-import { transportationTexts } from "./transportationPage.js";
+import { transportationTexts } from "./services-transportation.js";
 // Контент страницы Переврозки
 import { aboutTexts } from "./about.js";
+
+// Контент страницы Переврозки
+import { contactsTexts } from "./contacts.js";
 
 
 // Контент страницы 404

@@ -97,24 +97,82 @@ export const homeTexts = {
 
 
 	// footer
-"footer-menu-1": {
-	ru: "Политика конфиденциальности",
-	en: "Privacy Policy",
-	cn: "隐私政策",
-},
-"footer-menu-2": {
-	ru: "Соглашение об обработке данных",
-	en: "Data Processing Agreement",
-	cn: "个人信息处理同意书",
-},
-"footer-menu-3": {
-	ru: "Договор на оказание услуг",
-	en: "Service Agreement",
-	cn: "服务合同",
-},
-"footer-bottom": {
-	ru: "ООО «ЕС Транс», 2025",
-	en: "OOO ES-Trans, 2025",
-	cn: "2025 年，«ES Trans» 有限公司",
-}
+	"footer-menu-1": {
+		ru: "Политика конфиденциальности",
+		en: "Privacy Policy",
+		cn: "隐私政策",
+	},
+	"footer-menu-2": {
+		ru: "Соглашение об обработке данных",
+		en: "Data Processing Agreement",
+		cn: "个人信息处理同意书",
+	},
+	"footer-menu-3": {
+		ru: "Договор на оказание услуг",
+		en: "Service Agreement",
+		cn: "服务合同",
+	},
+	"footer-bottom": {
+		ru: "ООО «ЕС Транс», 2025",
+		en: "ES-Trans, 2025",
+		cn: "2025 年，«ES Trans» 有限公司",
+	},
+
+	// Попапы
+	"popup-1": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-2": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-3": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-4": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-5": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-6": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-7": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-8": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-9": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	"popup-10": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
+	// Попап с формой Битрикс
+	"popup-11": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},
 }

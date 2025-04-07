@@ -5,7 +5,7 @@ let currentLang = localStorage.getItem("language") || checkBrowserLang() || "ru"
 let currentTexts = {};
 
 // Контент главной страницы
-import { homeTexts } from "./homePage.js";
+import { homeTexts } from "./home.js";
 // Контент страницы Переврозки
 import { transportationTexts } from "./services-transportation.js";
 // Контент страницы Переврозки

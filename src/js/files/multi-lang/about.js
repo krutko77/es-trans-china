@@ -73,7 +73,7 @@ export const aboutTexts = {
 	},
 	"about-3": {
 		ru: "История нашей компании начинается в 2001 году, когда Датская компания ICT A/S, будучи дочкой Maersk A/S и GT Spedition A/S, создала подразделение по автомобильным перевозкам из Дании в Россию, куда вошли восемь инициативных сотрудников в Дании, Литве и Москве. Объемы перевозок росли динамично и в 2004 было принято решение открыть филиал ICT A/S в Москве. Так появилось ООО «Ай Си Ти ЛОГИСТИКС» в составе 3-х человек.",
-		en: "The history of our company dates back to 2001, when the Dutch company ICT A/S, being a subsidiary of Maersk A/S and GT Spedition A/S, established a subdivision for road transport from Denmark to Russia, which involved eight proactive employees in Denmark, Lithuania, and Moscow. The shipping volumes were growing dynamically, and in 2004 it was decided to open a branch of ICT A/S in Moscow. That is when ICT LOGISTICS consisting of 3 people appeared.",
+		en: "The history of our company dates back to 2001, when the Danish company ICT A/S, being a subsidiary of Maersk A/S and GT Spedition A/S, established a subdivision for road transport from Denmark to Russia, which involved eight proactive employees in Denmark, Lithuania, and Moscow. The shipping volumes were growing dynamically, and in 2004 it was decided to open a branch of ICT A/S in Moscow. That is when ICT LOGISTICS consisting of 3 people appeared.",
 		cn: "我们公司的发展始于2001年：当时ICT A/S作为马士基集团（Maersk A/S）与GT国际货运（GT Spedition A/S）的合资企业正式成立，专门负责丹麦与俄罗斯之间的运输业务。凭借8位富有开拓精神的员工的卓越工作，公司运输量实现显著增长。2004年，ICT A/S在莫斯科设立分支机构。此后，三位创始人共同创立了ICT Logistics有限公司。",
 	},
 	"about-4": {

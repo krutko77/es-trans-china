@@ -1,9 +1,9 @@
 export const transportationTexts = {
 	// header
 	"head-title": {
-		ru: "Перевозки из Китая | ЕС Транс",
-		en: "Home | ES-Trans",
-		cn: "首页 | ES-Trans",
+		ru: "Перевозки | ЕС Транс",
+		en: "Shipping Operations | ES-Trans",
+		cn: " | ES-Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",
@@ -60,25 +60,127 @@ export const transportationTexts = {
 		en: "9 am to 6 pm",
 		cn: "从09:00 到 18:00",
 	},
-	
 
-// footer
-"footer-menu-1": {
+	"transport-1": {
+		ru: "Перевозки",
+		en: "Shipping Operations",
+		cn: "",
+	},
+	"transport-2": {
+		ru: "ООО «ЕС Транс» выполняет перевозки комплектных и сборных грузов из Китая авто и авиа транспортом. Мы стремимся быть надежным партнером для всех, кто нуждается в перевозке грузов, обеспечивая безопасную, эффективную и своевременную доставку.",
+		en: "ES-Trans ships full and consolidated cargo from China by land and air transport. We strive to be a reliable partner for anyone who needs cargo transportation, providing safe, effective, and timely delivery.",
+		cn: "",
+	},
+	"transport-3": {
+		ru: "Мы устанавливаем доверительные отношения с нашими клиентами, предлагаем прозрачную коммуникацию на всех этапах перевозки, предоставляем информацию о статусе груза, предупреждаем о возможных задержках и оперативно реагируем на запросы и потребности клиентов. Все наши автомобили оборудованы спутниковой системой отслеживания, поэтому мы можем точно определить местоположение груза в режиме 24/7.",
+		en: "We build trust-based relations with our customers, offering transparent communication at all stages of transportation, providing information on the cargo’s status, warning about potential delays, and quickly responding to customers’ requests and needs. All our vehicles are equipped with a satellite tracking system, and we are able to accurately detect any cargo’s location 24/7.",
+		cn: "",
+	},
+	"transport-4": {
+		ru: "Наша компания полностью осознаёт важность точной доставки грузов в срок для наших клиентов. Поэтому мы предлагаем надёжные графики и оптимальные маршруты, чтобы обеспечить своевременную доставку груза в назначенное место.",
+		en: "Our company is fully aware of the importance of the timely delivery of cargo for our customers. That’s why we offer reliable schedules and optimal routes to provide for the timely delivery of cargo to the specified destination.",
+		cn: "",
+	},
+	"transport-5": {
+		ru: "Опытные логисты ООО «ЕС Транс» тщательно планируют каждую перевозку, учитывая особенности груза, препятствия на дороге и логистические условия. Все наши водители обладают богатым опытом и знаниями, необходимыми для безопасной и эффективной доставки грузов. Мы стремимся к высокому уровню сервиса и гарантируем, что ваш груз будет доставлен вовремя и в сохранности.",
+		en: "The experienced logistics specialists of OOO ES-Trans plan every shipment thoroughly, considering the cargo’s specifics, obstacles on the way, and logistic conditions. All our drivers have extensive experience and the knowledge required for the safe and effective delivery of cargo. We aspire to a high level of service and guarantee that your cargo will be delivered safely and on time.",
+		cn: "",
+	},
+	"transport-6": {
+		ru: "Основной приоритет нашей работы – это высокие стандарты надежности и безопасности грузоперевозок. Автопарк ООО «ЕС Транс» состоит из современных грузовых автомобилей, оснащенных передовыми технологиями и системами безопасности. Автомобили регулярно проходят техническое обслуживание и проверки, чтобы гарантировать безопасность на дороге. Водители нашей компании проходят необходимую подготовку и обучение в области безопасности на дороге.",
+		en: "The main priorities of our work are ensuring the high standards of shipping reliability and safety. The fleet of ES-Trans consists of state-of-the-art trucks equipped with cutting-edge technology and safety systems. The vehicles undergo regular maintenance and inspections to guarantee road safety. The drivers of our company receive the necessary training on road safety.",
+		cn: "",
+	},
+	"transport-7": {
+		ru: "Наша ответственность застрахована на сумму 25 000 000 руб.",
+		en: "Our liability is insured for RUB 25,000,000.",
+		cn: "",
+	},
+	"transport-8": {
+		ru: "Автомобильные перевозки грузов из Китая",
+		en: "Cargo transport by road from China",
+		cn: "",
+	},
+	"transport-9": {
+		ru: "Мы перевозим грузы из Китая, как собственным транспортом, так и с помощью наших партнеров по автоперевозкам (привлеченный парк около 500 автомобилей). У нас налажены долгосрочные партнерские отношения с проверенными и надежными автоперевозчиками, чтобы обеспечить качественную и своевременную доставку грузов нашим клиентам.",
+		en: "We ship goods from China, both using our own fleet and those of our partners (the external fleet is comprised of over 500 vehicles). We have the long-term partnership relations with trusted and reliable carriers to maintain the high quality and timely delivery of goods to our customers.",
+		cn: "",
+	},
+	"transport-10": {
+		ru: "Наши логисты владеют китайским языком и тесно сотрудничают с китайскими партнерами по автоперевозкам, чтобы организовать забор груза с отправного пункта в Китае, выполнить необходимые таможенные формальности и доставить груз в пункт назначения.",
+		en: "Our logistics specialists speak Chinese and cooperate closely with our Chinese motor trucking partners in order to organize the collection of cargo from the point of departure in China, to handle the necessary customs formalities, and to deliver the cargo to the destination.",
+		cn: "",
+	},
+	"transport-11": {
+		ru: "В Шанхае у нас есть склад, где мы комплектуем сборные грузы.",
+		en: "We have a warehouse in Shanghai, where we combine consolidated loads.",
+		cn: "",
+	},
+	"transport-12": {
+		ru: "Выбирая ЕС Транс, вы получаете надёжного партнёра для эффективных грузоперевозок между Китаем и Россией. Оперативная доставка, конкурентные тарифы и полное сопровождение груза – гарантия вашего успеха!",
+		en: "By choosing ES-Trans you get a reliable partner for the effective transport of cargo between China and Russia. Quick delivery, competitive rates, and full cargo support are the guarantees of your success!",
+		cn: "",
+	},
+	"transport-13": {
+		ru: "Для быстрой предварительной оценки стоимости и времени доставки автомобилем, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
+		en: "For a quick prior estimate of the cost and time of delivery by road vehicle, please fill in a small form by pressing the red button in the section below.",
+		cn: "",
+	},
+	"transport-14": {
+		ru: "Авиаперевозки",
+		en: "Air carriage",
+		cn: "",
+	},
+	"transport-15": {
+		ru: "Мы предлагаем выгодные решения, обеспечивающие быструю и безопасную доставку ваших товаров из Китая самолетом.",
+		en: "We offer cost-effective solutions for the quick and safe delivery of your goods from China by air.",
+		cn: "",
+	},
+	"transport-16": {
+		ru: "Cкорость и надежность являются ключевыми факторами в доставке грузов авиационным транспортом. Поэтому мы предлагаем нашим клиентам высокий уровень обслуживания, соблюдая сроки и гарантируя сохранность груза.",
+		en: "Speed and reliability are the key factors in cargo delivery by air. Therefore, we offer a high level of service to our customers, keeping to the schedule and guaranteeing the cargo’s integrity.",
+		cn: "",
+	},
+	"transport-17": {
+		ru: "Мы сотрудничаем с различными авиакомпаниями и агентами, что позволяет выбирать оптимальные маршруты и гибкие варианты доставки. Мы организовываем забор груза с отправного пункта, обеспечиваем его правильную упаковку и таможенное оформление, а затем доставляем груз самолетом в пункт назначения.",
+		en: "We cooperate with different airlines and agents to be able to select the optimal routes and flexible delivery options. We organize the collection of cargo from the point of departure, ensure its proper packaging and customs clearance, and then deliver the cargo by air to the destination.",
+		cn: "",
+	},
+	"transport-18": {
+		ru: "Для быстрой предварительной оценки стоимости и времени доставки самолётом, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
+		en: "For a quick prior estimate of the cost and time of delivery by air, please fill in a small form by pressing the red button in the section below.",
+		cn: "",
+	},
+
+	// action-block
+	"action-block-1": {
+		ru: "Узнайте стоимость вашего заказа",
+		en: "Discover the price of your order",
+		cn: "算询盘的价格",
+	},
+	"action-block-2": {
+		ru: "Рассчитать",
+		en: "Calculate",
+		cn: "算运费",
+	},
+
+	// footer
+	"footer-menu-1": {
 		ru: "Политика конфиденциальности",
 		en: "Privacy Policy",
 		cn: "隐私政策",
 	},
-"footer-menu-2": {
+	"footer-menu-2": {
 		ru: "Соглашение об обработке данных",
 		en: "Data Processing Agreement",
 		cn: "个人信息处理同意书",
 	},
-"footer-menu-3": {
+	"footer-menu-3": {
 		ru: "Договор на оказание услуг",
 		en: "Service Agreement",
 		cn: "服务合同",
 	},
-"footer-bottom": {
+	"footer-bottom": {
 		ru: "ООО «ЕС Транс», 2025",
 		en: "ES-Trans, 2025",
 		cn: "2025 年，«ES Trans» 有限公司",
@@ -89,195 +191,5 @@ export const transportationTexts = {
 		ru: "Закрыть",
 		en: "Close",
 		cn: "关闭",
-	},
-
-	// Формы обратной связи
-	"form-1": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-2": {
-		ru: "Приветствую вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	},
-	"form-3": {
-		ru: "Меня зовут Сергей Денисов, начальник отдела таможенного оформления и доставки ООО «ЕС Транс». Заполните пожалуйста форму, и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.",
-		en: "I am Sergey Denisov, the head of the Customs Clearance and Delivery Department in OOO ES-Trans. Please fill in the form, I will respond to all your questions and tell you about the advantages of working with our company.",
-		cn: "我是国际运输及通关部门总经理 Sergei Denisov。为高效处理您的需求，请协助填写下方表格。提交后，我将第一时间为您解答问题，并详细说明我们业务的核心优势。",
-	},
-	"form-4": {
-		ru: "Название компании*",
-		en: "Company name*",
-		cn: "公司名称*",
-	},
-	"form-5": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-6": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-7": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-8": {
-		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
-		en: "Please ask your questions regarding delivery or customs clearance*",
-		cn: "请写一下您的国际运输或通关手续问题。",
-	},
-	"form-9": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-10": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-11": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-12": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-13": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-14": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
-	"form-15": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-16": {
-		ru: "Приветствую вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	}, "form-17": {
-		ru: "Если вы ищете новые вызовы и хотите стать частью динамичной и перспективной логистической компании, то эта возможность для вас!",
-		en: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-		cn: "若您在职业发展中寻求新突破，且渴望加入具有战略发展潜力的物流企业，这正是您不可错过的机遇！",
-	}, "form-18": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-19": {
-		ru: "Фамилия*",
-		en: "Last Name*",
-		cn: "姓*",
-	},
-	"form-20": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-21": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-22": {
-		ru: "Почему вы хотите работать у нас",
-		en: "Why do you want to work for us",
-		cn: "您为什么想加入我们",
-	},
-	"form-23": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-24": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-25": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-25-1": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-26": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-27": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
-	"form-28": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-29": {
-		ru: "Здравствуй, меня зовут Андрей Сибилёв, оставь телефон, я перезвоню и расскажу об условиях и преимуществах работы в ООО «ЕС Транс»",
-		en: "Hello, I am Andrey Sibilev, leave your phone number, and I will tell you about the conditions and advantages of working for ES-Trans",
-		cn: "您好，我是Andrey Sibilev。若您方便，请提供联系方式，稍后将致电为您详细说明在ES Trans运输有限公工作条件。",
-	},
-	"form-30": {
-		ru: "Имя и фамилия*",
-		en: "First and Last Name*",
-		cn: "姓名*",
-	},
-	"form-31": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-32": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-33": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-34": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-35": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-36": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-37": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	}
+	},	
 }

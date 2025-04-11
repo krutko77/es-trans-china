@@ -8,6 +8,8 @@ let currentTexts = {};
 import { homeTexts } from "./home.js";
 // Контент страницы Переврозки
 import { transportationTexts } from "./services-transportation.js";
+// Контент страницы Таможенное оформление
+import { customsTexts } from "./services-customs.js";
 // Контент страницы Переврозки
 import { aboutTexts } from "./about.js";
 
@@ -43,10 +45,10 @@ function checkPagePathName() {
 			currentTexts = aboutTexts;
 			break;
 		case "/vacancy-sales-manager.html":
-			currentTexts = offerManagerTexts;
+			currentTexts = salesManagerTexts;
 			break;
 		case "/vacancy-logistician.html":
-			currentTexts = offerLogisticianTexts;
+			currentTexts = LogisticianTexts;
 			break;
 		case "/vacancy-driver.html":
 			currentTexts = offerDriverTexts;

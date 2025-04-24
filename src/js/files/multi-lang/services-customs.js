@@ -65,7 +65,7 @@ export const customsTexts = {
 		ru: "Таможенное оформление грузов",
 		en: "Cargo Customs Clearance",
 		cn: "",
-	}, 
+	},
 	"customs-2": {
 		ru: "Процедура импорт по 1 ДТ",
 		en: "Import procedure with 1 goods declaration",
@@ -120,7 +120,7 @@ export const customsTexts = {
 		ru: "Обеспечение осмотра",
 		en: "Inspection",
 		cn: "",
-	}, 
+	},
 	"customs-12": {
 		ru: "Обеспечение осмотра/досмотра товаров (за одно транспортное средство)",
 		en: "Inspection/examination of the goods (per vehicle)",
@@ -170,7 +170,7 @@ export const customsTexts = {
 		ru: "Выше указаны расценки по нашим базовым операциям при подготовке таможенных документов и таможенному декларированию товаров.",
 		en: "See above the prices for our basic operations to prepare the customs documents and the customs declaration of the goods.",
 		cn: "",
-	}, 
+	},
 	"customs-22": {
 		ru: "Чтобы сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные помогут нам оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие согласования.",
 		en: "To estimate the cost accurately, we need complete about the cargo. This information will help us to estimate the complexity and scope of work related to customs clearance and to account for other factors that influence the cost, such as any necessary certification, permits, and other approvals.",
@@ -215,7 +215,7 @@ export const customsTexts = {
 		ru: "«одного окна» в режиме 24/7",
 		en: "One-stop shop principle 24/7",
 		cn: "",
-	}, 
+	},
 	"customs-32": {
 		ru: "на основании договора и в строгом соответствии с таможенным законодательством и законодательством о внешнеторговой деятельности, а это гарантирует надежность действий ООО «ТО.Л.К» и высокий уровень качества предоставляемых услуг.",
 		en: "based on an agreement and in strict compliance with customs laws and foreign trade laws, which guarantees the reliability of TO.L.K’s actions and the high quality of the provided services.",
@@ -270,7 +270,7 @@ export const customsTexts = {
 		ru: "импорт сложного технологического оборудования для таких компаний как Юнилин (Нижний Новгород), Кроношпан (Уфа), Вольво (Калуга), НЛМК (Калуга), Магна (Дзержинск), Эйр Ликид (Зеленоград, Тюмень, Череповец, Самара, Новокузнецк), Русвинил (Кстово), Русполимет (Кулебаки), Трансмашэнерго (Тихвин), Линде Газ (Балашиха), Эйр Продактс (Азов), «ИКЕА» (Великий Новгород), «ЕВРАЗ» (Новокузнецк), «Хевел» (Новочебоксарск) и многим другим.",
 		en: "import of complex process equipment for such companies as Unilin (Nizhny Novgorod), Kronospan (Ufa), Volvo (Kaluga), NLMK (Kaluga), Magna (Dzerzhinsk), Air Liquide (Zelenograd, Tyumen, Cherepovets, Samara, Novokuznetsk), Rusvinyl (Kstovo), Ruspolymet (Kulebaki), Transmashenergo (Tikhvin), Linde Gas (Balashikha), Air Products (Azov), IKEA (Veliky Novgorod), EVRAZ (Novokuznetsk), Hevel (Novocheboksark) and others.",
 		cn: "",
-	}, 
+	},
 	"customs-42": {
 		ru: "Наша специализация – это таможенное оформление автокомпонентов, автозапчастей, оборудования, товаров народного потребления (одежда, обувь), фармацевтики, химии, медицинских препаратов и многих других товарных позиций.",
 		en: "Our specialization is the customs clearance of automotive components, automotive spare parts, equipment, fast moving consumer goods (clothes, shoes), pharmaceuticals, chemicals, medical drugs, and many more commodity items.",
@@ -302,106 +302,95 @@ export const customsTexts = {
 		cn: "",
 	},
 	"customs-47": {
-		ru: "",
-		en: "",
+		ru: "по вопросам таможенного оформления и законодательства в области ВЭД;",
+		en: "on customs clearance and foreign economic activity laws;",
 		cn: "",
 	},
 	"customs-48": {
-		ru: "",
-		en: "",
+		ru: "по подготовке и оформлению документов для таможенных органов;",
+		en: "on the preparation and registration of documents for customs authorities;",
 		cn: "",
 	},
 	"customs-49": {
-		ru: "",
-		en: "",
+		ru: "о выборе кодов ТН ВЭД ЕАЭС для товаров;",
+		en: "on the selection of the EAEU Commodity Nomenclature of Foreign Economic Activity codes for goods;",
 		cn: "",
 	},
 	"customs-50": {
-		ru: "",
-		en: "",
+		ru: "по размещению товаров на складе временного хранения, проведению предварительных осмотров и дополнительных таможенных процедур.",
+		en: "on the placement of goods in temporary storage, preliminary inspections, and additional customs procedures.",
 		cn: "",
 	},
 	"customs-51": {
-		ru: "",
-		en: "",
+		ru: "Мы помогаем в прохождении таможенного контроля, включая подтверждение таможенной стоимости товаров, проведения досмотров и наблюдения, а так же содействуем в получении необходимых разрешительных документов:",
+		en: "We help to navigate customs control, including the confirmation of the customs value of the goods, examinations and observation, and assist in obtaining the necessary permits:",
 		cn: "",
-	}, 
+	},
 	"customs-52": {
-		ru: "",
-		en: "",
+		ru: "Нотификация ФСБ",
+		en: "Federal Security Service notification",
 		cn: "",
 	},
 	"customs-53": {
-		ru: "",
-		en: "",
+		ru: "Сертификат/декларация соответствия",
+		en: "Certificate/declaration of conformity",
 		cn: "",
 	},
 	"customs-54": {
-		ru: "",
-		en: "",
+		ru: "техническим регламентам таможенного союза.",
+		en: "with the technical regulations of the Customs Union.",
 		cn: "",
 	},
 	"customs-55": {
-		ru: "",
-		en: "",
-		cn: "",
+		ru: "Заключение ФСТЭК",
+		en: "Certificate/declaration of conformity",
+		cn: "Report of the Federal Service for Technical and Export Control",
 	},
 	"customs-56": {
-		ru: "",
-		en: "",
+		ru: "на товары двойного применения.",
+		en: "on dual-use goods.",
 		cn: "",
 	},
 	"customs-57": {
-		ru: "",
-		en: "",
+		ru: "Лицензирование",
+		en: "Licensing",
 		cn: "",
 	},
 	"customs-58": {
-		ru: "",
-		en: "",
+		ru: "экспорта и импорта.",
+		en: "of exports and imports.",
 		cn: "",
 	},
 	"customs-59": {
-		ru: "",
-		en: "",
+		ru: "Сертификация",
+		en: "Certification ",
 		cn: "",
 	},
 	"customs-60": {
-		ru: "",
-		en: "",
+		ru: "импортной продукции.",
+		en: "of imported goods.",
 		cn: "",
 	},
 	"customs-61": {
-		ru: "",
-		en: "",
+		ru: "Мы знаем, как оформлять многокодовые декларации (600 и более кодов ТНВЭД ЕАЭС в ДТ) и понимаем толк в классификации в соответствии с ТНВЭД ЕАЭС сложных химических соединений, многокомпонентных товаров. Определение и подтверждение таможенной стоимости товаров с учетом доначислений и вычетов – это наша тема.",
+		en: "We know how to issue multi-code declarations (600+ EAEU Commodity Nomenclature of Foreign Economic Activity codes per goods declaration) and know how to classify complex chemical compounds and multi-component goods in accordance with the EAEU Commodity Nomenclature of Foreign Economic Activity. Definition and confirmation of the customs value of the goods taking into account additional charges and deductions is our specialty.",
 		cn: "",
-	}, 
+	},
 	"customs-62": {
-		ru: "",
-		en: "",
+		ru: "Мы работаем в белом секторе (контрабандными товарами и серым импортом не занимаемся).",
+		en: "We work in the “white” sector (we do not deal with smuggled goods or grey imports).",
 		cn: "",
 	},
 	"customs-63": {
-		ru: "",
-		en: "",
+		ru: "Доверьте нам таможенное оформление грузов и сосредоточьтесь на своем бизнесе!",
+		en: "Entrust the customs clearance of the cargo to us and focus on your business!",
 		cn: "",
 	},
 	"customs-64": {
-		ru: "",
-		en: "",
+		ru: "Для быстрой предварительной оценки стоимости таможенного оформления, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
+		en: "For a quick prior estimate of the cost of customs clearance, please fill in a small form by pressing the red button in the section below.",
 		cn: "",
 	},
-	"customs-65": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-66": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	
 
 	// action-block-customs
 	"customs-action-1": {
@@ -503,145 +492,27 @@ export const customsTexts = {
 	},
 	"form-10": {
 		ru: "Политикой",
-		en: "the Personal Data",
+		en: "the Personal Data Processing Policy",
 		cn: "即表示本人同意根据",
 	},
 	"form-11": {
 		ru: "и",
-		en: "Processing",
+		en: "and",
 		cn: "",
 	},
 	"form-12": {
 		ru: "Соглашением",
-		en: "Policy",
+		en: "Agreement",
 		cn: "",
 	},
 	"form-13": {
 		ru: "обработки персональных данных",
-		en: "and Agreement",
+		en: " ",
 		cn: "",
 	},
 	"form-14": {
 		ru: "Отправить",
 		en: "Send",
 		cn: "提交",
-	},
-	"form-15": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-16": {
-		ru: "Приветствую вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	}, "form-17": {
-		ru: "Если вы ищете новые вызовы и хотите стать частью динамичной и перспективной логистической компании, то эта возможность для вас!",
-		en: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-		cn: "若您在职业发展中寻求新突破，且渴望加入具有战略发展潜力的物流企业，这正是您不可错过的机遇！",
-	}, "form-18": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-19": {
-		ru: "Фамилия*",
-		en: "Last Name*",
-		cn: "姓*",
-	},
-	"form-20": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-21": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-22": {
-		ru: "Почему вы хотите работать у нас",
-		en: "Why do you want to work for us",
-		cn: "您为什么想加入我们",
-	},
-	"form-23": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-24": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-25": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-25-1": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-26": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-27": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
-	"form-28": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-29": {
-		ru: "Здравствуй, меня зовут Андрей Сибилёв, оставь телефон, я перезвоню и расскажу об условиях и преимуществах работы в ООО «ЕС Транс»",
-		en: "Hello, I am Andrey Sibilev, leave your phone number, and I will tell you about the conditions and advantages of working for ES-Trans",
-		cn: "您好，我是Andrey Sibilev。若您方便，请提供联系方式，稍后将致电为您详细说明在ES Trans运输有限公工作条件。",
-	},
-	"form-30": {
-		ru: "Имя и фамилия*",
-		en: "First and Last Name*",
-		cn: "姓名*",
-	},
-	"form-31": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-32": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-33": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-34": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-35": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-36": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-37": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	}
+	}	
 }

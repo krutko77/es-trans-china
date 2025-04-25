@@ -1,4 +1,4 @@
-export const errorTexts = {
+export const thankTexts = {
 	// header
 	"head-title": {
 		ru: "ЕС Транс",

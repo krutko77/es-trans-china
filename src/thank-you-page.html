@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
-	@@include('html/_head.htm',{
-	"title":"Благодарим вас! | ЕС Транс"
-	})
-	<body>
-		<div class="wrapper">
-			@@include('html/_header.htm',{})
-			<main class="page thank text">
-				<div class="thank__content">
-					<div data-watch data-watch-once class="thank__img-wrap">
-						<img class="thank__img" src="@img/tick-mark.png" alt="галочка на зеленом круге">
-					</div>
-					<h2 class="thank__title title"><span ata-lang="thank-you-page-1">Спасибо!</span><br><span ata-lang="thank-you-page-2">Сообщение отправлено</span></h2>
-					<p class="thank__text" data-lang="thank-you-page-3">Мы свяжемся с вами в ближайшее время</p>
+@@include('html/_head.htm',{
+"title":"Благодарим вас! | ЕС Транс"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page thank text">
+			<div class="thank__content">
+				<div data-watch data-watch-once class="thank__img-wrap">
+					<img class="thank__img" src="@img/tick-mark.png" alt="галочка на зеленом круге">
 				</div>
-			</main>
-			<script>
-				setTimeout('location.replace("https://es-trans.ru")', 3000);
-			</script>
-			@@include('html/_footer.htm',{})
-		</div>
-		<script src="js/app.min.js"></script>
-	</body>
+				<h2 class="thank__title title"><span data-lang="thank-you-page-1">Спасибо!</span><br><span
+						data-lang="thank-you-page-2">Сообщение отправлено</span></h2>
+				<p class="thank__text" data-lang="thank-you-page-3">Мы свяжемся с вами в ближайшее время</p>
+			</div>
+		</main>
+		<script>
+			setTimeout('location.replace("https://es-trans.ru")', 3000);
+		</script>
+		@@include('html/_footer.htm',{})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
 </html>

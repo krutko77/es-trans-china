@@ -1,4 +1,4 @@
-export const customsTexts = {
+export const salesManagerTexts = {
 	// header
 	"head-title": {
 		ru: "Таможенное оформление | ЕС Транс",
@@ -61,358 +61,547 @@ export const customsTexts = {
 		cn: "从09:00 到 18:00",
 	},
 
-	"customs-1": {
+	"sales-manager-1": {
 		ru: "",
 		en: "",
 		cn: "",
-	}, 
-	"customs-2": {
+	},	
+	"sales-manager-2": {
 		ru: "",
 		en: "",
 		cn: "",
-	},
-	"customs-3": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-4": {
+	},	
+	"sales-manager-3": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-5": {
+	"sales-manager-4": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-5": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-6": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-6": {
+	"sales-manager-7": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-8": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-9": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-7": {
+	"sales-manager-10": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-11": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-12": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-8": {
+	"sales-manager-13": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-14": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-15": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-9": {
+	"sales-manager-16": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-17": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-18": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-10": {
+	"sales-manager-19": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-20": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-21": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-11": {
+	"sales-manager-22": {
 		ru: "",
 		en: "",
 		cn: "",
-	}, 
-	"customs-12": {
+	},	
+	"sales-manager-23": {
 		ru: "",
 		en: "",
 		cn: "",
-	},
-	"customs-13": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-14": {
+	},	
+	"sales-manager-24": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-15": {
+	"sales-manager-25": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-26": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-27": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-16": {
+	"sales-manager-28": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-29": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-30": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-17": {
+	"sales-manager-31": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-32": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-33": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-18": {
+	"sales-manager-34": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-35": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-36": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-19": {
+	"sales-manager-37": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-38": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-39": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-20": {
+	"sales-manager-40": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-41": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-42": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-21": {
+	"sales-manager-43": {
 		ru: "",
 		en: "",
 		cn: "",
-	}, 
-	"customs-22": {
+	},	
+	"sales-manager-44": {
 		ru: "",
 		en: "",
 		cn: "",
-	},
-	"customs-23": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-24": {
+	},	
+	"sales-manager-45": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-25": {
+	"sales-manager-46": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-47": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-48": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-26": {
+	"sales-manager-49": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-50": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-51": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-27": {
+	"sales-manager-52": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-53": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-54": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-28": {
+	"sales-manager-55": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-56": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-57": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-29": {
+	"sales-manager-58": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-59": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-60": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-30": {
+	"sales-manager-61": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-62": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-63": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-31": {
+	"sales-manager-64": {
 		ru: "",
 		en: "",
 		cn: "",
-	}, 
-	"customs-32": {
+	},	
+	"sales-manager-65": {
 		ru: "",
 		en: "",
 		cn: "",
-	},
-	"customs-33": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-34": {
+	},	
+	"sales-manager-66": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-35": {
+	"sales-manager-67": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-68": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-69": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-36": {
+	"sales-manager-70": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-71": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-72": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-37": {
+	"sales-manager-73": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-74": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-75": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-38": {
+	"sales-manager-76": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-77": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-78": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-39": {
+	"sales-manager-79": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-80": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-81": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-40": {
+	"sales-manager-82": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-83": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-84": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-41": {
+	"sales-manager-85": {
 		ru: "",
 		en: "",
 		cn: "",
-	}, 
-	"customs-42": {
+	},	
+	"sales-manager-86": {
 		ru: "",
 		en: "",
 		cn: "",
-	},
-	"customs-43": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-44": {
+	},	
+	"sales-manager-87": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-45": {
+	"sales-manager-88": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-89": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-90": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-46": {
+	"sales-manager-91": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-92": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-93": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-47": {
+	"sales-manager-94": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-95": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-96": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-48": {
+	"sales-manager-97": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-98": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-99": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-49": {
+	"sales-manager-100": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-101": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-102": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-50": {
+	"sales-manager-103": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-104": {
+		ru: "",
+		en: "",
+		cn: "",
+	},	
+	"sales-manager-105": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"customs-51": {
+	"sales-manager-106": {
 		ru: "",
 		en: "",
 		cn: "",
-	}, 
-	"customs-52": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-53": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-54": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-55": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-56": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-57": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-58": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-59": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-60": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-61": {
-		ru: "",
-		en: "",
-		cn: "",
-	}, 
-	"customs-62": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-63": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-64": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-65": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
-	"customs-66": {
-		ru: "",
-		en: "",
-		cn: "",
-	},
+	},	
 	
-
-	// action-block-customs
-	"customs-action-1": {
-		ru: "Узнайте стоимость вашего заказа",
-		en: "Discover the price of your order",
-		cn: "算询盘的价格",
+	// action-block-offer
+	"offer-action-1": {
+		ru: "Присоединяйтесь к нашей команде уже сегодня!",
+		en: "Join our team today!",
+		cn: "今天就加入我们的团队！",
 	},
-	"customs-action-2": {
-		ru: "Рассчитать",
-		en: "Calculate",
-		cn: "算运费",
-	},
-	"customs-action-3": {
-		ru: "Узнайте стоимость вашего заказа",
-		en: "Discover the price of your order",
-		cn: "算询盘的价格",
-	},
-	"customs-action-4": {
-		ru: "Рассчитать",
-		en: "Calculate",
-		cn: "算运费",
+	"offer-action-2": {
+		ru: "Хочу в команду",
+		en: "I want to join the team",
+		cn: "我想加入团队",
 	},
 
 
@@ -438,91 +627,9 @@ export const customsTexts = {
 		cn: "2025 年，«ES Trans» 有限公司",
 	},
 
-	// Попап с формой Битрикс
-	"popup-11": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-
 	// Формы обратной связи
-	"form-1": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-2": {
-		ru: "Приветствую вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	},
-	"form-3": {
-		ru: "Меня зовут Сергей Денисов, начальник отдела таможенного оформления и доставки ООО «ЕС Транс». Заполните пожалуйста форму, и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.",
-		en: "I am Sergey Denisov, the head of the Customs Clearance and Delivery Department in OOO ES-Trans. Please fill in the form, I will respond to all your questions and tell you about the advantages of working with our company.",
-		cn: "我是国际运输及通关部门总经理 Sergei Denisov。为高效处理您的需求，请协助填写下方表格。提交后，我将第一时间为您解答问题，并详细说明我们业务的核心优势。",
-	},
-	"form-4": {
-		ru: "Название компании*",
-		en: "Company name*",
-		cn: "公司名称*",
-	},
-	"form-5": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-6": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-7": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-8": {
-		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
-		en: "Please ask your questions regarding delivery or customs clearance*",
-		cn: "请写一下您的国际运输或通关手续问题。",
-	},
-	"form-9": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-10": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-11": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-12": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-13": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-14": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
-	"form-15": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
 	"form-16": {
-		ru: "Приветствую вас!",
+		ru: "Приветствуем вас!",
 		en: "Welcome!",
 		cn: "您好！",
 	}, "form-17": {

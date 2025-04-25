@@ -12,13 +12,17 @@ import { transportationTexts } from "./services-transportation.js";
 import { customsTexts } from "./services-customs.js";
 // Контент страницы Переврозки
 import { aboutTexts } from "./about.js";
+// Контент страницы Вакансия МОП
+import { salesManagerTexts } from "./vacancy-sales-manager.js";
 
-// Контент страницы Переврозки
+// Контент страницы Контакты
 import { contactsTexts } from "./contacts.js";
 
 
 // Контент страницы 404
 import { errorTexts } from "./404.js";
+// Контент страницы благодарности
+import { thankTexts } from "./thank-you-page.js";
 // Контент страницы Соглашение
 import { agreementTexts } from "./agreement.js";
 // Контент страницы Политика
@@ -56,22 +60,22 @@ function checkPagePathName() {
 		case "/contacts.html":
 			currentTexts = contactsTexts;
 			break;
-			case "/thank-you-page.html":
+		case "/thank-you-page.html":
 			currentTexts = thankTexts;
 			break;
-			case "/404.html":
+		case "/404.html":
 			currentTexts = errorTexts;
 			break;
-			case "/contract-driver.html":
+		case "/contract-driver.html":
 			currentTexts = contractDriverTexts;
 			break;
-			case "/contracts.html":
+		case "/contracts.html":
 			currentTexts = contractsTexts;
 			break;
-			case "/privacy-policy.html":
+		case "/privacy-policy.html":
 			currentTexts = privacyPolicyTexts;
 			break;
-			case "/agreement.html":
+		case "/agreement.html":
 			currentTexts = agreementTexts;
 			break;
 		default:

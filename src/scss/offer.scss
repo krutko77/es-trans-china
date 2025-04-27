@@ -7,12 +7,10 @@
       padding-top: calc(toRem(100) + 60*((100vw - 320px) / (1500 - 320)));
    }
 
- /*   &__wrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-   }
- */
+	h2.offer__title {
+		margin-bottom: calc(toRem(10) + 10*((100vw - 320px) / (1500 - 320)));
+	}	
+
    &__condition {
       font-size: toRem(24);
       font-weight: 900;

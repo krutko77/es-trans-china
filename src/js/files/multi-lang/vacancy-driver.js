@@ -1,4 +1,4 @@
-export const customsTexts = {
+export const driverTexts = {
 	// header
 	"head-title": {
 		ru: "Таможенное оформление | ЕС Транс",
@@ -104,69 +104,6 @@ export const customsTexts = {
 	},
 
 	// Формы обратной связи
-	"form-16": {
-		ru: "Приветствуем вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	}, "form-17": {
-		ru: "Если вы ищете новые вызовы и хотите стать частью динамичной и перспективной логистической компании, то эта возможность для вас!",
-		en: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-		cn: "若您在职业发展中寻求新突破，且渴望加入具有战略发展潜力的物流企业，这正是您不可错过的机遇！",
-	}, "form-18": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-19": {
-		ru: "Фамилия*",
-		en: "Last Name*",
-		cn: "姓*",
-	},
-	"form-20": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-21": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-22": {
-		ru: "Почему вы хотите работать у нас",
-		en: "Why do you want to work for us",
-		cn: "您为什么想加入我们",
-	},
-	"form-23": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-24": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-25": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-25-1": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-26": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-27": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
 	"form-28": {
 		ru: "Закрыть",
 		en: "Close",

@@ -14,7 +14,10 @@ import { customsTexts } from "./services-customs.js";
 import { aboutTexts } from "./about.js";
 // Контент страницы Вакансия МОП
 import { salesManagerTexts } from "./vacancy-sales-manager.js";
-
+// Контент страницы Вакансия логист
+import { LogisticianTexts } from "./vacancy-logistician.js";
+// Контент страницы Вакансия водитель
+import { driverTexts } from "./vacancy-driver.js";
 // Контент страницы Контакты
 import { contactsTexts } from "./contacts.js";
 
@@ -55,7 +58,7 @@ function checkPagePathName() {
 			currentTexts = LogisticianTexts;
 			break;
 		case "/vacancy-driver.html":
-			currentTexts = offerDriverTexts;
+			currentTexts = driverTexts;
 			break;
 		case "/contacts.html":
 			currentTexts = contactsTexts;
@@ -123,6 +126,3 @@ function checkBrowserLang() {
 	}
 }
 
-/* console.log("lang", navigator.language.slice(0, 2));
-console.log("navigator.language", checkBrowserLang());
- */

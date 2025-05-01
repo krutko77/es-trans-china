@@ -603,6 +603,17 @@ export const salesManagerTexts = {
 		en: "I want to join the team",
 		cn: "我想加入团队",
 	},
+		// action-block-offer-2
+		"offer-action-3": {
+			ru: "Присоединяйтесь к нашей команде уже сегодня!",
+			en: "Join our team today!",
+			cn: "今天就加入我们的团队！",
+		},
+		"offer-action-4": {
+			ru: "Хочу в команду",
+			en: "I want to join the team",
+			cn: "我想加入团队",
+		},
 
 
 	// footer

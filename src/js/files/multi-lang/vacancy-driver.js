@@ -61,20 +61,515 @@ export const driverTexts = {
 		cn: "从09:00 到 18:00",
 	},
 
-	"customs-1": {
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
+		ru: "",
+		en: "",
+		cn: "",
+	},
+	"driver-": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
 	
 
-	// action-block-offer
-	"offer-action-1": {
-		ru: "Присоединяйтесь к нашей команде уже сегодня!",
+	// action-block-offer-driver
+	"offer-driver-action-1": {
+		ru: "Присоединяйтеся к нашей команде уже сегодня!",
 		en: "Join our team today!",
 		cn: "今天就加入我们的团队！",
 	},
-	"offer-action-2": {
+	"offer-driver-action-2": {
 		ru: "Хочу в команду",
 		en: "I want to join the team",
 		cn: "我想加入团队",
@@ -103,7 +598,7 @@ export const driverTexts = {
 		cn: "2025 年，«ES Trans» 有限公司",
 	},
 
-	// Формы обратной связи
+	// Форма обратной связи
 	"form-28": {
 		ru: "Закрыть",
 		en: "Close",

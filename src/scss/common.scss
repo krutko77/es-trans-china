@@ -73,7 +73,7 @@ h3 {
 }
 
 h4 {
-   font-size: toRem(24);
+   font-size: toRem(22);
    font-weight: 900;
    line-height: math.div(30, 24);
    text-align: left;
@@ -81,7 +81,7 @@ h4 {
 
 
    @media (max-width:1500px) {
-      font-size: calc(toRem(18) + 6*((100vw - 320px) / (1500 - 320)));
+      font-size: calc(toRem(18) + 4*((100vw - 320px) / (1500 - 320)));
    }
 }
 

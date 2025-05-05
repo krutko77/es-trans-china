@@ -1,8 +1,8 @@
 export const driverTexts = {
 	// header
 	"head-title": {
-		ru: "Таможенное оформление | ЕС Транс",
-		en: "Customs Clearance | ES-Trans",
+		ru: "Вакансия водитель | ЕС Транс",
+		en: "Driver Vacancy | ES-Trans",
 		cn: "",
 	},
 	"header-menu-1": {
@@ -61,497 +61,506 @@ export const driverTexts = {
 		cn: "从09:00 到 18:00",
 	},
 
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-1": {
+		ru: "Вакансия водитель",
+		en: "Driver Vacancy ",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-2": {
+		ru: "(Сейчас вакансия закрыта)",
+		en: "(Currently this vacancy is closed)",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-3": {
+		ru: "Ты ищешь работу в сфере транспорта, где каждый сотрудник ценится и важен? Хочешь ощутить истинное семейное и дружеское отношение в коллективе? Мы ищем именно тебя!",
+		en: "Are you looking for a job in the sphere of transportation, where every employee is valued and matters? Do you want to feel a real family and friendly attitude in the team? It is you we are looking for!",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-3-1": {
+		ru: "Несмотря на небольшой размер компании, у нас есть большие планы на будущее. Ты можешь стать частью нашего роста и развиваться вместе с нами.",
+		en: "Despite the small size of the company, our plans for the future are grand. You can become a part of our growth and develop with us.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-4": {
+		ru: "Как у нас всё устроено",
+		en: "Working conditions",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-5": {
+		ru: "Заработная плата 173.000-231.000 ₽",
+		en: "Take-home salary of RUB 173,000 - 231,000",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-6": {
+		ru: "Размер заработной платы зависит от пройденного расстояния, количества точек погрузки и разгрузки.",
+		en: "The salary depends on the mileage and the number of loading and unloading points.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-7": {
+		ru: "Растентовки оплачиваются отдельно.",
+		en: "Curtain removal is paid separately.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-8": {
+		ru: "Выплата заработной платы два раза в месяц.",
+		en: "Salary is paid twice per month.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-9": {
+		ru: "Поддержка в пути",
+		en: "Support when on the road",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-10": {
+		ru: "Дорожная сеть: стоянки, лёгкий ремонт, мойки ТС, шиномонтаж, душевые.",
+		en: "Road network: parking lots, light maintenance, vehicle washes, tire shops, showers.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-11": {
+		ru: "Питание в сети столовых (за счет компании).",
+		en: "Food in a network of canteens (at the expense of the company).",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-12": {
+		ru: "Заправка по топливным картам.",
+		en: "Fueling with fuel cards.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-13": {
+		ru: "Ремонт ТС без участия водителя.",
+		en: "Vehicle repair without the involvement of the driver.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-14": {
+		ru: "Сопровождение диспетчера 24/7.",
+		en: "24/7 dispatcher’s support.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-15": {
+		ru: "Тягачи Mercedes и Foton Евро 5, 6",
+		en: "Mercedes and Foton Euro 5, 6 trucks",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-16": {
+		ru: "Шторные полуприцепы Schmitz и Grunwald.",
+		en: "Curtainsider semi-trailers from Schmitz and Grunwald.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-17": {
+		ru: "В нашем парке 13 автопоездов.",
+		en: "Our fleet includes 13 trailer-trucks.",
 		cn: "",
+	},"driver-18": {
+		ru: "ТО и ремонт подвижного состава производится на специализированных СТО.",
+		en: "Vehicle stock maintenance and repair in specialized repair shops.",
+		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-19": {
+		ru: "Небольшой дружный коллектив водителей, доверительные отношения с коллегами и с руководством.",
+		en: "A small friendly team of drivers, trustworthy relationships between colleagues and management.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-20": {
+		ru: "Преимущества официального трудоустройства",
+		en: "Advantages of official employment",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-21": {
+		ru: "Оформление по ТК РФ и соблюдение РТО.",
+		en: "Employment under the Labor Code of the Russian Federation and compliance with the work-rest ratio.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-22": {
+		ru: "Корпоративная сотовая связь.",
+		en: "Corporate mobile communications.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-23": {
+		ru: "Зимняя фирменная экипировка.",
+		en: "Branded winter gear.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-24": {
+		ru: "Программа повышения квалификации и обучение за счет компании.",
+		en: "Training program for increasing qualifications and learning at the expense of the company.",
 		cn: "",
+	},	
+	"driver-25": {
+		ru: "Небольшая компания, большая забота",
+		en: "Small company, great care",
+		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-26": {
+		ru: "Конкурентная заработная плата и своевременная выплата зарплаты. Мы ценим твой труд и стараемся обеспечить достойное вознаграждение.",
+		en: "Competitive salary and timely salary payment. We appreciate your work and try to provide good compensation.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-27": {
+		ru: "Возможность гибкого графика работы, который учитывает твои личные обстоятельства.",
+		en: "A flexible work schedule is possible, which accounts for your personal circumstances.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-28": {
+		ru: "Обучающие программы и тренинги для твоего профессионального роста за счет компании.",
+		en: "Educational programs and training sessions for your professional growth at the expense of the company.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-29": {
+		ru: "У нас каждый сотрудник – ценный член нашей команды. Мы заботимся о тебе и твоих потребностях, учитываем твои мнения и предложения.",
+		en: "Every employee is a valued member of our team. We care for you and your needs and consider your opinions and suggestions.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-30": {
+		ru: "Наши ценности – честность, ответственность и забота, как о клиентах, так и сотрудниках.",
+		en: "Our values are integrity, responsibility and care for both our customers and the employees.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-31": {
+		ru: "Мы всегда готовы выслушать тебя и поддержать в сложных ситуациях. Твой комфорт и благополучие для нас приоритет.",
+		en: "We are always ready to listen to you and to support you in difficult situations. Your comfort and well-being are our priority.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-32": {
+		ru: "Наш коллектив – настоящая семья. Мы поддерживаем дружеские отношения между сотрудниками и ценим взаимопонимание.",
+		en: "Our team is a true family. We support friendly relations between employees and appreciate mutual understanding.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-33": {
+		ru: "Делись опытом и получай поддержку от опытных коллег. Вместе мы сильнее!",
+		en: "Share your experience and get support from experienced colleagues. We are stronger together!",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-34": {
+		ru: "Мы ценим инициативу и предлагаем возможность вносить свой вклад в улучшение нашей компании.",
+		en: "We appreciate initiative and encourage you to make your own contribution to the improvement of our company.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-35": {
+		ru: "Как проходит набор в нашу команду водителей",
+		en: "What is recruitment to our team of drivers like",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-36": {
+		ru: "ООО «ЕС Транс» приглашает к себе в команду, как опытных водителей со стажем работы более года, так и начинающих водителей с опытом работы до года или совсем без опыта работы.",
+		en: "ES-Trans welcomes drivers to its team, those with more than a year of experience, beginners with less than a year, of even those with no experience.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-37": {
+		ru: "Опытный водитель",
+		en: "Experienced driver",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-38": {
+		ru: "Стаж вождения по категории Е больше года",
+		en: "More than a year of category E driving experience",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-39": {
+		ru: "Отправь заявку на вакансию.",
+		en: "Apply for the job.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-40": {
+		ru: "Пройди собеседование.",
+		en: "Have an interview.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-41": {
+		ru: "Заключи трудовой договор.",
+		en: "Sign a contract.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-42": {
+		ru: "Познакомься с коллективом, получи машину.",
+		en: "Meet the team and be assigned a vehicle.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-43": {
+		ru: "Пройди предрейсовый инструктаж и выезжай в рейс.",
+		en: "Attend the pre-delivery briefing and then set off on your journey.",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-44": {
+		ru: "Хочу в команду",
+		en: "I want to join the team",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-45": {
+		ru: "Начинающий водитель",
+		en: "Beginner driver",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-46": {
+		ru: "Стаж вождения по категории Е от 4-х до 12-ти месяцев",
+		en: "4 to 12 months of category E driving experience",
 		cn: "",
 	},
-	"driver-": {
-		ru: "",
-		en: "",
+	"driver-47": {
+		ru: "Отправь заявку на вакансию.",
+		en: "Apply for the job.",
 		cn: "",
 	},
-	"driver-": {
+	"driver-48": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-49": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-50": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-51": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-52": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-53": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-54": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-55": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-56": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-57": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-58": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-59": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-60": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-61": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-62": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-63": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-64": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-65": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-66": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-67": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-68": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-69": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-70": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-71": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-72": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-73": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-74": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-75": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-76": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-77": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-78": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-79": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-80": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-81": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-82": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-83": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-84": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-85": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-86": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-87": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-88": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-89": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-90": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-91": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-92": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-93": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-94": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-95": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-96": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-97": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-98": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-99": {
 		ru: "",
 		en: "",
 		cn: "",
 	},
-	"driver-": {
+	"driver-100": {
 		ru: "",
 		en: "",
 		cn: "",

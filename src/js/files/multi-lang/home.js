@@ -71,12 +71,12 @@ export const homeTexts = {
 	},
 	"home-3": {
 		ru: "Комплектные и сборные грузы из Китая",
-		en: "Full and consolidated cargo from China",
+		en: "Full loads and groupage transportation from China",
 		cn: "中国到俄罗斯拼车与整车的运输",
 	},
 	"home-4": {
 		ru: "Доставка авто и авиа транспортом",
-		en: "Delivery via motor and air transport",
+		en: "Road and air freight delivery",
 		cn: "汽运与空运",
 	},
 	"home-5": {
@@ -171,7 +171,7 @@ export const homeTexts = {
 	},
 	"home-23": {
 		ru: "ООО «ЕС Транс» перевозит комплектные и сборные грузы из Китая, как своими машинами, так и с привлечением транспорта наших партнеров по автоперевозкам (порядка 500 автомобилей), их надёжность проверена совместной работой в течение более восьми лет. В Шанхае у нас есть склад, где мы комплектуем сборные грузы. Подробнее можно прочитать",
-		en: "OOO ES-Trans transports full and consolidated cargo from China, both with our own trucks and those of our partners (around 500 vehicles), the reliability of which has been tested the joint operations for more than eight years. We have a warehouse in Shanghai, where we combine consolidated loads. More information is available",
+		en: "OOO ES-Trans transports full and consolidated cargo from China, both with our own trucks and those of our partners (around 500 vehicles), the reliability of which has been tested in operations for more than eight years. We have a warehouse in Shanghai, where we combine consolidated loads. More information is available",
 		cn: "ES Trans 物流有限公拥有自有车与我们可靠的伙伴的车（500辆车）从中国拼车和整车货物运输，他们的可靠性被8年合作实验过的。在上海市，我们自有仓库可以配拼货。了解更多详情，",
 	},
 	"home-24": {
@@ -186,12 +186,12 @@ export const homeTexts = {
 	},
 	"home-26": {
 		ru: "Стоимость перевозки и время доставки груза в первую очередь зависят от маршрута перевозки, веса и количества груза, а также необходимости дополнительного страхования в случае высокой стоимости груза. Все условия перевозок грузов очень разные, как и грузы, которые мы перевозим.",
-		en: "The cost of shipping and the time of cargo delivery depend on the shipping route, the weight and quantity of the cargo, as well as the need for additional insurance in case of high value cargo. All cargo shipping terms are different, as are the goods that we ship.",
+		en: "The cost of shipping and transit time depend on the shipping route, the weight and quantity of the cargo, as well as the need for additional insurance in case of high value cargo. All cargo shipping terms are different, as are the goods that we ship.",
 		cn: "运费、输送时间取决于运输路线、货物重量及货值，货值的话，延伸保险对最终的运费也有影响：如我们运货物不一样，就运输条件也不一样。",
 	},
 	"home-27": {
 		ru: "Для быстрой предварительной оценки стоимости и времени доставки автомобилем, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
-		en: "For a quick prior estimate of the cost and time of delivery by road vehicle, please fill in a small form by pressing the red button in the section below.",
+		en: "For a quick prior estimate of the cost and transit time by road, please fill in a small form by pressing the red button in the section below.",
 		cn: "为了更快算汽运费、交货时间，请点击下面红色按钮，填写小表格。",
 	},
 	"home-28": {
@@ -201,7 +201,7 @@ export const homeTexts = {
 	},
 	"home-29": {
 		ru: "Наша компания предлагает доставку грузов из Китая с использованием транспорта ведущих авиакомпаний. Мы предлагаем выгодные тарифы, а также гибкость в выборе маршрутов и сроков отправки. Подробнее можно прочитать",
-		en: "Our company offers delivery of cargo from China using leading airlines. We offer competitive rates and flexibility in the selection of routes and shipping times. More information is available",
+		en: "Our company offers cargo delivery from China using leading airlines. We offer competitive rates and flexibility in the selection of routes and shipping times. More information is available",
 		cn: "我们公司通过一流航空公司提供从中国发货的空运服务。我们提出有竞争力的运价，而且选择路线，发货时间是随机应变的。了解更多详情，",
 	},
 	"home-30": {
@@ -216,7 +216,7 @@ export const homeTexts = {
 	},
 	"home-32": {
 		ru: "Для быстрой предварительной оценки стоимости и времени доставки самолётом, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
-		en: "For a quick prior estimate of the cost and time of delivery by air, please fill in a small form by pressing the red button in the section below.",
+		en: "For a quick prior estimate of the cost and transit time by air, please fill in a small form by pressing the red button in the section below.",
 		cn: "为了更快算空运费、交货时间，请点击下面红色按钮，填写小表格。",
 	},
 	"home-33": {
@@ -236,7 +236,7 @@ export const homeTexts = {
 	},
 	"home-36": {
 		ru: "Предоставьте упрощенную информацию о грузе, и мы сформируем примерную стоимость наших услуг. Чтобы сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные помогут нам оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие согласования.",
-		en: "Provide simplified information about the cargo, and we will generate the approximate cost of our services. To estimate the cost accurately, we need complete about the cargo. This information will help us to estimate the complexity and scope of work related to customs clearance and to account for other factors that influence the cost, such as any necessary certification, permits, and other approvals.",
+		en: "Provide simplified information about the cargo, and we will generate the approximate cost of our services. To estimate the cost accurately, we need complete information about the cargo. This information will help us to estimate the complexity and scope of work related to customs clearance and to account for other factors that influence the cost, such as any necessary certification, permits, and other approvals.",
 		cn: "请提供短缩货物信息，我们就报大概的价格。需要更清晰的运费的话，我们得知道齐全货物信息为了估计工作的复杂性：工作量、通关手续特性，而且考虑其他因素对价值有影响，例如，货物必要的认证、出口许可证等等。",
 	},
 	"home-37": {
@@ -350,8 +350,8 @@ export const homeTexts = {
 		cn: "海关手续办理要多长时间？",
 	},
 	"home-59": {
-		ru: "Средний срок прохождения таможенного контроля — 1-3 дня.",
-		en: "The average duration of customs clearance is 1-3 days.",
+		ru: "Средний срок прохождения таможенного контроля — 1 день.",
+		en: "The average duration of customs clearance is 1 day.",
 		cn: "海关手续办理通常在1-3个工作日内完成。",
 	},
 	"home-60": {

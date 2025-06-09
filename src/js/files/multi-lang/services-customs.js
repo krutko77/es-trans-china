@@ -173,7 +173,7 @@ export const customsTexts = {
 	},
 	"customs-22": {
 		ru: "Чтобы сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные помогут нам оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие согласования.",
-		en: "To estimate the cost accurately, we need complete about the cargo. This information will help us to estimate the complexity and scope of work related to customs clearance and to account for other factors that influence the cost, such as any necessary certification, permits, and other approvals.",
+		en: "To estimate the cost accurately, we need complete information about the cargo. This information will help us to estimate the complexity and scope of work related to customs clearance and to account for other factors that influence the cost, such as any necessary certification, permits, and other approvals.",
 		cn: "",
 	},
 	"customs-23": {

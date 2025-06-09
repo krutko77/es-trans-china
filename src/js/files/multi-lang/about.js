@@ -73,7 +73,7 @@ export const aboutTexts = {
 	},
 	"about-3": {
 		ru: "История нашей компании начинается в 2001 году, когда Датская компания ICT A/S, будучи дочкой Maersk A/S и GT Spedition A/S, создала подразделение по автомобильным перевозкам из Дании в Россию, куда вошли восемь инициативных сотрудников в Дании, Литве и Москве. Объемы перевозок росли динамично и в 2004 было принято решение открыть филиал ICT A/S в Москве. Так появилось ООО «Ай Си Ти ЛОГИСТИКС» в составе 3-х человек.",
-		en: "The history of our company dates back to 2001, when the Danish company ICT A/S, being a subsidiary of Maersk A/S and GT Spedition A/S, established a subdivision for road transport from Denmark to Russia, which involved eight proactive employees in Denmark, Lithuania, and Moscow. The shipping volumes were growing dynamically, and in 2004 it was decided to open a branch of ICT A/S in Moscow. That is when ICT LOGISTICS consisting of 3 people appeared.",
+		en: "The history of our company dates back to 2001, when the Danish company ICT A/S, being a subsidiary of Maersk A/S and GT Spedition A/S, established a subdivision for road transport from Denmark to Russia, which involved eight proactive employees in Denmark, Lithuania, and Moscow. The shipping volumes were growing dynamically, and in 2004 it was decided to open a branch of ICT A/S in Moscow. That is when ICT LOGISTICS in Russia was consisting of 3 people appeared.",
 		cn: "我们公司的发展始于2001年：当时ICT A/S作为马士基集团（Maersk A/S）与GT国际货运（GT Spedition A/S）的合资企业正式成立，专门负责丹麦与俄罗斯之间的运输业务。凭借8位富有开拓精神的员工的卓越工作，公司运输量实现显著增长。2004年，ICT A/S在莫斯科设立分支机构。此后，三位创始人共同创立了ICT Logistics有限公司。",
 	},
 	"about-4": {
@@ -83,7 +83,7 @@ export const aboutTexts = {
 	},
 	"about-5": {
 		ru: "За время работы на российском рынке нашими клиентами были такие компании как John Deere, VOLVO Trucks, Danfoss, Grundfos, Thyssen Krupp, Philips Medical, Novozaims. Наша команда сформировалась в сотрудничестве с этими крупными и требовательными заказчиками, во время работы с которыми мы приобрели бесценный опыт, понимание нужд клиентов, важности своевременного предоставления информации и проактивного подхода.",
-		en: "During the time of our operations in the Russian market our customers were John Deere, VOLVO Trucks, Danfoss, Grundfos, Thyssen Krupp, Philips Medical, and Novozaims. Our team was formed in collaboration with these large and demanding customers, working with which gave us invaluable experience, understanding of the customers’ needs, the importance of timely information supply, and a proactive approach.",
+		en: "During the time of our operations in the Russian market our customers were John Deere, VOLVO Trucks, Danfoss, Grundfos, Thyssen Krupp, Philips Medical, and Novozaims. Our team was formed in collaboration with these large and demanding customers, working with which gave us invaluable experience, understanding of the customer’s needs, the importance of timely information supply, and a proactive approach.",
 		cn: "在俄罗斯市场运营中，我们的核心客户包括行业领军企业：John Deere（约翰迪尔）、VOLVO Trucks（沃尔沃卡车）、Danfoss（丹佛斯）、Grundfos（格兰富）、Thyssen Krupp（蒂森克虏伯）、Philips Medical（飞利浦医疗）。通过深度战略合作，团队积累了宝贵的行业经验：不仅深刻理解了准时交付与主动式工作模式的重要性，更精准掌握了客户需求的特性化维度。",
 	},
 	"about-6": {
@@ -242,8 +242,8 @@ export const aboutTexts = {
 		cn: "我们公司汽车总数",
 	},
 	"about-37": {
-		ru: "Парк автомобилей ООО «ЕС Транс» состоит из 13 тентованных автопоездов. Тягачи Евро 5 и Евро 6 – Mercedes Actros и Foton.",
-		en: "ES-Trans fleet consists of 13 trucks with covered tilt trailers. Euro 5 and Euro 6 trucks – Mercedes Actros and Foton.",
+		ru: "Парк автомобилей ООО «ЕС Транс» состоит из 12 тентованных автопоездов. Тягачи Евро 5 и Евро 6 – Mercedes Actros и Foton.",
+		en: "ES-Trans fleet consists of 12 trucks with tilt trailers. Euro 5 and Euro 6 trucks – Mercedes Actros and Foton.",
 		cn: "“ES Trans”自有13辆普通篷布车：欧五标准及欧六标准 （奔驰Actros与福田汽车）。",
 	},
 

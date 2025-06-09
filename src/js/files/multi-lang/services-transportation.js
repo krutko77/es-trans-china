@@ -123,7 +123,7 @@ export const transportationTexts = {
 	},
 	"transport-13": {
 		ru: "Для быстрой предварительной оценки стоимости и времени доставки автомобилем, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
-		en: "For a quick prior estimate of the cost and time of delivery by road vehicle, please fill in a small form by pressing the red button in the section below.",
+		en: "For a quick prior estimate of the cost and transit time by road, please fill in a small form by pressing the red button in the section below.",
 		cn: "",
 	},
 	"transport-14": {

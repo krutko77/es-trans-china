@@ -167,8 +167,8 @@ export const salesManagerTexts = {
 		cn: "",
 	},
 	"sales-manager-22": {
-		ru: "В собственности 13 автопоездов: тягачи Mercedes и Foton (Евро 5, 6) и шторные полуприцепы.",
-		en: "We own 13 trailer-trucks: Mercedes and Foton (Euro 5, 6) trucks and curtainsider semi-trailers.",
+		ru: "В собственности 12 автопоездов: тягачи Mercedes и Foton (Евро 5, 6) и шторные полуприцепы.",
+		en: "We own 12 trailer-trucks: Mercedes and Foton (Euro 5, 6) trucks and curtainsider semi-trailers.",
 		cn: "",
 	},
 	"sales-manager-23": {

@@ -147,8 +147,8 @@ export const driverTexts = {
 		cn: "",
 	},
 	"driver-17": {
-		ru: "В нашем парке 13 автопоездов.",
-		en: "Our fleet includes 13 trailer-trucks.",
+		ru: "В нашем парке 12 автопоездов.",
+		en: "Our fleet includes 12 trailer-trucks.",
 		cn: "",
 	},"driver-18": {
 		ru: "ТО и ремонт подвижного состава производится на специализированных СТО.",

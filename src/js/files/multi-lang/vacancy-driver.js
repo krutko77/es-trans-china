@@ -619,27 +619,27 @@ export const driverTexts = {
 	},
 	"form-33": {
 		ru: "Политикой",
-		en: "the Personal Data",
+		en: "the Personal Data Processing Policy",
 		cn: "即表示本人同意根据",
 	},
 	"form-34": {
 		ru: "и",
-		en: "Processing",
+		en: "and",
 		cn: "",
 	},
 	"form-35": {
 		ru: "Соглашением",
-		en: "Policy",
+		en: "Agreement",
 		cn: "",
 	},
 	"form-36": {
 		ru: "обработки персональных данных",
-		en: "and Agreement",
+		en: " ",
 		cn: "",
 	},
 	"form-37": {
 		ru: "Отправить",
 		en: "Send",
 		cn: "提交",
-	}
+	}	
 }

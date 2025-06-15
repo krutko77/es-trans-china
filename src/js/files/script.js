@@ -30,7 +30,7 @@ for (let i = 0; i < allAsLength; i++) {
 	}
 }
 
-// Для меню со вложенностями при переносе на WP
+// Для меню со вложенностями с учетом переноса на WP
 // Находим все элементы li с классом menu-item-has-children
 const menuItems = document.querySelectorAll('li.menu-item-has-children');
 // Перебираем найденные элементы и добавляем в каждый из них элемент span
@@ -43,7 +43,7 @@ menuItems.forEach(item => {
 	// Для сенсорных экранов вешаем слушателя на стрелку для добавления класса родителю
 	if (isMobile.any()) {
 		spanElement.addEventListener('click', function () {
-			spanElement.parentElement.classList.toggle('_active');
+			spanElement.parentElement.classList.toggle('_submenu-active');
 		});
 	}
 });
@@ -79,7 +79,26 @@ if (document.querySelector('.form-button-driver')) {  // Проверяем на
 	};
 }
 
+// Динамического управления aria-hidden. При открытии модального окна удаляет aria-hidden="true" и добавляет его обратно при закрытии. 
+document.querySelectorAll('[data-open-popup]').forEach(button => {
+	button.addEventListener('click', () => {
+		const popupId = button.dataset.openPopup; // Например, data-open-popup="popup-form-customs"
+		const popup = document.getElementById(popupId);
+		popup.removeAttribute('aria-hidden');
+		// Перенос фокуса внутрь попапа
+		const firstInput = popup.querySelector('input, button, [tabindex]');
+		firstInput?.focus();
+	});
+});
+
+document.querySelectorAll('[data-close]').forEach(button => {
+	button.addEventListener('click', () => {
+		const popup = button.closest('.popup');
+		popup.setAttribute('aria-hidden', 'true');
+	});
+});
+
 // Переключение на страницу благодарности после отправки формы
 document.addEventListener('formSent', function (event) {
-	location = 'https://es-trans.ru/thank-you-page';
+	location = 'https://es-trans.ru/thank-you-page.html';
 }, false);

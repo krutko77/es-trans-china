@@ -71,6 +71,17 @@ a {
    text-decoration: none;
 }
 
+a {
+   -webkit-tap-highlight-color: transparent;
+	/* Отключает голубую подсветку при тапе */
+}
+
+a:active,
+a:focus {
+   background: transparent;
+   outline: none;
+}
+
 ul li {
    list-style: none;
 }
@@ -87,6 +98,16 @@ h5,
 h6 {
    font-weight: inherit;
    font-size: inherit;
+}
+
+select {
+   -webkit-tap-highlight-color: transparent;
+   /* Отключает голубую подсветку при тапе */
+}
+
+button {
+   -webkit-tap-highlight-color: transparent;
+   /* Убирает подсветку при тапе */
 }
 
 button:active,

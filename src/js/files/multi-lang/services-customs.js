@@ -481,8 +481,8 @@ export const customsTexts = {
 		cn: "E-mail*",
 	},
 	"form-8": {
-		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
-		en: "Please ask your questions regarding delivery or customs clearance*",
+		ru: "Ваш вопрос по таможенному оформлению*",
+		en: "Your questions regarding customs clearance*",
 		cn: "请写一下您的国际运输或通关手续问题。",
 	},
 	"form-9": {

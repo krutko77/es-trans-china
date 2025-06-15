@@ -56,9 +56,9 @@
       }
    }
 
-	&__label.customs {
-		font-size: calc(.75rem + 2*(100vw - 320px) / 1180);
-	}
+   &__label.customs {
+      font-size: calc(.75rem + 2*(100vw - 320px) / 1180);
+   }
 
    textarea.form__input {
       min-height: 70px;
@@ -68,6 +68,12 @@
       @media (max-width: $pc) {
          min-height: calc(60px + 10 * (100vw - 320px) / 940);
       }
+   }
+
+
+   textarea.form__input.form-input-offer {
+      padding: 20px;
+		min-height: 80px;
    }
 
    &__video-box {
@@ -137,9 +143,9 @@
       line-height: 1.2;
    }
 
-	.text-form.customs {
-		font-size: calc(.75rem + 2*(100vw - 320px) / 1180);
-	}
+   .text-form.customs {
+      font-size: calc(.75rem + 2*(100vw - 320px) / 1180);
+   }
 }
 
 //</FORM>
@@ -148,4 +154,3 @@
 // Снипет (HTML): chk
 @import "checkbox";
 //@import "select";
-

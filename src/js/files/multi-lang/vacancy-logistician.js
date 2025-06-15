@@ -663,9 +663,14 @@ export const LogisticianTexts = {
 		cn: "E-mail*",
 	},
 	"form-22": {
-		ru: "Почему вы хотите работать у нас",
-		en: "Why do you want to work for us",
-		cn: "您为什么想加入我们",
+		ru: "Почему вы хотите работать у нас*",
+		en: "Why do you want to work for us*",
+		cn: "您为什么想加入我们*",
+	},
+	"form-22-1": {
+		ru: "(укажите вакансию)",
+		en: "(indicate the vacancy)",
+		cn: "",
 	},
 	"form-23": {
 		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
@@ -674,27 +679,27 @@ export const LogisticianTexts = {
 	},
 	"form-24": {
 		ru: "Политикой",
-		en: "the Personal Data",
+		en: "the Personal Data Processing Policy",
 		cn: "即表示本人同意根据",
 	},
 	"form-25": {
 		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-25-1": {
-		ru: "Соглашением",
-		en: "Policy",
+		en: "and",
 		cn: "",
 	},
 	"form-26": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
+		ru: "Соглашением",
+		en: "Agreement",
 		cn: "",
 	},
 	"form-27": {
+		ru: "обработки персональных данных",
+		en: " ",
+		cn: "",
+	},
+	"form-28": {
 		ru: "Отправить",
 		en: "Send",
 		cn: "提交",
-	},
+	}
 }

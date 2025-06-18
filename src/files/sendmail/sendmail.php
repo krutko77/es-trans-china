@@ -21,13 +21,12 @@ $mail->Password   = 'es-trans#2025';                               //SMTP passwo
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 $mail->Port       = 465;
 
-
 //От кого письмо
 $mail->setFrom('main@es-trans.ru', 'Сайт ЕС Транс'); // Указать нужный E-mail
 //Кому отправить
 $mail->addAddress('kpv@es-trans.pro'); // Указать нужный E-mail 
 //Тема письма
-$mail->Subject = 'Привет! Это запрос с сайта ЕС Транс.';
+$mail->Subject = 'Привет! Это запрос с сайта ЕС Транс';
 
 //Тело письма
 $body = '<h2>Данные из формы обратной связи</h2>';
@@ -36,7 +35,7 @@ if (trim(!empty($_POST['company-name-customs']))) {
 	$body .= '<p><strong>Название компании:</strong> ' . $_POST['company-name-customs'] . '</p>';
 }
 if (trim(!empty($_POST['first-name-customs']))) {
-	$body .= '<p><strong>Имя клиента по растаможке:</strong> ' . $_POST['first-name-customs'] . '</p>';
+	$body .= '<p><strong>Имя:</strong> ' . $_POST['first-name-customs'] . '</p>';
 }
 if (trim(!empty($_POST['tel-customs']))) {
 	$body .= '<p><strong>Телефон:</strong> ' . $_POST['tel-customs'] . '</p>';
@@ -45,9 +44,8 @@ if (trim(!empty($_POST['email-customs']))) {
 	$body .= '<p><strong>Email:</strong> ' . $_POST['email-customs'] . '</p>';
 }
 if (trim(!empty($_POST['text-message-customs']))) {
-	$body .= '<p><strong>Сообщение:</strong> ' . $_POST['text-message-customs'] . '</p>';
+	$body .= '<p><strong>Вопрос о растаможке:</strong> ' . $_POST['text-message-customs'] . '</p>';
 }
-
 //Форма по вакансиям менеджера или логиста
 if (trim(!empty($_POST['first-name-offer']))) {
 	$body .= '<p><strong>Имя кандидата:</strong> ' . $_POST['first-name-offer'] . '</p>';
@@ -62,9 +60,9 @@ if (trim(!empty($_POST['email-offer']))) {
 	$body .= '<p><strong>Email:</strong> ' . $_POST['email-offer'] . '</p>';
 }
 if (trim(!empty($_POST['text-message-offer']))) {
-	$body .= '<p><strong>Сообщение:</strong> ' . $_POST['text-message-offer'] . '</p>';
+	$body .= '<p><strong>Сообщение по вакансии:</strong> ' . $_POST['text-message-offer'] . '</p>';
 }
-//Форма по вакансии водителя
+//Форма по вакансии водитель
 if (trim(!empty($_POST['name-driver']))) {
 	$body .= '<p><strong>Имя и фамилия водителя:</strong> ' . $_POST['name-driver'] . '</p>';
 }
@@ -72,22 +70,22 @@ if (trim(!empty($_POST['tel-driver']))) {
 	$body .= '<p><strong>Телефон или мессенджер водителя:</strong> ' . $_POST['tel-driver'] . '</p>';
 }
 
-// Проверка на бота
-/* if ($_POST['code'] != 'NOSPAM') {
-	exit;
-} */
+	// Проверка на бота
+	if ($_POST['code'] != 'NOSPAM') {
+		exit;
+		}
 
+	$mail->Body = $body;
 
-$mail->Body = $body;
+	//Отправляем
+	if (!$mail->send()) {
+		$message = 'Ошибка';
+	} else {
+		$message = 'Данные отправлены!';
+	}
 
-//Отправляем
-if (!$mail->send()) {
-	$message = 'Ошибка';
-} else {
-	$message = 'Данные отправлены!';
-}
+	$response = ['message' => $message];
 
-$response = ['message' => $message];
-
-header('Content-type: application/json');
-echo json_encode($response);
+	header('Content-type: application/json');
+	echo json_encode($response);
+?>

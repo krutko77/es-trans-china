@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /404.html/ 
+Disallow: /agreement.html/ 
+Disallow: /contract-driver.html/ 
+Disallow: /contracts.html/ 
+Disallow: /privacy-policy.html/ 
+Sitemap: http://es-trans.ru/sitemap.xml

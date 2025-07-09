@@ -235,49 +235,4 @@ export const salesManagerTexts = {
 		en: "Close",
 		cn: "关闭",
 	},
-	"form-29": {
-		ru: "Здравствуй, меня зовут Андрей Сибилёв, оставь телефон, я перезвоню и расскажу об условиях и преимуществах работы в ООО «ЕС Транс»",
-		en: "Hello, I am Andrey Sibilev, leave your phone number, and I will tell you about the conditions and advantages of working for ES-Trans",
-		cn: "您好，我是Andrey Sibilev。若您方便，请提供联系方式，稍后将致电为您详细说明在ES Trans运输有限公工作条件。",
-	},
-	"form-30": {
-		ru: "Имя и фамилия*",
-		en: "First and Last Name*",
-		cn: "姓名*",
-	},
-	"form-31": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-32": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-33": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-34": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-35": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-36": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-37": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	}
 }

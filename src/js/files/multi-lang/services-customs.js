@@ -3,7 +3,7 @@ export const customsTexts = {
 	"head-title": {
 		ru: "Таможенное оформление | ЕС Транс",
 		en: "Customs Clearance | ES-Trans",
-		cn: "",
+		cn: "海关手续办理 | ES Trans",
 	},
 	"header-menu-1": {
 		ru: "Главная",
@@ -64,17 +64,17 @@ export const customsTexts = {
 	"customs-1": {
 		ru: "Таможенное оформление грузов",
 		en: "Cargo Customs Clearance",
-		cn: "",
+		cn: "货物海关手续办理",
 	},
 	"customs-2": {
 		ru: "Процедура импорт по 1 ДТ",
 		en: "Import procedure with 1 goods declaration",
-		cn: "",
+		cn: "手续1个进口报单",
 	},
 	"customs-3": {
 		ru: "Таможенное оформление одного товара по одной декларации на товары в одном транспортном средстве",
 		en: "Customs clearance of one product with one goods declaration in a single vehicle",
-		cn: "",
+		cn: "在一辆车内一种货物的关手续办理货物报单",
 	},
 	"customs-4": {
 		ru: "от",
@@ -84,22 +84,22 @@ export const customsTexts = {
 	"customs-5": {
 		ru: "15 000",
 		en: "15,000",
-		cn: "",
+		cn: "15 000",
 	},
 	"customs-6": {
 		ru: "RUB",
 		en: "RUB",
-		cn: "",
+		cn: "罗布以上",
 	},
 	"customs-7": {
 		ru: "Дополнительный лист к ДТ",
 		en: "Additional sheet for goods declaration",
-		cn: "",
+		cn: "进口报单附加页",
 	},
 	"customs-8": {
 		ru: "Таможенное оформление каждого дополнительного листа к ДТ, при условии таможенного оформления по ДТ более одного товара",
 		en: "Customs clearance of each additional sheet for a goods declaration, provided that more than one product is cleared by customs per goods declaration",
-		cn: "",
+		cn: "如一份报关单申报多个货物，则每份报关单附页需办理海关手续",
 	},
 	"customs-9": {
 		ru: "от",
@@ -109,22 +109,22 @@ export const customsTexts = {
 	"customs-9-1": {
 		ru: "1 500",
 		en: "1,500",
-		cn: "",
+		cn: "1 500",
 	},
 	"customs-10": {
 		ru: "RUB",
 		en: "RUB",
-		cn: "",
+		cn: "罗布以上",
 	},
 	"customs-11": {
 		ru: "Обеспечение осмотра",
 		en: "Inspection",
-		cn: "",
+		cn: "安排查验 / 提供查验条件保障",
 	},
 	"customs-12": {
 		ru: "Обеспечение осмотра/досмотра товаров (за одно транспортное средство)",
 		en: "Inspection/examination of the goods (per vehicle)",
-		cn: "",
+		cn: "安排查验 / 提供查验条件保障",
 	},
 	"customs-13": {
 		ru: "от",
@@ -134,12 +134,12 @@ export const customsTexts = {
 	"customs-14": {
 		ru: "5 000",
 		en: "5,000",
-		cn: "",
+		cn: "5 000",
 	},
 	"customs-15": {
 		ru: "RUB",
 		en: "RUB",
-		cn: "",
+		cn: "罗布以上",
 	},
 	"customs-16": {
 		ru: "Дополнительное ТС в ДТ",
@@ -149,7 +149,7 @@ export const customsTexts = {
 	"customs-17": {
 		ru: "Дополнительное транспортное средство в декларации на товары (вагон, контейнер, автомобиль)",
 		en: "Additional vehicle per goods declaration (wagon, container, car)",
-		cn: "",
+		cn: "货物报关单中的辅助车辆",
 	},
 	"customs-18": {
 		ru: "от",
@@ -159,36 +159,36 @@ export const customsTexts = {
 	"customs-19": {
 		ru: "7 000",
 		en: "7,000",
-		cn: "",
+		cn: "7 000",
 	},
 	"customs-20": {
 		ru: "RUB",
 		en: "RUB",
-		cn: "",
+		cn: "罗布以上",
 	},
 	"customs-21": {
 		ru: "Выше указаны расценки по нашим базовым операциям при подготовке таможенных документов и таможенному декларированию товаров.",
 		en: "See above the prices for our basic operations to prepare the customs documents and the customs declaration of the goods.",
-		cn: "",
+		cn: "上面有报关文件及货物申报方面的基础服务报价。",
 	},
 	"customs-22": {
 		ru: "Чтобы сделать точный расчет стоимости, нам необходима полная информация о грузе. Эти данные помогут нам оценить сложность и объем работы, связанные с таможенным оформлением, а также учесть прочие факторы, влияющие на стоимость, такие как необходимая сертификация, получение разрешений и прочие согласования.",
 		en: "To estimate the cost accurately, we need complete information about the cargo. This information will help us to estimate the complexity and scope of work related to customs clearance and to account for other factors that influence the cost, such as any necessary certification, permits, and other approvals.",
-		cn: "",
+		cn: "为准确计算费用，我们需要您提供完整的货物信息。这些数据将有助于我们评估海关手续的复杂性和工作量，并考虑其他影响费用的因素，例如所需认证、许可获取和其他协调事项。",
 	},
 	"customs-23": {
 		ru: "Для быстрой предварительной оценки стоимости таможенного оформления, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
 		en: "For a quick prior estimate of the cost of customs clearance, please fill in a small form by pressing the red button in the section below.",
-		cn: "",
+		cn: "如需快速预估报关费用，请点击下方区域中的红色按钮填写简要表格。",
 	},
 	"customs-24": {
 		ru: "Мы готовы оказать услуги по таможенному оформлению грузов",
 		en: "We are ready to provide cargo customs clearance services",
-		cn: "",
+		cn: "我们可在俄罗斯全境内提供货物报关服务。我们的优势在于对货物信息的细致收集以及在准备阶段就制定完整的文件资料包。这使我们能够在最短时间内完成货物通关，为您带来最大效益。",
 	},
 	"customs-25": {
-		ru: "по всей территории России",
-		en: "over the entire territory of Russia",
+		ru: "по всей территории России.",
+		en: "over the entire territory of Russia.",
 		cn: "",
 	},
 	"customs-26": {
@@ -199,17 +199,17 @@ export const customsTexts = {
 	"customs-27": {
 		ru: "Наш ключевой партнер в таможенном оформления товаров и транспортных средств – компания ООО «ТО.Л.К». Она занимает прочную позицию на российском рынке брокерских услуг и приобрела репутацию надежного делового партнера. Коллектив компании осуществляет свою деятельность с 2006 года на всей территории России без ограничений",
 		en: "Our key partner in the customs clearance of the goods and vehicles is TO.L.K. It holds a strong position in the Russian market of brokerage services and has established a reputation of a reliable business partner. The company’s team has been in operation since 2006, covering the entire territory of Russia without any restrictions",
-		cn: "",
+		cn: "我们在货物和运输工具报关方面的核心合作伙伴是“TO.L.K.”有限责任公司。该公司在俄罗斯报关代理服务市场中占据稳固地位，并赢得了值得信赖的商业伙伴声誉。自2006年以来，公司团队已在俄罗斯全境范围内开展业务，无任何地域限制（在俄罗斯联邦海关总署报关代表注册名录中的注册编号为1818",
 	},
 	"customs-28": {
 		ru: "регистрационный номер 1818 в реестре таможенных представителей Федеральной таможенной службы Российской Федерации",
 		en: "Registration number 1818 in the register of customs representatives of the Federal Customs Service of the Russian Federation",
-		cn: "",
+		cn: "在俄罗斯联邦海关总署报关代表注册名录中的注册编号为1818",
 	},
 	"customs-30": {
 		ru: "ООО «ТО.Л.К» строит свою работу на трех базовых принципах – это профессионализм, прозрачность и оперативность. Таможенное оформление производится по принципу",
 		en: "TO.LK.K builds its operation on three basic principles – professionalism, transparency, and efficiency. Customs clearance is done using",
-		cn: "",
+		cn: "“TO.L.K”有限责任公司以三个基本原则开展工作：专业性、透明性和高效性。该公司依托合同，严格遵守海关法规及对外贸易法律，按照“单一窗口”模式全天候（24/7）提供报关服务，从而确保操作的可靠性和所提供服务的高质量水平。",
 	},
 	"customs-31": {
 		ru: "«одного окна» в режиме 24/7",
@@ -224,16 +224,16 @@ export const customsTexts = {
 	"customs-33": {
 		ru: "Сотрудники ООО «ТО.Л.К» имеют обширный опыт получения классификационных решений и таможенного оформления с применением особого порядка декларирования. С непосредственным участием сотрудников компании получено",
 		en: "TO.L.K employees have extensive experience in obtaining customs classification decisions and customs clearance using a special declaration procedure. More than ",
-		cn: "",
+		cn: "“TO.L.K”公司的员工在获得分类决定和采用特殊申报程序的报关方面拥有丰富经验。公司员工直接参与取得了俄罗斯联邦海关总署超过70份货物分类决定，并能准备完整文件包以申请和获取该决定。",
 	},
 	"customs-34": {
-		ru: "более 70 решений ФТС России о классификации товаров",
+		ru: "более 70 решений ФТС России о классификации товаров.",
 		en: "70 decisions by the Federal Customs Service of Russia on the classification of goods",
 		cn: "",
 	},
 	"customs-34-1": {
 		ru: "",
-		en: "were obtained with the direct participation of the company’s employees",
+		en: "were obtained with the direct participation of the company’s employees.",
 		cn: "",
 	},
 	"customs-35": {
@@ -244,62 +244,62 @@ export const customsTexts = {
 	"customs-36": {
 		ru: "Вот что ООО «ТО.Л.К» может рассказать о себе",
 		en: "This is what TO.L.K says about itself",
-		cn: "",
+		cn: "以下是“TO.L.K”有限公司的自我介绍",
 	},
 	"customs-37": {
 		ru: "C участием наших сотрудников реализовывались знаковые и инвестиционные проекты в нашей стране:",
 		en: "With the participation of our employees, significant and investment projects were implemented in our country:",
-		cn: "",
+		cn: "在我们员工 公司完成了国内多个标志性和投资项目：",
 	},
 	"customs-38": {
 		ru: "завод Фольксваген в Калуге;",
 		en: "a Volkswagen factory in Kaluga;",
-		cn: "",
+		cn: "在加里宁格勒的大众汽车工厂;",
 	},
 	"customs-39": {
 		ru: "экспорт и импорт оборудования для Олимпиады в Сочи;",
 		en: "export and import of equipment for the Sochi Olympic Games;",
-		cn: "",
+		cn: "索契冬奥设备的进出口;",
 	},
 	"customs-40": {
 		ru: "чемпионат мира по футболу 2018 в России, с оформлением и получением всех разрешительных документов от государственных контролирующих органов (ФСБ, ФГУП «ГРЧЦ», Роскомнадзор);",
 		en: "2018 FIFA World Cup Russia, with the issue and collection of all permits from the state control authorities (Federal Security Service, Federal State Unitary Enterprise “General Radio Frequency Centre”, Roskomnadzor);",
-		cn: "",
+		cn: "2018年俄罗斯世界杯，包括办理并取得所有国家监管机构（联邦安全局、国家无线电频率中心、Roskomnadzor）所需的许可文件;",
 	},
 	"customs-41": {
 		ru: "импорт сложного технологического оборудования для таких компаний как Юнилин (Нижний Новгород), Кроношпан (Уфа), Вольво (Калуга), НЛМК (Калуга), Магна (Дзержинск), Эйр Ликид (Зеленоград, Тюмень, Череповец, Самара, Новокузнецк), Русвинил (Кстово), Русполимет (Кулебаки), Трансмашэнерго (Тихвин), Линде Газ (Балашиха), Эйр Продактс (Азов), «ИКЕА» (Великий Новгород), «ЕВРАЗ» (Новокузнецк), «Хевел» (Новочебоксарск) и многим другим.",
 		en: "import of complex process equipment for such companies as Unilin (Nizhny Novgorod), Kronospan (Ufa), Volvo (Kaluga), NLMK (Kaluga), Magna (Dzerzhinsk), Air Liquide (Zelenograd, Tyumen, Cherepovets, Samara, Novokuznetsk), Rusvinyl (Kstovo), Ruspolymet (Kulebaki), Transmashenergo (Tikhvin), Linde Gas (Balashikha), Air Products (Azov), IKEA (Veliky Novgorod), EVRAZ (Novokuznetsk), Hevel (Novocheboksark) and others.",
-		cn: "",
+		cn: "为多家公司进口复杂的技术设备，例如：Юнилин（下诺夫哥罗德）、Кроношпан（乌法）、沃尔沃（卡卢加）、НЛМК（卡卢加）、Магна（捷尔任斯克）、Эйр Ликид（绿城、秋明、切列波韦茨、萨马拉、新库兹涅茨克）、Русвинил（克斯托沃）、Русполимет（库列巴基）、Трансмашэнерго（季赫温）、Линде Газ（巴拉希哈）、Эйр Продактс（阿佐夫）、»IKEA»（大诺夫哥罗德）、»ЕВРАЗ»（新库兹涅茨克）、Хевел（新切博克萨尔）以及许多其他企业。",
 	},
 	"customs-42": {
 		ru: "Наша специализация – это таможенное оформление автокомпонентов, автозапчастей, оборудования, товаров народного потребления (одежда, обувь), фармацевтики, химии, медицинских препаратов и многих других товарных позиций.",
 		en: "Our specialization is the customs clearance of automotive components, automotive spare parts, equipment, fast moving consumer goods (clothes, shoes), pharmaceuticals, chemicals, medical drugs, and many more commodity items.",
-		cn: "",
+		cn: "我们的专业领域是汽车零件、配件、设备、日用品（如衣服、鞋类）、医药、化工、医疗用品等各类商品的报关服务。就备件而言，公司处理的产品目录涵盖超过两万个品项。",
 	},
 	"customs-43": {
-		ru: "По запасным частям компания работает с номенклатурой более 20 тысяч артикулов",
-		en: "The company handles an assortment of more than 20 thousand SKUs for spare parts",
-		cn: "",
+		ru: "По запасным частям компания работает с номенклатурой более 20 тысяч артикулов.",
+		en: "The company handles an assortment of more than 20 thousand SKUs for spare parts.",
+		cn: "在备用零件方面，公司与20 000个货号以上工作。",
 	},
 	"customs-44": {
 		ru: "Кроме того, компания производит оформление различного многофункционального оборудования (вентиляционного, холодильного, отопительного и т.п.), которое ввозится как в составе всего производственного комплекса, так и отдельными поставками для различных промышленных и агропромышленных предприятий, а также и для индивидуальных нужд.",
 		en: "In addition, the company clears various multifunctional equipment (ventilation, refrigeration, heating etc.), which is imported both within the entire production complex and in separate shipments for various industrial and agro-industrial facilities, and for individual needs.",
-		cn: "",
+		cn: "此外，公司还负责各种多功能设备（通风、制冷、供暖等）的手续办理，这些设备既作为整个生产系统的一部分进口，也以单独批次供应给各类工业和农工企业，以及个人的需求。",
 	},
 	"customs-45": {
 		ru: "На сайте компании",
 		en: "You can easily find detailed information on the company’s web-site",
-		cn: "",
+		cn: "在公司网站",
 	},
 	"customs-45-1": {
 		ru: "www.customs-tolk.ru",
 		en: "www.customs-tolk.ru",
-		cn: "",
+		cn: "www.customs-tolk.ru",
 	},
 	"customs-46": {
 		ru: "вы легко сможете получить очень подробную информацию",
 		en: "",
-		cn: "",
+		cn: "，您可以更清晰地了解需要的信息",
 	},
 	"customs-47": {
 		ru: "по вопросам таможенного оформления и законодательства в области ВЭД;",
@@ -488,12 +488,12 @@ export const customsTexts = {
 	"form-9": {
 		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
 		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
+		cn: "填写本表格时，即表示本人同意根据 对 个人信息进行处理",
 	},
 	"form-10": {
 		ru: "Политикой",
 		en: "the Personal Data Processing Policy",
-		cn: "即表示本人同意根据",
+		cn: "",
 	},
 	"form-11": {
 		ru: "и",
@@ -503,16 +503,16 @@ export const customsTexts = {
 	"form-12": {
 		ru: "Соглашением",
 		en: "Agreement",
-		cn: "",
+		cn: " ",
 	},
 	"form-13": {
 		ru: "обработки персональных данных",
 		en: " ",
-		cn: "",
+		cn: " ",
 	},
 	"form-14": {
 		ru: "Отправить",
 		en: "Send",
 		cn: "提交",
-	}	
+	}
 }

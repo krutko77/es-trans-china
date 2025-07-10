@@ -284,7 +284,7 @@ export const customsTexts = {
 	"customs-44": {
 		ru: "Кроме того, компания производит оформление различного многофункционального оборудования (вентиляционного, холодильного, отопительного и т.п.), которое ввозится как в составе всего производственного комплекса, так и отдельными поставками для различных промышленных и агропромышленных предприятий, а также и для индивидуальных нужд.",
 		en: "In addition, the company clears various multifunctional equipment (ventilation, refrigeration, heating etc.), which is imported both within the entire production complex and in separate shipments for various industrial and agro-industrial facilities, and for individual needs.",
-		cn: "此外，公司还负责各种多功能设备（通风、制冷、供暖等）的手续办理，这些设备既作为整个生产系统的一部分进口，也以单独批次供应给各类工业和农工企业，以及个人的需求。",
+		cn: "此外，公司还负责各种多功能设备（通风、制冷、供暖等）的手续办理，这些设备既作为整个生产系统的一部分进口，也以单独批次供应给各类工业和农工企业，以及个人的需求。此外，公司还负责各种多功能设备（通风、制冷、供暖等）的手续办理，这些设备既作为整个生产系统的一部分进口，也以单独批次供应给各类工业和农工企业，以及个人的需求。",
 	},
 	"customs-45": {
 		ru: "На сайте компании",
@@ -304,92 +304,92 @@ export const customsTexts = {
 	"customs-47": {
 		ru: "по вопросам таможенного оформления и законодательства в области ВЭД;",
 		en: "on customs clearance and foreign economic activity laws;",
-		cn: "",
+		cn: "关于海关清关及对外贸易法律法规的问题；",
 	},
 	"customs-48": {
 		ru: "по подготовке и оформлению документов для таможенных органов;",
 		en: "on the preparation and registration of documents for customs authorities;",
-		cn: "",
+		cn: "关于准备和办理报关文件；",
 	},
 	"customs-49": {
 		ru: "о выборе кодов ТН ВЭД ЕАЭС для товаров;",
 		en: "on the selection of the EAEU Commodity Nomenclature of Foreign Economic Activity codes for goods;",
-		cn: "",
+		cn: "关于货物选择EAEU海关编码；",
 	},
 	"customs-50": {
 		ru: "по размещению товаров на складе временного хранения, проведению предварительных осмотров и дополнительных таможенных процедур.",
 		en: "on the placement of goods in temporary storage, preliminary inspections, and additional customs procedures.",
-		cn: "",
+		cn: "关于货物在海关监管仓库的安放、进行初步检查及额外海关手续。",
 	},
 	"customs-51": {
 		ru: "Мы помогаем в прохождении таможенного контроля, включая подтверждение таможенной стоимости товаров, проведения досмотров и наблюдения, а так же содействуем в получении необходимых разрешительных документов:",
 		en: "We help to navigate customs control, including the confirmation of the customs value of the goods, examinations and observation, and assist in obtaining the necessary permits:",
-		cn: "",
+		cn: "我们协助通过海关监管，包括确认货物的海关估价、进行检查和监督，并协助办理所需的许可文件：",
 	},
 	"customs-52": {
 		ru: "Нотификация ФСБ",
 		en: "Federal Security Service notification",
-		cn: "",
+		cn: "联邦安全局（FSB）通报。",
 	},
 	"customs-53": {
 		ru: "Сертификат/декларация соответствия",
 		en: "Certificate/declaration of conformity",
-		cn: "",
+		cn: "符合性证书",
 	},
 	"customs-54": {
 		ru: "техническим регламентам таможенного союза.",
 		en: "with the technical regulations of the Customs Union.",
-		cn: "",
+		cn: "海关联盟技术法规符合性证书。",
 	},
 	"customs-55": {
 		ru: "Заключение ФСТЭК",
-		en: "Certificate/declaration of conformity",
-		cn: "Report of the Federal Service for Technical and Export Control",
+		en: "Report of the Federal Service for Technical and Export Control",
+		cn: "联邦技术与出口控制服务局（FSTEC）",
 	},
 	"customs-56": {
 		ru: "на товары двойного применения.",
 		en: "on dual-use goods.",
-		cn: "",
+		cn: "关于双用途商品的结论。",
 	},
 	"customs-57": {
 		ru: "Лицензирование",
 		en: "Licensing",
-		cn: "",
+		cn: "许可",
 	},
 	"customs-58": {
 		ru: "экспорта и импорта.",
 		en: "of exports and imports.",
-		cn: "",
+		cn: "出口与进口的许可管理。",
 	},
 	"customs-59": {
 		ru: "Сертификация",
 		en: "Certification ",
-		cn: "",
+		cn: "货物认证",
 	},
 	"customs-60": {
 		ru: "импортной продукции.",
 		en: "of imported goods.",
-		cn: "",
+		cn: "进口货物认证",
 	},
 	"customs-61": {
 		ru: "Мы знаем, как оформлять многокодовые декларации (600 и более кодов ТНВЭД ЕАЭС в ДТ) и понимаем толк в классификации в соответствии с ТНВЭД ЕАЭС сложных химических соединений, многокомпонентных товаров. Определение и подтверждение таможенной стоимости товаров с учетом доначислений и вычетов – это наша тема.",
 		en: "We know how to issue multi-code declarations (600+ EAEU Commodity Nomenclature of Foreign Economic Activity codes per goods declaration) and know how to classify complex chemical compounds and multi-component goods in accordance with the EAEU Commodity Nomenclature of Foreign Economic Activity. Definition and confirmation of the customs value of the goods taking into account additional charges and deductions is our specialty.",
-		cn: "",
+		cn: "我们熟悉如何办理多代码申报（在报关单中包含600个及以上的EAEU货物编码），并且精通根据EAEU货物编码对复杂化学化合物和多成分商品的分类。货物海关估价的确定与确认，包括追加费用和扣除，是我们的专业领域。",
 	},
 	"customs-62": {
 		ru: "Мы работаем в белом секторе (контрабандными товарами и серым импортом не занимаемся).",
 		en: "We work in the “white” sector (we do not deal with smuggled goods or grey imports).",
-		cn: "",
+		cn: "我们在正规领域工作（不做走私货物和灰色市场进口运输）。",
 	},
 	"customs-63": {
 		ru: "Доверьте нам таможенное оформление грузов и сосредоточьтесь на своем бизнесе!",
 		en: "Entrust the customs clearance of the cargo to us and focus on your business!",
-		cn: "",
+		cn: "请把货物的通关手续交给我们，您专注于自己的业务！",
 	},
 	"customs-64": {
 		ru: "Для быстрой предварительной оценки стоимости таможенного оформления, пожалуйста заполните небольшую форму, нажав на красную кнопку в блоке ниже.",
 		en: "For a quick prior estimate of the cost of customs clearance, please fill in a small form by pressing the red button in the section below.",
-		cn: "",
+		cn: "为了快速初步评估报关费用，请点击下方的红色按钮，填写简短表格。",
 	},
 
 	// action-block-customs

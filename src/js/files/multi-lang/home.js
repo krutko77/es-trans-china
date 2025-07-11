@@ -310,8 +310,8 @@ export const homeTexts = {
 		cn: "放大",
 	},
 	"home-51": {
-		ru: "Часто задаваемые вопросы",
-		en: "Frequently asked questions",
+		ru: "Частые вопросы",
+		en: "FAQ",
 		cn: "常见问题",
 	},
 	"home-52": {

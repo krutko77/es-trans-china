@@ -596,23 +596,23 @@ export const salesManagerTexts = {
 	"offer-action-1": {
 		ru: "Присоединяйтесь к нашей команде уже сегодня!",
 		en: "Join our team today!",
-		cn: "今天就加入我们的团队！",
+		cn: "Join our team today!",
 	},
 	"offer-action-2": {
 		ru: "Хочу в команду",
 		en: "I want to join the team",
-		cn: "我想加入团队",
+		cn: "I want to join the team",
 	},
 	// action-block-offer-2
 	"offer-action-3": {
 		ru: "Присоединяйтесь к нашей команде уже сегодня!",
 		en: "Join our team today!",
-		cn: "今天就加入我们的团队！",
+		cn: "Join our team today!",
 	},
 	"offer-action-4": {
 		ru: "Хочу в команду",
 		en: "I want to join the team",
-		cn: "我想加入团队",
+		cn: "I want to join the team",
 	},
 
 
@@ -642,30 +642,33 @@ export const salesManagerTexts = {
 	"form-15": {
 		ru: "Закрыть",
 		en: "Close",
-		cn: "关闭",
+		cn: "Close",
 	},
 	"form-16": {
 		ru: "Приветствуем вас!",
 		en: "Welcome!",
-		cn: "您好！",
-	}, "form-17": {
+		cn: "Welcome!",
+	}, 
+	"form-17": 
+	{
 		ru: "Если вы ищете новые вызовы и хотите стать частью динамичной и перспективной логистической компании, то эта возможность для вас!",
 		en: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-		cn: "若您在职业发展中寻求新突破，且渴望加入具有战略发展潜力的物流企业，这正是您不可错过的机遇！",
-	}, "form-18": {
+		cn: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
+	}, 
+	"form-18": {
 		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
+		en: "First Nam*",
+		cn: "First Name*",
 	},
 	"form-19": {
 		ru: "Фамилия*",
 		en: "Last Name*",
-		cn: "姓*",
+		cn: "Last Name*",
 	},
 	"form-20": {
 		ru: "Телефон или мессенджер*",
 		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
+		cn: "Phone or messenger*",
 	},
 	"form-21": {
 		ru: "E-mail*",
@@ -675,32 +678,32 @@ export const salesManagerTexts = {
 	"form-22": {
 		ru: "Почему вы хотите работать у нас*",
 		en: "Why do you want to work for us*",
-		cn: "您为什么想加入我们*",
+		cn: "Why do you want to work for us*",
 	},
 	"form-22-1": {
 		ru: "(укажите вакансию)",
 		en: "(indicate the vacancy)",
-		cn: "",
+		cn: "(indicate the vacancy)",
 	},
 	"form-23": {
 		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
 		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
+		cn: "By filling in the form I agree to personal data processing under",
 	},
 	"form-24": {
 		ru: "Политикой",
 		en: "the Personal Data Processing Policy",
-		cn: "即表示本人同意根据",
+		cn: "the Personal Data Processing Policy",
 	},
 	"form-25": {
 		ru: "и",
 		en: "and",
-		cn: "",
+		cn: "and",
 	},
 	"form-26": {
 		ru: "Соглашением",
 		en: "Agreement",
-		cn: "",
+		cn: "Agreement",
 	},
 	"form-27": {
 		ru: "обработки персональных данных",
@@ -710,6 +713,6 @@ export const salesManagerTexts = {
 	"form-28": {
 		ru: "Отправить",
 		en: "Send",
-		cn: "提交",
+		cn: "Send",
 	}
 }

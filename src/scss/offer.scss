@@ -42,7 +42,7 @@
 
    &__img-box-2 {
       max-width: 400px;
-      aspect-ratio: 400/274;
+      aspect-ratio: 400/266;
       overflow: hidden;
    }
 
@@ -222,19 +222,8 @@
    &__img-box-2 {
       max-width: 400px;
       overflow: hidden;
-   }
-
-   &__img-box {
-      aspect-ratio: 400/312;
-   }
-
-   &__img-box-1 {
-      aspect-ratio: 400/284;
-   }
-
-   &__img-box-2 {
-      aspect-ratio: 400/295;
-   }
+		aspect-ratio: 400/266;
+   }   
 
    &__text.center {
       text-align: center;

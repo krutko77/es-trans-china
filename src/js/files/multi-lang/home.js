@@ -70,12 +70,12 @@ export const homeTexts = {
 		cn: "值得信赖生意的伙伴",
 	},
 	"home-3": {
-		ru: "Комплектные и сборные грузы из Китая",
+		ru: "Комплектные и сборные грузы из Китая и по России",
 		en: "Full loads and groupage transportation from China",
 		cn: "中国到俄罗斯拼车与整车的运输",
 	},
 	"home-4": {
-		ru: "Доставка авто и авиа транспортом",
+		ru: "Доставка авто, авиа и ж/д транспортом",
 		en: "Road and air freight delivery",
 		cn: "汽运与空运",
 	},

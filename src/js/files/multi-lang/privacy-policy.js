@@ -89,8 +89,8 @@ export const privacyPolicyTexts = {
 		cn: "服务合同",
 	},
 "footer-bottom": {
-		ru: "ООО «ЕС Транс», 2025",
-		en: "OOO ES-Trans, 2025",
-		cn: "2025 年，«ES Trans» 有限公司",
+		ru: "ООО «ЕС Транс», 2026",
+		en: "OOO ES-Trans, 2026",
+		cn: "2026 年，«ES Trans» 有限公司",
 	}
 }

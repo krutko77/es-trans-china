@@ -63,25 +63,25 @@ export const salesManagerTexts = {
 	
 
 // footer
-"footer-menu-1": {
+	"footer-menu-1": {
 		ru: "Политика конфиденциальности",
 		en: "Privacy Policy",
 		cn: "隐私政策",
 	},
-"footer-menu-2": {
+	"footer-menu-2": {
 		ru: "Соглашение об обработке данных",
 		en: "Data Processing Agreement",
 		cn: "个人信息处理同意书",
 	},
-"footer-menu-3": {
+	"footer-menu-3": {
 		ru: "Договор на оказание услуг",
 		en: "Service Agreement",
 		cn: "服务合同",
 	},
-"footer-bottom": {
-		ru: "ООО «ЕС Транс», 2025",
-		en: "ES-Trans, 2025",
-		cn: "2025 年，«ES Trans» 有限公司",
+	"footer-bottom": {
+		ru: "ООО «ЕС Транс», 2026",
+		en: "ES-Trans, 2026",
+		cn: "2026 年，«ES Trans» 有限公司",
 	},
 
 	// Попап с формой Битрикс

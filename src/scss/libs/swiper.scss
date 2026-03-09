@@ -167,3 +167,8 @@
 	width: 1px;
 	height: var(--swiper-virtual-size);
 }
+
+// скрыть штатные стрелки слайдера
+svg.swiper-navigation-icon {
+	display: none !important;
+}

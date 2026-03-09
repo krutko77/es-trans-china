@@ -1,7 +1,8 @@
 // reviews
 .reviews {
-   background-color: $footerBgColor;
-	
+   /* background-color: $footerBgColor; */
+   background: url("../img/services/bg-services.jpg") center / cover no-repeat fixed;
+
    &__subtitle-box {
       position: relative;
    }

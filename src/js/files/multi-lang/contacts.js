@@ -97,9 +97,9 @@ export const contactsTexts = {
 		cn: "用于在线文字交流，请在微信联系我们：",
 	},
 	"contacts-8": {
-		ru: "WeChat ID: svillaya",
-		en: "WeChat ID: svillaya",
-		cn: "微信：svillaya",
+		ru: "WeChat",
+		en: "WeChat",
+		cn: "微信",
 	},
 	
 // footer

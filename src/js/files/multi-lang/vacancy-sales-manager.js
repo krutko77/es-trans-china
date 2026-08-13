@@ -623,7 +623,7 @@ export const salesManagerTexts = {
 		cn: "隐私政策",
 	},
 	"footer-menu-2": {
-		ru: "Соглашение об обработке данных",
+		ru: "Согласие на обработку данных",
 		en: "Data Processing Agreement",
 		cn: "个人信息处理同意书",
 	},
@@ -700,12 +700,12 @@ export const salesManagerTexts = {
 		cn: "and",
 	},
 	"form-26": {
-		ru: "Соглашением",
+		ru: "Согласием",
 		en: "Agreement",
 		cn: "Agreement",
 	},
 	"form-27": {
-		ru: "обработки персональных данных",
+		ru: "на обработку персональных данных",
 		en: " ",
 		cn: "",
 	},
@@ -713,5 +713,82 @@ export const salesManagerTexts = {
 		ru: "Отправить",
 		en: "Send",
 		cn: "Send",
+	},
+	// Куки баннер
+	"cookie-banner-1": {
+		ru: "Мы используем файлы cookie для работы сайта и аналитики.",
+		en: "We use cookies to operate our website and for analytics.",
+		cn: "关闭",
+	},
+	"cookie-banner-2": {
+		ru: "Продолжая пользоваться сайтом, вы соглашаетесь с",
+		en: "By continuing to use the site, you agree to",
+		cn: "继续使用本网站，即表示您同意",
+	},
+	"cookie-banner-3": {
+		ru: "Политикой конфиденциальности",
+		en: "the Privacy Policy",
+		cn: "隐私政策",
+	},
+	"cookie-banner-4": {
+		ru: "и",
+		en: "and",
+		cn: "和",
+	},
+	"cookie-banner-5": {
+		ru: "Согласием на обработку данных",
+		en: "Consent to data processing",
+		cn: "同意数据处理",
+	},
+	"cookie-banner-6": {
+		ru: "Отказаться",
+		en: "Refuse",
+		cn: "拒绝",
+	},
+	"cookie-banner-7": {
+		ru: "Принимаю",
+		en: "I accept",
+		cn: "我接受",
+	},
+	// Баннер при переходе в мессенджер
+	"messenger-consent-1": {
+		ru: "Вы переходите в",
+		en: "You are moving to",
+		cn: "您即将搬到",
+	},
+	"messenger-consent-2": {
+		ru: "Общаясь с нами в мессенджере,",
+		en: "By communicating with us in messenger,",
+		cn: "通过即时通讯软件与我们沟通，",
+	},
+	"messenger-consent-3": {
+		ru: "вы соглашаетесь с",
+		en: "you agree with",
+		cn: "你同意",
+	},	
+	"messenger-consent-4": {
+		ru: "Политикой конфиденциальности",
+		en: "the Privacy Policy",
+		cn: "隐私政策",
+	},
+	"messenger-consent-5": {
+		ru: "и",
+		en: "and",
+		cn: "和",
+	},
+	"messenger-consent-6": {
+		ru: "Согласием на обработку данных",
+		en: "Consent to data processing",
+		cn: "同意数据处理",
+	},
+	"messenger-consent-7": {
+		ru: "Отмена",
+		en: "Cancel",
+		cn: "取消",
+	},
+	"messenger-consent-8": {
+		ru: "Перейти",
+		en: "Go to",
+		cn: "前往",
 	}
 }

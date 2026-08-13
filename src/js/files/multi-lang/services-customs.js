@@ -422,7 +422,7 @@ export const customsTexts = {
 		cn: "隐私政策",
 	},
 	"footer-menu-2": {
-		ru: "Соглашение об обработке данных",
+		ru: "Согласие на обработку данных",
 		en: "Data Processing Agreement",
 		cn: "个人信息处理同意书",
 	},
@@ -442,6 +442,11 @@ export const customsTexts = {
 		ru: "Закрыть",
 		en: "Close",
 		cn: "关闭",
+	},
+	"popup-12": {
+		ru: "Форма станет доступна после того, как вы примете или откажетесь от использования cookie — закройте это окно и сделайте выбор в баннере внизу страницы.",
+		en: "The form will become available after you accept or decline cookies - close this window and make your choice in the banner at the bottom of the page.",
+		cn: "在您接受或拒绝 cookie 后，该表单才会显示 - 关闭此窗口，然后在页面底部的横幅中做出您的选择。",
 	},
 
 	// Формы обратной связи
@@ -501,12 +506,12 @@ export const customsTexts = {
 		cn: "",
 	},
 	"form-12": {
-		ru: "Соглашением",
+		ru: "Соглаcием",
 		en: "Agreement",
 		cn: " ",
 	},
 	"form-13": {
-		ru: "обработки персональных данных",
+		ru: "на обработку персональных данных",
 		en: " ",
 		cn: " ",
 	},
@@ -514,5 +519,82 @@ export const customsTexts = {
 		ru: "Отправить",
 		en: "Send",
 		cn: "提交",
+	},
+	// Куки баннер
+	"cookie-banner-1": {
+		ru: "Мы используем файлы cookie для работы сайта и аналитики.",
+		en: "We use cookies to operate our website and for analytics.",
+		cn: "关闭",
+	},
+	"cookie-banner-2": {
+		ru: "Продолжая пользоваться сайтом, вы соглашаетесь с",
+		en: "By continuing to use the site, you agree to",
+		cn: "继续使用本网站，即表示您同意",
+	},
+	"cookie-banner-3": {
+		ru: "Политикой конфиденциальности",
+		en: "the Privacy Policy",
+		cn: "隐私政策",
+	},
+	"cookie-banner-4": {
+		ru: "и",
+		en: "and",
+		cn: "和",
+	},
+	"cookie-banner-5": {
+		ru: "Согласием на обработку данных",
+		en: "Consent to data processing",
+		cn: "同意数据处理",
+	},
+	"cookie-banner-6": {
+		ru: "Отказаться",
+		en: "Refuse",
+		cn: "拒绝",
+	},
+	"cookie-banner-7": {
+		ru: "Принимаю",
+		en: "I accept",
+		cn: "我接受",
+	},
+	// Баннер при переходе в мессенджер
+	"messenger-consent-1": {
+		ru: "Вы переходите в",
+		en: "You are moving to",
+		cn: "您即将搬到",
+	},
+	"messenger-consent-2": {
+		ru: "Общаясь с нами в мессенджере,",
+		en: "By communicating with us in messenger,",
+		cn: "通过即时通讯软件与我们沟通，",
+	},
+	"messenger-consent-3": {
+		ru: "вы соглашаетесь с",
+		en: "you agree with",
+		cn: "你同意",
+	},	
+	"messenger-consent-4": {
+		ru: "Политикой конфиденциальности",
+		en: "the Privacy Policy",
+		cn: "隐私政策",
+	},
+	"messenger-consent-5": {
+		ru: "и",
+		en: "and",
+		cn: "和",
+	},
+	"messenger-consent-6": {
+		ru: "Согласием на обработку данных",
+		en: "Consent to data processing",
+		cn: "同意数据处理",
+	},
+	"messenger-consent-7": {
+		ru: "Отмена",
+		en: "Cancel",
+		cn: "取消",
+	},
+	"messenger-consent-8": {
+		ru: "Перейти",
+		en: "Go to",
+		cn: "前往",
 	}
 }

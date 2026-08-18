@@ -87,9 +87,9 @@ export const contactsTexts = {
 		cn: "Russia, Moscow,Leningradskij prospekt, d. 80, kor. 5, ofis 203 邮编:125315",
 	},
 	"contacts-6": {
-		ru: "ОГРН 1065047062574",
-		en: "OGRN (Primary State Registration Number) 1065047062574",
-		cn: "基本国家注册号：1065047062574",
+		ru: "ОГРН 1065047062574, ИНН 5047078788",
+		en: "OGRN (Primary State Registration Number) 1065047062574, Taxpayer Identification Number (INN) 5047078788",
+		cn: "基本国家注册号：1065047062574, 纳税人识别号（INN）5047078788",
 	},
 	"contacts-7": {
 		ru: "Для письменного общения в формате онлайн, пожалуйста пишите нам в мессенджеры:",

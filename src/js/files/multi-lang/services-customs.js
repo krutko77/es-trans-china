@@ -449,7 +449,7 @@ export const customsTexts = {
 		cn: "在您接受或拒绝 cookie 后，该表单才会显示 - 关闭此窗口，然后在页面底部的横幅中做出您的选择。",
 	},
 
-	// Формы обратной связи
+	/// Формы обратной связи
 	"form-1": {
 		ru: "Закрыть",
 		en: "Close",
@@ -486,40 +486,45 @@ export const customsTexts = {
 		cn: "E-mail*",
 	},
 	"form-8": {
-		ru: "Ваш вопрос по таможенному оформлению*",
-		en: "Your questions regarding customs clearance*",
+		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
+		en: "Please ask your questions regarding delivery or customs clearance*",
 		cn: "请写一下您的国际运输或通关手续问题。",
 	},
 	"form-9": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，即表示本人同意根据 对 个人信息进行处理",
+		ru: "Я даю согласие на обработку моих персональных данных в соответствии с",
+		en: "I agree to the processing of my personal data in accordance with",
+		cn: "我同意按照以下规定处理我的个人数据：",
 	},
 	"form-10": {
-		ru: "Политикой",
-		en: "the Personal Data Processing Policy",
-		cn: "",
+		ru: "Политикой конфиденциальности",
+		en: "Privacy Policy",
+		cn: "隐私政策",
 	},
-	"form-11": {
+	/* "form-11": {
 		ru: "и",
-		en: "and",
+		en: "Processing",
 		cn: "",
 	},
 	"form-12": {
-		ru: "Соглаcием",
-		en: "Agreement",
-		cn: " ",
+		ru: "Соглашением",
+		en: "Policy",
+		cn: "",
 	},
 	"form-13": {
-		ru: "на обработку персональных данных",
-		en: " ",
-		cn: " ",
-	},
+		ru: "обработки персональных данных",
+		en: "and Agreement",
+		cn: "",
+	}, */
 	"form-14": {
 		ru: "Отправить",
 		en: "Send",
 		cn: "提交",
 	},
+	"form-15": {
+		ru: "Закрыть",
+		en: "Close",
+		cn: "关闭",
+	},	
 	// Куки баннер
 	"cookie-banner-1": {
 		ru: "Мы используем файлы cookie для работы сайта и аналитики.",

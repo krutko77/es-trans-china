@@ -7,10 +7,18 @@
    display: flex !important;
 }
 
+.b24-form-control-container label {
+   display: flex;
+}
+
 .b24-form input,
 .b24-form textarea {
 	width: auto;
 	margin-right: 10px;
+}
+
+.b24-form-field-agreement a.b24-form-field-agreement-link {
+   line-height: 1.2;
 }
 
 .b24-form input[type="checkbox"] {

@@ -60,8 +60,6 @@ export const salesManagerTexts = {
 		en: "9 am to 6 pm",
 		cn: "从09:00 到 18:00",
 	},
-	
-
 // footer
 	"footer-menu-1": {
 		ru: "Политика конфиденциальности",
@@ -83,7 +81,6 @@ export const salesManagerTexts = {
 		en: "ES-Trans, 2026",
 		cn: "2026 年，«ES Trans» 有限公司",
 	},
-
 	// Попап с формой Битрикс
 	"popup-11": {
 		ru: "Закрыть",
@@ -95,105 +92,34 @@ export const salesManagerTexts = {
 		en: "The form will become available after you accept or decline cookies - close this window and make your choice in the banner at the bottom of the page.",
 		cn: "在您接受或拒绝 cookie 后，该表单才会显示 - 关闭此窗口，然后在页面底部的横幅中做出您的选择。",
 	},
-
-	// Формы обратной связи
-	"form-1": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
-	"form-2": {
-		ru: "Приветствую вас!",
-		en: "Welcome!",
-		cn: "您好！",
-	},
-	"form-3": {
-		ru: "Меня зовут Сергей Денисов, начальник отдела таможенного оформления и доставки ООО «ЕС Транс». Заполните пожалуйста форму, и я отвечу на все ваши вопросы и расскажу о преимуществах работы с нашей компанией.",
-		en: "I am Sergey Denisov, the head of the Customs Clearance and Delivery Department in OOO ES-Trans. Please fill in the form, I will respond to all your questions and tell you about the advantages of working with our company.",
-		cn: "我是国际运输及通关部门总经理 Sergei Denisov。为高效处理您的需求，请协助填写下方表格。提交后，我将第一时间为您解答问题，并详细说明我们业务的核心优势。",
-	},
-	"form-4": {
-		ru: "Название компании*",
-		en: "Company name*",
-		cn: "公司名称*",
-	},
-	"form-5": {
-		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
-	},
-	"form-6": {
-		ru: "Телефон или мессенджер*",
-		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
-	},
-	"form-7": {
-		ru: "E-mail*",
-		en: "E-mail*",
-		cn: "E-mail*",
-	},
-	"form-8": {
-		ru: "Напишите ваш вопрос по доставке или таможенному оформлению*",
-		en: "Please ask your questions regarding delivery or customs clearance*",
-		cn: "请写一下您的国际运输或通关手续问题。",
-	},
-	"form-9": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
-	},
-	"form-10": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
-	},
-	"form-11": {
-		ru: "и",
-		en: "Processing",
-		cn: "",
-	},
-	"form-12": {
-		ru: "Соглашением",
-		en: "Policy",
-		cn: "",
-	},
-	"form-13": {
-		ru: "обработки персональных данных",
-		en: "and Agreement",
-		cn: "",
-	},
-	"form-14": {
-		ru: "Отправить",
-		en: "Send",
-		cn: "提交",
-	},
+// Формы обратной связи
 	"form-15": {
 		ru: "Закрыть",
 		en: "Close",
-		cn: "关闭",
-	},
+		cn: "Close",
+	},	
 	"form-16": {
 		ru: "Приветствую вас!",
 		en: "Welcome!",
-		cn: "您好！",
+		cn: "Welcome!",
 	}, "form-17": {
 		ru: "Если вы ищете новые вызовы и хотите стать частью динамичной и перспективной логистической компании, то эта возможность для вас!",
 		en: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-		cn: "若您在职业发展中寻求新突破，且渴望加入具有战略发展潜力的物流企业，这正是您不可错过的机遇！",
+		cn: "f you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
 	}, "form-18": {
 		ru: "Имя*",
-		en: "First Name ",
-		cn: "名字*",
+		en: "First Name",
+		cn: "First Name*",
 	},
 	"form-19": {
 		ru: "Фамилия*",
 		en: "Last Name*",
-		cn: "姓*",
+		cn: "Last Name*",
 	},
 	"form-20": {
 		ru: "Телефон или мессенджер*",
 		en: "Phone or messenger*",
-		cn: "电话号码或微信*",
+		cn: "Phone or messenger*",
 	},
 	"form-21": {
 		ru: "E-mail*",
@@ -203,19 +129,24 @@ export const salesManagerTexts = {
 	"form-22": {
 		ru: "Почему вы хотите работать у нас",
 		en: "Why do you want to work for us",
-		cn: "您为什么想加入我们",
+		cn: "Why do you want to work for us",
+	},
+	"form-22-1": {
+		ru: "(укажите вакансию)",
+		en: "(specify the vacancy)",
+		cn: "(specify the vacancy)",
 	},
 	"form-23": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "填写本表格时，",
+		ru: "Я даю согласие на обработку моих персональных данных в соответствии с",
+		en: "I agree to the processing of my personal data in accordance with",
+		cn: " agree to the processing of my personal data in accordance with",
 	},
 	"form-24": {
-		ru: "Политикой",
-		en: "the Personal Data",
-		cn: "即表示本人同意根据",
+		ru: "Политикой конфиденциальности",
+		en: "Privacy Policy",
+		cn: "Privacy Policy",
 	},
-	"form-25": {
+	/* "form-25": {
 		ru: "и",
 		en: "Processing",
 		cn: "",
@@ -229,17 +160,12 @@ export const salesManagerTexts = {
 		ru: "на обработку персональных данных",
 		en: "and Agreement",
 		cn: "",
-	},
-	"form-27": {
+	}, */
+	"form-28": {
 		ru: "Отправить",
 		en: "Send",
-		cn: "提交",
-	},
-	"form-28": {
-		ru: "Закрыть",
-		en: "Close",
-		cn: "关闭",
-	},
+		cn: "Send",
+	},	
 	// Куки баннер
 	"cookie-banner-1": {
 		ru: "Мы используем файлы cookie для работы сайта и аналитики.",

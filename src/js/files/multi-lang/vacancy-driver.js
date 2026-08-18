@@ -595,7 +595,7 @@ export const driverTexts = {
 	"form-28": {
 		ru: "Закрыть",
 		en: "Close",
-		cn: "关闭",
+		cn: "Close",
 	},
 	"form-29": {
 		ru: "Здравствуй, меня зовут Андрей Сибилёв, оставь телефон, я перезвоню и расскажу об условиях и преимуществах работы в ООО «ЕС Транс»",
@@ -613,16 +613,16 @@ export const driverTexts = {
 		cn: "Phone or messenger*",
 	},
 	"form-32": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "By filling in the form I agree to personal data processing under",
+		ru: "Я даю согласие на обработку моих персональных данных в соответствии с",
+		en: "I agree to the processing of my personal data in accordance with",
+		cn: "I agree to the processing of my personal data in accordance with",
 	},
 	"form-33": {
-		ru: "Политикой",
-		en: "the Personal Data Processing Policy",
-		cn: "the Personal Data Processing Policy",
+		ru: "Политикой конфиденциальности",
+		en: "Privacy Policy",
+		cn: "Privacy Policy",
 	},
-	"form-34": {
+	/* "form-34": {
 		ru: "и",
 		en: "and",
 		cn: "and",
@@ -636,7 +636,7 @@ export const driverTexts = {
 		ru: "на обработку персональных данных",
 		en: " ",
 		cn: "",
-	},
+	}, */
 	"form-37": {
 		ru: "Отправить",
 		en: "Send",

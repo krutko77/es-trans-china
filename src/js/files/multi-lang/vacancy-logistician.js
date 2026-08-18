@@ -604,8 +604,6 @@ export const LogisticianTexts = {
 		en: "I want to join the team",
 		cn: "I want to join the team",
 	},
-
-
 // footer
 	"footer-menu-1": {
 		ru: "Согласие на обработку данных",
@@ -627,27 +625,23 @@ export const LogisticianTexts = {
 		en: "ES-Trans, 2026",
 		cn: "2026 年，«ES Trans» 有限公司",
 	},
-
 	// Формы обратной связи
 	"form-15": {
 		ru: "Закрыть",
 		en: "Close",
 		cn: "Close",
-	},
+	},	
 	"form-16": {
-		ru: "Приветствуем вас!",
+		ru: "Приветствую вас!",
 		en: "Welcome!",
 		cn: "Welcome!",
-	}, 
-	"form-17": 
-	{
+	}, "form-17": {
 		ru: "Если вы ищете новые вызовы и хотите стать частью динамичной и перспективной логистической компании, то эта возможность для вас!",
 		en: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-		cn: "If you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
-	}, 
-	"form-18": {
+		cn: "f you are looking for new challenges and want to become a part of a dynamic and promising logistic company, this is your chance!",
+	}, "form-18": {
 		ru: "Имя*",
-		en: "First Nam*",
+		en: "First Name",
 		cn: "First Name*",
 	},
 	"form-19": {
@@ -666,45 +660,45 @@ export const LogisticianTexts = {
 		cn: "E-mail*",
 	},
 	"form-22": {
-		ru: "Почему вы хотите работать у нас*",
-		en: "Why do you want to work for us*",
-		cn: "Why do you want to work for us*",
+		ru: "Почему вы хотите работать у нас",
+		en: "Why do you want to work for us",
+		cn: "Why do you want to work for us",
 	},
 	"form-22-1": {
 		ru: "(укажите вакансию)",
-		en: "(indicate the vacancy)",
-		cn: "(indicate the vacancy)",
+		en: "(specify the vacancy)",
+		cn: "(specify the vacancy)",
 	},
 	"form-23": {
-		ru: "Заполняя форму, я соглашаюсь на обработку персональных данных в соответствии с",
-		en: "By filling in the form I agree to personal data processing under",
-		cn: "By filling in the form I agree to personal data processing under",
+		ru: "Я даю согласие на обработку моих персональных данных в соответствии с",
+		en: "I agree to the processing of my personal data in accordance with",
+		cn: " agree to the processing of my personal data in accordance with",
 	},
 	"form-24": {
-		ru: "Политикой",
-		en: "the Personal Data Processing Policy",
-		cn: "the Personal Data Processing Policy",
+		ru: "Политикой конфиденциальности",
+		en: "Privacy Policy",
+		cn: "Privacy Policy",
 	},
-	"form-25": {
+	/* "form-25": {
 		ru: "и",
-		en: "and",
-		cn: "and",
-	},
-	"form-26": {
-		ru: "Согласием",
-		en: "Agreement",
-		cn: "Agreement",
-	},
-	"form-27": {
-		ru: "на обработку персональных данных",
-		en: " ",
+		en: "Processing",
 		cn: "",
 	},
+	"form-25-1": {
+		ru: "Согласием",
+		en: "Policy",
+		cn: "",
+	},
+	"form-26": {
+		ru: "на обработку персональных данных",
+		en: "and Agreement",
+		cn: "",
+	}, */
 	"form-28": {
 		ru: "Отправить",
 		en: "Send",
 		cn: "Send",
-	},
+	},	
 	// Куки баннер
 	"cookie-banner-1": {
 		ru: "Мы используем файлы cookie для работы сайта и аналитики.",

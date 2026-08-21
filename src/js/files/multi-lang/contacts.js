@@ -82,9 +82,9 @@ export const contactsTexts = {
 		cn: "物流交易所的号码：422346",
 	},
 	"contacts-5": {
-		ru: "Россия, 125315, г. Москва, Ленинградский проспект, д. 80, кор. 5, офис 203",
-		en: "Russia, 125315, Moscow, Leningradsky prospekt, 80, bldg 5, office 203",
-		cn: "Russia, Moscow,Leningradskij prospekt, d. 80, kor. 5, ofis 203 邮编:125315",
+		ru: "Россия, 141400, Московская область, г. Химки, Коммунальный проезд, д. 2",
+		en: "Russia, 141400,Moscow region, Khimki, Kommunalny proezd, 2",
+		cn: "Russia, Moscow region, Khimki, Kommunalny proezd, 2 邮编:141400",
 	},
 	"contacts-6": {
 		ru: "ОГРН 1065047062574, ИНН 5047078788",
